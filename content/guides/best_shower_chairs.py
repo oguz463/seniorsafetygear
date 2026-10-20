@@ -185,6 +185,9 @@ BODY = '''<h2>What MedlinePlus and the CDC Say</h2>
 <h3>What does the weight limit really mean?</h3>
 <p>The listed limits are 300 to 400 pounds, but two come with a catch. HOMLAND's listing gives 400 pounds as the frame's maximum and 300 as the recommended user weight, and Drive's page for the transfer bench says 400 where the Amazon listing says 350. When two figures conflict, use the lower one, and add the weight of anything else the chair carries.</p>
 
+<h2>What the Research Says</h2>
+<p>No trial we found tests a shower chair on its own. The Cochrane review of home safety changes found they reduced falls more for people at higher risk and when an occupational therapist delivered them, so ask for a bathroom assessment if you have already fallen. See <a href="/articles/do-home-safety-changes-prevent-falls/">the evidence summary</a>.</p>
+
 <h2>Our Take</h2>
 <p>The Medline Shower Chair with Padded Armrests and Back is the best pick for most people who can step into a tub. It has a back, two padded arms and a 350-pound rating, and 35,627 reviews average 4.7 stars. We could not read Medline's own page, so confirm the seat height range on the box.</p>
 <p>The Drive Tub Transfer Bench is the right choice if stepping over the tub wall is the problem. It costs a little more, and the sources disagree on its weight limit, 400 pounds on Drive's page against 350 on the listing, so plan on 350. The Drive chair suits someone who wants the widest seat and has no use for arms, at the cost of a 300-pound limit.</p>

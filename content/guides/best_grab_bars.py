@@ -183,6 +183,9 @@ BODY = '''<h2>What MedlinePlus, the CDC and the ADA Say</h2>
 <h3>Will a stainless steel bar rust in the shower?</h3>
 <p>Moen's listing says its bar is corrosion-resistant stainless steel with a limited lifetime warranty, and the Amazon Basics listings say the bars are designed to resist rust and corrosion. Stainless steel is the usual choice for a wet room. Wipe the bar and check the screws or covers from time to time, and replace any bar with a loose mount or visible damage.</p>
 
+<h2>What the Research Says</h2>
+<p>We found no trial that tests a grab bar on its own. A Cochrane review of 159 trials found that home safety assessments and changes reduced falls, most for people at higher risk, and that an occupational therapist delivering them appeared to help. See <a href="/articles/do-home-safety-changes-prevent-falls/">what the trials found</a>.</p>
+
 <h2>Our Take</h2>
 <p>The Moen Home Care 24-inch bar is the best pick. Moen's page states the diameter, the 500-pound load and a limited lifetime warranty, and 6,092 reviews average 4.8 stars. Plan for a stud, or for the SecureMount anchors, which cost extra.</p>
 <p>The Amazon Basics 36-inch bar is the one to buy for a long wall, and the 18-inch bar gives you a thicker 1.5-inch grip for a short vertical position. Both have a 1-year warranty and listing-only specs. The Moen 12-inch is a cheap second bar, but its listing gives no weight rating.</p>

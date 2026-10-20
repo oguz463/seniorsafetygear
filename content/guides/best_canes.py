@@ -181,6 +181,9 @@ BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 <h3>When is a cane not enough?</h3>
 <p>A cane takes some weight off one side. If you need support on both sides, tire after a short distance or feel unsteady even with the cane, ask a doctor or physical therapist whether a walker or rollator would suit you better. A rollator adds a seat and brakes, and a standard walker gives a wider base. See our rollator guide and the article on choosing between a cane, walker and rollator.</p>
 
+<h2>What the Research Says</h2>
+<p>The large Cochrane review of exercise found that balance and functional exercise cut the rate of falls by 24% in high-certainty evidence, and it did not test canes. Use a cane for support, and ask a physical therapist about balance work too. See <a href="/articles/what-exercise-prevents-falls-cochrane-review/">the exercise evidence</a>.</p>
+
 <h2>Our Take</h2>
 <p>The HurryCane Freedom Edition is the best pick if you want a maker-backed folding cane. Drive says it is tested to 350 pounds and gives the height range and a limited lifetime warranty, and 26,168 reviews average 4.6 stars. It costs about twice as much as the plain canes, and the Amazon seller is a third party.</p>
 <p>For a cane that stands on its own at a low price, the KINGGEAR quad is the one to buy, with a 300-pound rating on its listing and 17,106 reviews at 4.6. For a plain cane, the DMI is the lightest and goes up to 39 inches, and the Medline is the cheapest, with a 300-pound rating.</p>

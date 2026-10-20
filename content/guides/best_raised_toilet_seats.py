@@ -196,6 +196,9 @@ BODY = '''<h2>What the CDC Says About the Bathroom</h2>
 <h3>How do I tell whether my bowl is round or elongated?</h3>
 <p>Look at the bowl from above. A round bowl is shorter from front to back and almost circular, and an elongated bowl is longer and oval. The Joint Replacement Resource Centre says to note the shape before you buy, and the listings here name the shape: the Bemis, Vive and Carex are for elongated bowls, and the AquaSense and HealthSmart for round. Vive sells both shapes.</p>
 
+<h2>What the Research Says</h2>
+<p>MedlinePlus says raising the toilet seat height can help prevent falls, but we found no trial of raised seats alone. Home safety programs that included changes like this reduced falls in a Cochrane review of 159 trials, as <a href="/articles/do-home-safety-changes-prevent-falls/">our summary</a> explains.</p>
+
 <h2>Our Take</h2>
 <p>The Bemis Assurance is the best pick if you can live with a 3-inch rise. It bolts to the bowl, the listing says it is tested to 1,000 pounds, and it has the best rating of the five at 4.6 from 1,405 reviews. The cost is the price and the bolting, and we could not read Bemis's own page, so check its height and bowl shape on the listing before you order.</p>
 <p>If you want something to push on, the choice is between the Vive and the Carex. The extra cost buys a 300-pound limit against 250, a maker page with full measurements and a lifetime guarantee. Both are for elongated bowls and both have removable arms. If everyone who will use it weighs well under 250 pounds, the Carex is the better value.</p>

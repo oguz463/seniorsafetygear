@@ -185,6 +185,9 @@ BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 <h3>How do rollator brakes work?</h3>
 <p>Drive says its brake is pressed to slow the rollator and pushed down to lock it in place. The Medline listing says to push the handles up to brake and down to lock, and the HOMLAND listing describes loop brakes with three modes: free, deceleration and stop. Lock the brakes every time you sit or stand, and check them before you go out.</p>
 
+<h2>What the Research Says</h2>
+<p>The Cochrane review of exercise for preventing falls found balance and functional exercise cut the rate of falls by 24%, and it did not test walking aids. A rollator supports walking, and a physical therapist can add exercises that work on balance. See <a href="/articles/what-exercise-prevents-falls-cochrane-review/">what the review found</a>.</p>
+
 <h2>Our Take</h2>
 <p>The Drive Medical Rollator with 7.5-inch wheels is the best pick for most people. It is rated for 350 pounds, Drive's page gives its seat height, handle range and weight, and 51,609 reviews average 4.6 stars. It suits an average-height user, and its 12-inch seat is small.</p>
 <p>If weight is the problem, the Drive Aluminum is about 5 pounds lighter at 13 pounds, with taller handles up to 37 inches, but the limit drops to 300 pounds. The Medline is the steel option with a back, and the sources for it are the Amazon listing alone.</p>

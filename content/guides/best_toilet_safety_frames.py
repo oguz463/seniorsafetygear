@@ -173,6 +173,9 @@ BODY = '''<h2>What the Public Sources Say</h2>
 <h3>Does Medicare cover a toilet safety frame?</h3>
 <p>We could not confirm that it does. Medicare.gov's page on durable medical equipment does not mention toilet safety frames, and University of Utah Health says many aids are not typically covered by insurance. Ask your plan and your doctor before you buy, and keep the receipt in case you need it.</p>
 
+<h2>What the Research Says</h2>
+<p>We found no trial of toilet safety frames. The closest evidence is the Cochrane review of home safety changes, which tested packages of changes and found fewer falls, especially when an occupational therapist was involved. See <a href="/articles/do-home-safety-changes-prevent-falls/">what it found</a>.</p>
+
 <h2>Our Take</h2>
 <p>For a free-standing frame, the Vaunn gives the most information and the widest adjustment, with 4,458 reviews at 4.6. For a bolted one, the HOMLAND has a 350-pound rating and a clear fit list. The Medline has by far the most reviews, 25,272 at 4.4, but a 250-pound rating.</p>
 <p>The Vive suits a shared bathroom or a heavier user, if your toilet is on its list. The Carex is the plainest and has the lowest rating, and its listing leaves out the height.</p>
