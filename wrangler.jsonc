@@ -1,0 +1,12 @@
+// Cloudflare Workers config: the build (python3 build.py) writes the site to dist/, and Workers serves it as static assets.
+// Requests that match no asset or _redirects rule go to src/worker.js, which returns the 404 page.
+{
+  "name": "seniorsafetygear",
+  "compatibility_date": "2026-10-01",
+  "main": "src/worker.js",
+  "assets": {
+    "directory": "./dist",
+    "binding": "ASSETS",
+    "not_found_handling": "none"
+  }
+}
