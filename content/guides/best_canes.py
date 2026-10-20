@@ -42,7 +42,7 @@ PHOTO_ALT = 'older man in a dark coat and cap walking away with a cane along a r
 PHOTO_CREDIT = 'Muhammed Hanefi (Pexels)'
 CARDS_HEADING = 'Best Walking Canes'
 
-INTRO = '''<p>A cane takes some of your weight off a sore hip, knee or ankle and gives you a third point of contact with the ground. It is the lightest mobility aid. The CDC says more than 1 in 4 older adults falls each year, and OrthoInfo gives a simple rule for setting a cane to the right height.</p>
+INTRO = '''<p>A cane takes some of your weight off a sore hip, knee or ankle and gives you a third point of contact with the ground. It is the lightest mobility aid. OrthoInfo gives a simple rule for setting a cane to the right height.</p>
 <p>The five picks below cost $15 to $37 and include a plain offset cane, a quad-base cane, and folding canes that stand on their own. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by height range, weight limit and base, then fit it using the OrthoInfo wrist rule below.</p>'''
 
 PRODUCTS = [
@@ -169,13 +169,17 @@ BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 
 <h2>Walking Cane Questions</h2>
 <h3>Which hand do I hold a cane in?</h3>
-<p>OrthoInfo says the hand opposite the side that needs support. If your right knee hurts, hold the cane in your left hand.</p>
+<p>OrthoInfo says to hold the cane in the hand opposite the side that needs support. If your right knee or hip hurts, hold the cane in your left hand, so the cane and the sore leg move forward together. OrthoInfo's walking steps are to set the cane about one small stride ahead, step onto the sore leg, then finish with the good leg.</p>
 <h3>How tall should a cane be?</h3>
-<p>OrthoInfo says the top should reach the crease in your wrist when you stand up straight, with your elbow slightly bent when you hold it.</p>
+<p>OrthoInfo says the top should reach the crease in your wrist when you stand up straight, and your elbow should be slightly bent when you hold the handle. Stand in the shoes you wear and have someone measure the crease from the floor. Our cane and walker height checker compares your number with the height range of each cane in this guide.</p>
 <h3>How do I use a cane on stairs?</h3>
 <p>Going up, hold the handrail with one hand and the cane in the other, and step up with the good leg first. Going down, put the cane on the step first, then the sore leg, then the good leg, according to OrthoInfo.</p>
 <h3>Is a quad cane better than a single-tip cane?</h3>
 <p>A quad base stands on its own and gives more contact with the floor, but it is wider and heavier. A single tip is lighter. If you need more support than a cane gives, a rollator or walker may suit you better. See our <a href="/best-rollators/">rollator guide</a>.</p>
+<h3>When should I replace the tip?</h3>
+<p>OrthoInfo tells walker users to check the rubber tips regularly and replace them if they become uneven or worn, and the same check is sensible for a cane tip, since the tip is where the cane meets a wet or smooth floor. Replacement tips are cheap, and the DMI and Medline canes here use standard single tips. Do not use a cane with a split, hardened or worn-through tip.</p>
+<h3>When is a cane not enough?</h3>
+<p>A cane takes some weight off one side. If you need support on both sides, tire after a short distance or feel unsteady even with the cane, ask a doctor or physical therapist whether a walker or rollator would suit you better. A rollator adds a seat and brakes, and a standard walker gives a wider base. See our rollator guide and the article on choosing between a cane, walker and rollator.</p>
 
 <h2>Our Take</h2>
 <p>The HurryCane Freedom Edition at $37.04 is the best pick if you want a maker-backed folding cane. Drive says it is tested to 350 pounds and gives the height range and a limited lifetime warranty, and 26,168 reviews average 4.6 stars. It costs about twice as much as the plain canes, and the Amazon seller is a third party.</p>

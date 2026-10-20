@@ -173,11 +173,15 @@ BODY = '''<h2>The CPSC Rule for Adult Bed Rails</h2>
 <h3>Are bed assist rails safe?</h3>
 <p>The CPSC treats them as a regulated product because of the entrapment risk, and since August 2023 they must meet its standard. Choose a rail that names the standard, fit it as the instructions say and check the gap.</p>
 <h3>Can I use a bed rail on an adjustable bed?</h3>
-<p>Not with these. The Stander, Lunderg and KingPavonini listings say they are not for adjustable beds, and the Stander adds hospital beds.</p>
+<p>Not with these. The Stander, Lunderg and KingPavonini listings each say the rail is not for adjustable beds, and the Stander listing adds hospital beds. An adjustable base changes the angle and the gap between mattress and rail as it moves, so a rail built for a flat frame can shift. If you have an adjustable bed, ask the maker of the rail whether it is approved for it.</p>
 <h3>Does the rule cover every rail?</h3>
-<p>It covers adult portable bed rails made after August 21, 2023, including grab bars and canes used at a bed. It excludes FDA-regulated hospital guardrails and children's rails.</p>
+<p>It covers adult portable bed rails made after August 21, 2023, and CPSC's definition includes grab bars, assistive bars, transfer aids and canes used at a bed, even if the maker did not intend that use. It excludes guardrails on FDA-regulated hospital beds and children's portable bed rails, which fall under a separate rule, 16 CFR part 1224.</p>
 <h3>Who should help choose one?</h3>
-<p>A doctor or occupational therapist, especially if confusion, a risk of falling out of bed or a need for help transferring is part of the picture.</p>
+<p>A doctor or occupational therapist can help, especially if confusion, a risk of falling out of bed or a need for help transferring is part of the picture. They can watch how you move from lying to sitting to standing and say whether a short handle or a longer rail suits you, and whether the bed itself needs to change.</p>
+<h3>What is entrapment, and how do I check for it?</h3>
+<p>CPSC describes entrapment zones as areas, gaps or openings that can potentially capture or restrain a person's body part, and its standard tests four zones. For a buyer, the practical places to look are the gap between the rail and the mattress and any openings in the rail. After you install a rail, check that it does not shift and that the strap is tight, and stop using one that moves.</p>
+<h3>Can I report an unsafe bed rail?</h3>
+<p>Yes. CPSC's page links to saferproducts.gov, where you can report a product you think is unsafe. Keep the rail's label, which should show the maker, the model and a date of manufacture, and your Amazon order, so you can give the details. Makers and importers of rails made after August 21, 2023 must also issue a General Certificate of Compliance, which you can ask the seller for.</p>
 
 <h2>Our Take</h2>
 <p>The Stander Wonder Pivot at $149.99 is the best pick for anyone who wants a named standard. Its listing says it passed ASTM F3186-17, it pivots down, and 7,824 reviews average 4.6 stars. We could not read the test report, so check the label for the maker's statement.</p>

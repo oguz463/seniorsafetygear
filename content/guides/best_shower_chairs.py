@@ -46,7 +46,7 @@ PHOTO_ALT = 'older white bathtub with a metal faucet against a tiled wall and a 
 PHOTO_CREDIT = 'Charlotte May (Pexels)'
 CARDS_HEADING = 'Best Shower Chairs'
 
-INTRO = '''<p>A shower chair lets you sit while you wash, so you are not standing on a wet floor with your eyes closed against the water. MedlinePlus, the U.S. National Library of Medicine's health site, advises sitting on a bath chair or bench when taking a shower. The CDC says more than 1 in 4 older adults falls each year, and a wet tub is a place where balance is hard.</p>
+INTRO = '''<p>A shower chair lets you sit while you wash, so you are not standing on a wet floor with your eyes closed against the water. MedlinePlus, the U.S. National Library of Medicine's health site, advises sitting on a bath chair or bench when taking a shower. A wet tub is a place where balance is hard.</p>
 <p>The five picks below cost $30 to $52 and come in four types: a chair with a back and arms, a chair with a back, a backless stool and a tub transfer bench. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose first by whether you can step over the tub wall, then by weight limit and seat height.</p>'''
 
 PRODUCTS = [
@@ -180,6 +180,10 @@ BODY = '''<h2>What MedlinePlus and the CDC Say</h2>
 <p>MedlinePlus suggests a non-slip mat in the tub, a non-skid mat outside it, and setting the water heater to no more than 120 degrees Fahrenheit to prevent burns. It also says raising the toilet seat height can help prevent falls. See our <a href="/best-raised-toilet-seats/">raised toilet seat guide</a>.</p>
 <h3>Which is better, a chair or a transfer bench?</h3>
 <p>It depends on whether you can step over the tub wall. If you can, a chair is smaller and cheaper. If you cannot, the transfer bench lets you sit down outside the tub. An occupational therapist can watch you and say which fits.</p>
+<h3>How tall should a shower chair be?</h3>
+<p>The listed ranges are 14 to 19 inches for the HOMLAND stool, 16 to 21 for the Medline backless chair and 17.5 to 22.5 for the Drive transfer bench, and the Medline and Drive chairs adjust in 1-inch steps. Set the height so your feet rest flat on the tub floor when you sit and your knees are about level with your hips. Set it before you get wet, and check that the legs are locked.</p>
+<h3>What does the weight limit really mean?</h3>
+<p>The listed limits are 300 to 400 pounds, but two come with a catch. HOMLAND's listing gives 400 pounds as the frame's maximum and 300 as the recommended user weight, and Drive's page for the transfer bench says 400 where the Amazon listing says 350. When two figures conflict, use the lower one, and add the weight of anything else the chair carries.</p>
 
 <h2>Our Take</h2>
 <p>The Medline Shower Chair with Padded Armrests and Back at $41.98 is the best pick for most people who can step into a tub. It has a back, two padded arms and a 350-pound rating, and 35,627 reviews average 4.7 stars. We could not read Medline's own page, so confirm the seat height range on the box.</p>

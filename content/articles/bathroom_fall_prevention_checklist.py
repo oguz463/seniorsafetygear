@@ -56,6 +56,10 @@ BODY = '''<p>The bathroom has wet floors, hard surfaces and moments when you sta
 <h2>When to Ask for Help</h2>
 <p>The CDC notes that fewer than half of older adults who fall tell their doctor. If you have fallen, almost fallen or feel unsteady getting up from the toilet, say so. A doctor or an occupational therapist can look at your bathroom and your movements and tell you which of these changes will help most.</p>
 
+<h2>Beyond the Bathroom: The CDC's Other Rooms</h2>
+<p>The same CDC "Check for Safety" checklist covers the rest of the home, and three of its checks bear on the walk to the bathroom. In the bedroom, it asks whether the light near the bed is hard to reach and suggests a lamp close to the bed. It asks whether the path from the bed to the bathroom is dark and suggests a nightlight, noting that some come on by themselves after dark. On the floors, it asks whether you have throw rugs and suggests removing them or using double-sided tape or a non-slip backing so they do not slip.</p>
+<p>For stairs, it suggests keeping objects off the steps, fixing loose or uneven steps, a light and a switch at the top and bottom, and handrails on both sides that are as long as the stairs. In the kitchen, it suggests keeping the things you use often on lower shelves, about waist high, and a step stool with a bar to hold on to, never a chair.</p>
+
 <h2>Where to Start</h2>
 <p>If you do only two things, fit a non-slip mat in the tub and fix a grab bar at the tub's edge into a stud. Then add a shower chair and a higher toilet seat if standing up is hard. Our guides compare the options: <a href="/best-grab-bars/">grab bars</a>, <a href="/best-shower-chairs/">shower chairs</a> and <a href="/best-raised-toilet-seats/">raised toilet seats</a>.</p>'''
 

@@ -170,11 +170,15 @@ BODY = '''<h2>What University of Utah Health Says</h2>
 <h3>How does a sock aid work?</h3>
 <p>You slide the sock over the shell, hold the cords, lower the shell to the floor and put your foot in. Then you point your toes and pull on the cords until the sock is on. Your physical therapist or occupational therapist can show you the technique.</p>
 <h3>Will insurance pay for one?</h3>
-<p>University of Utah Health says adaptive equipment is not typically covered by insurance. Check with your plan.</p>
+<p>University of Utah Health says adaptive equipment after joint replacement is not typically covered by insurance, so you would buy it yourself. Rules differ by plan, so ask your insurer or your surgeon's office if you want to check. Some people buy the tools before surgery so they are ready on the day they come home, but only if their surgeon or therapist advises it.</p>
 <h3>Do I need the whole kit?</h3>
-<p>Only if you need most of the tools. Utah calls the equipment optional and says your doctor and therapist can recommend what suits you.</p>
+<p>Only if you need most of the tools. Utah calls the equipment optional and says your doctor and physical therapist can recommend what suits you. If only socks are a problem, a single sock aid costs about $10. If a hip or knee means you cannot bend at all, a kit covers socks, shoes, pants, the floor and the bath in one purchase.</p>
 <h3>Can I use a sock aid with compression socks?</h3>
-<p>The RMS sock aid kit says it is not for compression socks or stockings. Check each product's listing and ask a therapist or pharmacist.</p>
+<p>The RMS sock aid kit says it is not for compression socks or compression stockings. They are tighter and need a different tool, so check the listing of any sock aid before you use it with them. A pharmacist, a nurse or a physical therapist can recommend a donning aid made for compression stockings and show you how to use it.</p>
+<h3>What size foot does a sock aid fit?</h3>
+<p>The RMS sock aid kit listing says it suits foot widths of 5 inches or less. The other listings in this guide do not give a foot width in the text we read. If your feet are wide or swollen, check the shell size with the seller before you buy, and ask a therapist about a wider aid.</p>
+<h3>Can I use a sock aid for shoes?</h3>
+<p>No. A sock aid only helps with socks. University of Utah Health lists a long-handled shoe horn as the tool that lets you put on shoes while sitting or standing, and the kits in this guide include one. The RMS 5-piece kit has a 24-inch plastic shoe horn, and the Phantawell kit combines a shoehorn and dressing stick in one 35.5-inch tool.</p>
 
 <h2>Our Take</h2>
 <p>If socks are the only problem, the RMS Deluxe Sock Aid at $9.97 is the one to buy, with 42,528 reviews at 4.5 stars. The RMS Sock Aid Kit at $19.99 adds a remover for taking socks off, but not for compression stockings.</p>

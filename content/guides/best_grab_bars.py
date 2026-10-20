@@ -171,13 +171,17 @@ BODY = '''<h2>What MedlinePlus, the CDC and the ADA Say</h2>
 
 <h2>Grab Bar Questions</h2>
 <h3>How many grab bars do I need?</h3>
-<p>MedlinePlus says two in the tub area, one for getting in and out and one for standing up. The CDC adds one next to the toilet.</p>
+<p>MedlinePlus says two in the tub area: one for getting in and out of the tub and one for standing up from a seated position. The CDC's checklist adds grab bars next to the toilet. Fix them to the wall vertically or horizontally and not diagonally, as MedlinePlus says, and choose lengths that suit the wall: a 24-inch bar for a vertical grip at the tub's edge, for example, and a longer one for a horizontal run.</p>
 <h3>Can I use a towel rack as a grab bar?</h3>
-<p>No. MedlinePlus says towel racks can't support your weight.</p>
+<p>No. MedlinePlus says plainly not to use towel racks as grab bars because they can't support your weight. A towel rack is fixed with small screws into tile or drywall, and a grab bar has to be fixed into a stud or another secure mounting. The same goes for soap dishes and the edge of a sink. Fit a real grab bar next to the tub and the toilet.</p>
 <h3>How high should a grab bar be?</h3>
 <p>The ADA Standards put a horizontal bar 33 to 36 inches above the finished floor. That applies to public buildings, but it is a good starting point at home, adjusted to the user's height.</p>
 <h3>Do I have to screw it into a stud?</h3>
-<p>The makers' 500-pound ratings are tied to a stud, a secure surface or anchors like Moen's SecureMounts. If you can't find a stud, use the maker's anchors and read the instructions.</p>
+<p>The makers' 500-pound ratings are tied to the mounting. Moen's listing says 500 pounds when installed into a stud or with its SecureMount anchors, which are sold separately, and Amazon Basics says a wall stud or another secure mounting surface. If you cannot find a stud where you want the bar, use the maker's anchors and follow the instructions in the box exactly.</p>
+<h3>Are ADA grab bars required in a home?</h3>
+<p>No. The ADA Standards, published by the U.S. Access Board, govern public and commercial buildings and do not bind a private home. They are still a useful reference because they give measured numbers: a round bar 1-1/4 to 2 inches in diameter, 1-1/2 inches from the wall, 33 to 36 inches above the floor for a horizontal bar, strong enough for a 250-pound force at any point.</p>
+<h3>Will a stainless steel bar rust in the shower?</h3>
+<p>Moen's listing says its bar is corrosion-resistant stainless steel with a limited lifetime warranty, and the Amazon Basics listings say the bars are designed to resist rust and corrosion. Stainless steel is the usual choice for a wet room. Wipe the bar and check the screws or covers from time to time, and replace any bar with a loose mount or visible damage.</p>
 
 <h2>Our Take</h2>
 <p>The Moen Home Care 24-inch bar at $27.29 is the best pick. Moen's page states the diameter, the 500-pound load and a limited lifetime warranty, and 6,092 reviews average 4.8 stars. Plan for a stud, or for the SecureMount anchors, which cost extra.</p>

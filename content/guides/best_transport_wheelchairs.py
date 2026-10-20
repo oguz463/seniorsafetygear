@@ -44,7 +44,7 @@ PHOTO_ALT = 'empty black folding wheelchair on a paved brick path in front of a 
 PHOTO_CREDIT = 'H&CO (Pexels)'
 CARDS_HEADING = 'Best Transport Wheelchairs'
 
-INTRO = '''<p>A transport wheelchair is a light folding chair with four small wheels that someone else pushes. It is made for short trips: from the car to an appointment, around a shop or through an airport. It differs from a standard wheelchair, whose large rear wheels let the rider propel it, and it folds smaller and weighs less. The CDC says more than 1 in 4 older adults falls each year, and a chair for the long walks can save the energy and balance you need for the short ones.</p>
+INTRO = '''<p>A transport wheelchair is a light folding chair with four small wheels that someone else pushes. It is made for short trips: from the car to an appointment, around a shop or through an airport. It differs from a standard wheelchair, whose large rear wheels let the rider propel it, and it folds smaller and weighs less. A chair for the long distances can save your energy for the short ones.</p>
 <p>The five picks below cost $105 to $173 and weigh from 15 to 26 pounds. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight, seat width, whether the pusher gets hand brakes and the weight limit. We found no federal guide to transport chairs, so the safety advice comes from the makers' own pages.</p>'''
 
 PRODUCTS = [
@@ -172,13 +172,17 @@ BODY = '''<h2>What the CDC Says and What We Could Not Find</h2>
 
 <h2>Transport Wheelchair Questions</h2>
 <h3>What is a transport wheelchair?</h3>
-<p>A light folding chair with small wheels that someone else pushes. It suits short outings and travel and is not meant for the rider to propel.</p>
+<p>A transport wheelchair is a light folding chair with small wheels and push handles that someone else pushes. It suits short outings, appointments and travel, where it folds into a car trunk. It is not meant for the rider to propel, because the wheels are small and have no hand rims, so if you need to move yourself, ask about a self-propelled chair.</p>
 <h3>Can I push myself in a transport chair?</h3>
-<p>Not with a chair like these. The wheels are small and have no hand rims. A self-propelled chair has large rear wheels with rims for that.</p>
+<p>Not with a chair like these. The wheels are small and have no hand rims, so the rider cannot push, and the chair is made to be pushed from behind. A self-propelled wheelchair has large rear wheels with rims for that, and weighs more. If you will often be alone in the chair, ask a physical therapist which type fits you.</p>
 <h3>How heavy is a transport chair?</h3>
-<p>From 15 pounds on the Medline Ultra Lightweight's listing to 26 pounds on the Medline with 12-inch wheels and the Drive economy chair, according to their listings and Drive's pages.</p>
+<p>The weights run from 15 pounds on the Medline Ultra Lightweight's listing to 26 pounds on the Medline with 12-inch wheels and Drive's economy chair, with Drive's page giving 16.2 pounds without footrests and 18.9 with them for the Fly-Lite. If you lift it into a car every time, try the weight first, since the footrests and cushion add to it.</p>
 <h3>What weight can they hold?</h3>
-<p>The Medline and Drive aluminum chairs are listed at 300 pounds. Drive's page lists the economy chair at 250 pounds.</p>
+<p>The Medline chairs and the Drive Fly-Lite and ATC19 list 300 pounds, and Drive's page lists 250 pounds for the economy chair. The weight limit includes the rider and anything carried on the chair, so add them up. If you are near the limit, choose the chair with the higher rating, and check the seat width as well as the weight.</p>
+<h3>Do I need hand brakes on a transport chair?</h3>
+<p>The Medline chair with 12-inch wheels is the only one here with hand brakes on the push handles, and its listing says they allow safe and secure transfers alongside the rear-wheel locks. The others have rear wheel locks only, which hold the chair still but do not let the pusher slow it. Hand brakes are useful on ramps and slopes, so choose them if you will push on either.</p>
+<h3>Will a transport chair fit in my car trunk?</h3>
+<p>Drive's page gives a folded size of 33 by 9 by 28 inches for the Fly-Lite with its riggings and 23 by 9 by 30.5 inches for the economy chair without footrests, and the Medline listings say their chairs fold to fit a car trunk. Measure your trunk opening and depth and compare, and remember that the footrests come off or swing away and need a place too.</p>
 
 <h2>Our Take</h2>
 <p>The Medline Transport Wheelchair with 12-inch wheels at $158.50 is the best pick for a caregiver. It is Amazon's number one transport chair with 12,879 reviews at 4.5, it has hand brakes on the handles, and the 12-inch rear wheels handle thresholds. It weighs 26 pounds, and we could not read Medline's own page.</p>

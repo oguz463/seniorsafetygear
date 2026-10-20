@@ -105,5 +105,19 @@ PAGES = {
 }
 
 
-TOOLS_NOTES = ''
-ARTICLES_NOTES = ''
+TOOLS_NOTES = '''<h2>Which Tool to Use When</h2>
+<ul>
+<li><strong>Buying a ramp for a step?</strong> Use the <a href="/tools/wheelchair-ramp-length-calculator/">ramp length calculator</a>. It turns the step height into the length the ADA's 1:12 slope needs.</li>
+<li><strong>Choosing a raised toilet seat?</strong> Measure your toilet and your ideal seated height, then use the <a href="/tools/raised-toilet-seat-height-calculator/">raised toilet seat height calculator</a>.</li>
+<li><strong>Fitting a cane or rollator?</strong> Use the <a href="/tools/cane-and-walker-height-checker/">cane and walker height checker</a> with the height of your wrist crease.</li>
+</ul>
+<h2>How They Work</h2>
+<p>Each calculation runs in your browser, and we do not store what you type. Each tool reads its numbers from a named source: the ADA Standards for ramps, the Joint Replacement Resource Centre's method for raised seats and OrthoInfo's wrist crease rule for canes and walkers. Every tool page lists its sources.</p>
+<h2>What They Cannot Tell You</h2>
+<p>A calculator gives a starting number from a measurement. It does not know your balance, strength or home. A physical therapist or occupational therapist can fit equipment to you, and the tools here are meant to help you ask the right questions.</p>'''
+ARTICLES_NOTES = '''<h2>Where to Start</h2>
+<ul>
+<li><strong>The bathroom:</strong> the <a href="/articles/bathroom-fall-prevention-checklist/">bathroom fall prevention checklist</a> turns MedlinePlus and CDC advice into seven checks, and <a href="/articles/shower-chair-or-transfer-bench/">shower chair or transfer bench</a> helps you choose between two seats.</li>
+<li><strong>Walking aids:</strong> <a href="/articles/cane-walker-or-rollator/">cane, walker or rollator</a> explains the three and gives OrthoInfo's fit and safety rules.</li>
+</ul>
+<p>Every article names its sources at the bottom and links to the buying guides that compare products.</p>'''

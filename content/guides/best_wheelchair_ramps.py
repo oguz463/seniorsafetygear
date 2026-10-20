@@ -170,13 +170,17 @@ BODY = '''<h2>The 1:12 Rule from the ADA Standards</h2>
 
 <h2>Wheelchair Ramp Questions</h2>
 <h3>How long a ramp do I need?</h3>
-<p>Twelve inches of ramp for every inch of rise, according to the ADA Standards. A 3-inch step needs 36 inches, and a 6-inch step needs 72.</p>
+<p>Twelve inches of ramp for every inch of rise, according to the ADA Standards, which set the limit at a 1:12 slope. A 2-inch step needs 24 inches, a 3-inch step 36 inches, a 6-inch step 72 inches and an 8-inch step 96 inches. Measure the rise from the ground to the top of the step, multiply by 12 and choose a ramp at least that long.</p>
 <h3>Can I use a steeper ramp?</h3>
 <p>The ADA allows slopes up to 1:8 in existing sites, but only for rises of 3 to 6 inches, and prohibits anything steeper. A steeper ramp is harder to push up and easier to tip on.</p>
 <h3>Are portable ramps wide enough?</h3>
-<p>The ramps here are about 29 inches wide, less than the ADA's 36 inches for a ramp run. Check your chair's wheelbase and the maker's width limit.</p>
+<p>The ramps here are about 29 inches wide, which is less than the 36-inch clear width the ADA asks for on a ramp run. Whether that is enough depends on your chair or scooter. The FACHNUO listing says the wheelbase should not exceed 27 inches. Measure the wheel track of your chair and the maker's width limit before you buy.</p>
 <h3>Do I need handrails?</h3>
-<p>The ADA asks for handrails on ramp runs with a rise of more than 6 inches. These portable ramps have side baffles, not handrails.</p>
+<p>The ADA asks for handrails on ramp runs with a rise of more than 6 inches, and for edge protection on both sides. The portable ramps here have side baffles and reflective strips, but not handrails. For a high step, add a rail, choose a different solution, or ask a physical therapist or a contractor who builds accessible ramps.</p>
+<h3>Can I fix a portable ramp in place?</h3>
+<p>The VNN 3-foot listing says it comes with screws so it can be fixed to a wooden platform, and the other listings describe a non-slip surface and transition plates at the top and bottom. If you leave a ramp outdoors, check that the plates sit flat on the ground and the step, and that the ramp does not slide when you push or pull a chair on it.</p>
+<h3>Why does the ramp flex when I roll over it?</h3>
+<p>The FACHNUO, VNN and VEVOR listings say a long portable ramp may sink slightly under load and rebound, and the WHALEMOTOR listing says the hump in the center can flatten under a heavy load. This is the hinge and the aluminum flexing, and the listings call it normal. A ramp that bends sharply, rocks or has a gap at the hinge is not normal, so stop using it and contact the seller.</p>
 
 <h2>Our Take</h2>
 <p>The VNN 3-foot ramp at $115.99 is the best pick for the most common case, a 3-inch step, with 2,231 reviews averaging 4.4 stars. The FACHNUO 2-foot ramp at $86.98 is the choice for a 2-inch threshold and a light carry, and the VEVOR at $73.63 is the cheapest 3-foot option, with a lower rating from far fewer reviews.</p>

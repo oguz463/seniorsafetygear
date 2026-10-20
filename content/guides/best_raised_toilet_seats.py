@@ -48,7 +48,7 @@ PHOTO_ALT = 'white toilet with a closed seat against a wall in an older bathroom
 PHOTO_CREDIT = 'Erik Mclean (Pexels)'
 CARDS_HEADING = 'Best Raised Toilet Seats'
 
-INTRO = '''<p>A raised toilet seat adds a few inches of height, so there is less distance to lower yourself and to push back up. People reach for one after hip, knee or back surgery, or when standing up from a low seat has become hard. The CDC says more than 1 in 4 older adults falls each year, and a bathroom is one of the places where getting up and down is part of every visit.</p>
+INTRO = '''<p>A raised toilet seat adds a few inches of height, so there is less distance to lower yourself and to push back up. People reach for one after hip, knee or back surgery, or when standing up from a low seat has become hard. The bathroom is a place where getting up and down is part of every visit.</p>
 <p>The five picks below run from $28 to $91 and from a plain riser to a bolt-on seat and models with handles. All of them were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by two measurements first, the height you need and the shape of your bowl, then by how you want it to attach.</p>'''
 
 PRODUCTS = [
@@ -190,7 +190,11 @@ BODY = '''<h2>What the CDC Says About the Bathroom</h2>
 <h3>Is a raised seat the same as a grab bar?</h3>
 <p>No. The CDC's checklist suggests grab bars next to the toilet for support, and does not mention raised seats. Handles on a raised seat help with pushing up, but they are not fixed to the wall.</p>
 <h3>Do the handles come off?</h3>
-<p>On the Vive and the Carex they do, according to the maker and the listing. Take them off if someone does not want them.</p>
+<p>On the Vive and the Carex they do, according to the maker and the listing, and both are padded. Vive says its handles are 19 inches apart on the elongated size. Take them off if someone does not want them or if the toilet is in a narrow space, but remember that the handles give you something to push on, so keep them on for anyone who is unsteady standing up.</p>
+<h3>Do I keep my old toilet seat?</h3>
+<p>It depends on the model. The Carex listing says the toilet seat and lid are not included and that you use your current ones with the riser, the Vive installs under your existing seat with screws and washers, and the HealthSmart listing says to lift your seat, set the riser in place and lower the seat. The Bemis Assurance is a complete seat that bolts to the bowl, so it replaces your old one.</p>
+<h3>How do I tell whether my bowl is round or elongated?</h3>
+<p>Look at the bowl from above. A round bowl is shorter from front to back and almost circular, and an elongated bowl is longer and oval. The Joint Replacement Resource Centre says to note the shape before you buy, and the listings here name the shape: the Bemis, Vive and Carex are for elongated bowls, and the AquaSense and HealthSmart for round. Vive sells both shapes.</p>
 
 <h2>Our Take</h2>
 <p>The Bemis Assurance at $90.64 is the best pick if you can live with a 3-inch rise. It bolts to the bowl, the listing says it is tested to 1,000 pounds, and it has the best rating of the five at 4.6 from 1,405 reviews. The cost is the price and the bolting, and we could not read Bemis's own page, so check its height and bowl shape on the listing before you order.</p>

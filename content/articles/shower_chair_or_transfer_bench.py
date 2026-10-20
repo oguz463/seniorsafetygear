@@ -55,6 +55,17 @@ BODY = '''<p>Both a shower chair and a tub transfer bench give you somewhere to 
 <h2>Neither Replaces a Grab Bar</h2>
 <p>MedlinePlus recommends two grab bars fixed to the wall, and says towel racks can't support your weight. A seat gives you somewhere to sit, and a grab bar gives you something to hold as you get in, out and up. See our <a href="/best-grab-bars/">grab bar guide</a>.</p>
 
+<h2>What They Cost in Our Guide</h2>
+<p>The three chairs and stools in our guide cost about $30 to $44, and the Drive transfer bench costs about $52 on Amazon. The bench costs more because it is larger, with a seat 26 inches wide against 16 to 19 inches for the chairs, and because it has four legs and a back and side handle to adjust. Price should not decide this: if you cannot step over the tub wall safely, a cheaper chair does not solve the problem.</p>
+
+<h2>Setting Up Either One</h2>
+<ul>
+<li><strong>Set the height before you get wet.</strong> The chairs in our guide adjust in 1-inch steps, and the bench adjusts from 17.5 to 22.5 inches on Drive's page. Aim for your feet flat on the floor when you sit.</li>
+<li><strong>Check the legs are locked.</strong> Push the pins through the holes on all four legs and press down before you sit.</li>
+<li><strong>Look at the feet.</strong> Drive's page for its bath bench lists slip reduction tips, and its transfer bench page says suction cup kits are sold separately. Replace tips that are worn, and make sure the tub floor has a non-slip mat, as MedlinePlus suggests.</li>
+<li><strong>Keep a hand on a grab bar when you move.</strong> The seat does not replace the bar.</li>
+</ul>
+
 <h2>Ask a Therapist</h2>
 <p>We found no clinical guide that sets out who should use which, so this comes down to how you move. An occupational therapist can watch you get in and out of the tub and tell you whether a chair or a bench fits. The CDC says more than 1 in 4 older adults falls each year, and the bathroom is a good place to ask for that help. Our <a href="/best-shower-chairs/">shower chair guide</a> compares five models, including the Drive bench.</p>'''
 

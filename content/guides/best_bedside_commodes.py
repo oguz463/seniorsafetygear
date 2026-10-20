@@ -46,7 +46,7 @@ PHOTO_ALT = 'lit table lamp, a glass of water and two blister packs of pills on 
 PHOTO_CREDIT = 'Tima Miroshnichenko (Pexels)'
 CARDS_HEADING = 'Best Bedside Commodes'
 
-INTRO = '''<p>A bedside commode is a portable toilet with a seat, a bucket and a frame, placed next to the bed so you do not have to walk to the bathroom at night. It is useful after surgery, during an illness, or when the walk is too far or too dark to be safe. The CDC says more than 1 in 4 older adults falls each year, and a night-time trip to the bathroom is one of the walks a commode can shorten.</p>
+INTRO = '''<p>A bedside commode is a portable toilet with a seat, a bucket and a frame, placed next to the bed so you do not have to walk to the bathroom at night. It is useful after surgery, during an illness, or when the walk is too far or too dark to be safe. A night-time trip to the bathroom is one of the walks a commode can shorten.</p>
 <p>The five picks below cost $31 to $88 and include a steel folding commode, a 3-in-1 that can also sit over a toilet, two drop-arm models for sliding on from a wheelchair, and an extra-wide model rated to 500 pounds. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight limit, seat height and whether you need the arms to move out of the way.</p>'''
 
 PRODUCTS = [
@@ -182,6 +182,10 @@ BODY = '''<h2>What the CDC and MedlinePlus Say</h2>
 <p>Some can. The Medline 3-in-1 and the Drive RTL11158KDR are described in their listings as usable as a raised toilet seat or a safety frame, and the Medline drop arm listing says to remove the bucket for that use. Drive's own page does not mention it, so check the maker's instructions.</p>
 <h3>How do I make the walk safer at night?</h3>
 <p>The CDC suggests a lamp close to the bed and a nightlight on the path to the bathroom. Keep the floor clear, and see our guides to <a href="/best-raised-toilet-seats/">raised toilet seats</a> and <a href="/best-shower-chairs/">shower chairs</a> for the bathroom itself.</p>
+<h3>How do I clean and empty the bucket?</h3>
+<p>The Drive models come with a 7.5-quart bucket with a cover, a splash shield and a carry handle on the RTL11158KDR, and the Drive listing suggests liners for faster clean-up. The DMI listing says its 5-liter bucket lifts out for emptying and can be rinsed with mild soap and water. Empty it after each use, and follow the maker's cleaning instructions for the frame and seat.</p>
+<h3>How high should I set the seat?</h3>
+<p>Drive's page gives a seat height of 17 to 23 inches for the RTL11158KDR, and the listings give 18 to 22 inches for the Medline drop arm and 20 to 24 for the DMI. A common starting point is a seat level with the edge of the bed or a little above it, so you can slide across and stand without a drop. Set all four legs to the same hole and check that the push pins are locked.</p>
 
 <h2>Our Take</h2>
 <p>The Drive Medical Folding Bedside Commode at $30.59 is the best pick for most people. It is rated for 350 pounds, Drive's page gives its size and weight, and 37,079 reviews average 4.6 stars. The trade is a fixed pair of arms and a seat height that Drive does not state, so check the settings when you build it.</p>

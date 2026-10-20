@@ -53,6 +53,10 @@ BODY = '''<p>A cane, a standard walker and a rollator all give you something to 
 <li><strong>Brakes.</strong> On a rollator, lock the brakes before you sit or stand. Drive says its brake is pushed down to lock the rollator in place.</li>
 </ul>
 
+<h2>Using a Walker, Step by Step</h2>
+<p>OrthoInfo gives the steps for a standard walker, and they are a useful guide for any frame you push or lift. Position the walker about one step ahead of you, making sure all four legs are on even ground. Move the sore leg into the middle of the walker, then bring the good leg up even with it. Take small steps when you turn, and do not step all the way to the front of the walker.</p>
+<p>To sit, back up until your legs touch the chair, feel for the seat and lower yourself slowly. To stand, push up with your arms and take hold of the handgrips. OrthoInfo says not to pull on or tilt the walker to help you stand up, because the frame can tip toward you.</p>
+
 <h2>How to Choose</h2>
 <p>We found no clinical source that sorts the three by condition, so the choice is practical and a therapist should confirm it. A cane suits someone who needs a little support and can walk steadily. A standard walker takes more weight and gives a wider base. A rollator suits someone who can walk but tires, because it lets you sit, though a seat on wheels brings its own risks, so lock the brakes first.</p>
 <p>If you are not sure, ask a physical therapist to watch you walk. They can fit the aid to your height and show you how to use it on stairs and curbs.</p>

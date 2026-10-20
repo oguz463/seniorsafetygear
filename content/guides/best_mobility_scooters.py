@@ -43,7 +43,7 @@ PHOTO_ALT = 'person riding a four-wheel mobility scooter away along a gravel pat
 PHOTO_CREDIT = 'Momo (Pexels)'
 CARDS_HEADING = 'Best Mobility Scooters'
 
-INTRO = '''<p>A mobility scooter is a battery-powered seat on wheels that you steer with a handlebar, for people who can walk a little but not far. The three-wheel portable kind comes apart or folds so it fits in a car trunk. The CDC says more than 1 in 4 older adults falls each year, and a scooter replaces long walks, but it also brings its own risks, from the transfer on and off to the lift into a car.</p>
+INTRO = '''<p>A mobility scooter is a battery-powered seat on wheels that you steer with a handlebar, for people who can walk a little but not far. The three-wheel portable kind comes apart or folds so it fits in a car trunk. A scooter replaces long walks, but it brings its own risks, from the transfer on and off to the lift into a car.</p>
 <p>The five picks below cost $550 to $900 and range from a 30-pound lifting weight to a 300-pound rating. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing. Choose by the weight of the heaviest piece, since someone must lift it, then by range and weight limit.</p>'''
 
 PRODUCTS = [
@@ -173,11 +173,15 @@ BODY = '''<h2>What the Federal Rule and the CDC Say</h2>
 <h3>Do I need a prescription for a mobility scooter?</h3>
 <p>Not to buy one from Amazon, as far as the listings show. If you want a plan or Medicare to pay, ask your doctor and the plan first. Medicare.gov's page on durable medical equipment says that suppliers must be enrolled and that a provider must order the equipment.</p>
 <h3>Can I take a scooter on a plane?</h3>
-<p>The Passport and Iris 3 listings describe airline-friendly batteries, but those are seller claims. Ask your airline about the battery before you book.</p>
+<p>The Passport and Iris 3 listings describe airline-friendly batteries, but those are seller claims, and we could not read the FAA's page on mobility devices. Airlines have their own rules for lithium batteries and for how a scooter is checked in, so call the airline before you book and ask what they need, such as the battery watt-hours and whether it must come out of the scooter.</p>
 <h3>Is a scooter safer than walking?</h3>
 <p>It depends. A scooter lets you travel without a long walk, but the CDC's fall figures apply to getting on and off, and you can tip over on slopes. Ask a doctor or occupational therapist.</p>
 <h3>How far will it go?</h3>
 <p>The listings say up to 10 miles for the Rascal, 12.4 for the Vive, 13 for the SuperHandy and Hoverfly, and 20 to 32 for the Iris 3. Real range is shorter on hills.</p>
+<h3>What does FDA Class II mean for a scooter?</h3>
+<p>Under 21 CFR 890.3800, a motorized three-wheeled vehicle is a battery-powered device intended for medical purposes, for outside transportation by disabled persons, and the rule classifies it as Class II (performance standards). The Rascal listing says its scooter is a Class II device. The rule text we read did not say whether a scooter is exempt from premarket notification, so it does not tell you that a given scooter was cleared.</p>
+<h3>How long does a scooter take to charge?</h3>
+<p>The listings vary. The SuperHandy Passport listing says its batteries recharge in 1.5 hours, and the Hoverfly listing says a 5-hour charge gives up to 13 miles. The Vive, Rascal and Iris listings in the text we read give no charge time. Ask the seller before you buy, and plan for the longer figure if you ride every day.</p>
 
 <h2>Our Take</h2>
 <p>The Vive at $624.99 is the best pick for most people. It has a swivel seat, flip-up armrests and 8-inch flat-free tires, and 1,146 reviews average 4.3 stars. Its heaviest piece is 29 pounds and the limit is 265, and every figure comes from the listing.</p>

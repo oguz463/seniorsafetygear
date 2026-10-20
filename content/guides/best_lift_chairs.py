@@ -40,7 +40,7 @@ PHOTO_ALT = 'armchair covered with a patterned throw blanket in front of sunlit 
 PHOTO_CREDIT = 'Luisa Sanfelice (Pexels)'
 CARDS_HEADING = 'Best Lift Chairs'
 
-INTRO = '''<p>A lift chair is a recliner with a motor that tilts the whole chair forward and up, so you stand with the chair's help instead of pushing out of a low seat. It suits someone with weak legs, a painful hip or knee, or trouble getting up from a standard chair. The CDC says more than 1 in 4 older adults falls each year, and standing up from a seat is one of the moments that can go wrong.</p>
+INTRO = '''<p>A lift chair is a recliner with a motor that tilts the whole chair forward and up, so you stand with the chair's help instead of pushing out of a low seat. It suits someone with weak legs, a painful hip or knee, or trouble getting up from a standard chair. Standing up from a low seat is the moment it helps with.</p>
 <p>The five picks below cost $290 to $560 and range from a plain fabric recliner to chairs with heat and massage. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing, and we say so on each card. Choose by size and your height first, then by the extras you want.</p>'''
 
 PRODUCTS = [
@@ -170,9 +170,13 @@ BODY = '''<h2>What the CDC Says and What We Could Not Confirm</h2>
 <h3>Does Medicare pay for a lift chair?</h3>
 <p>Medicare.gov's page on durable medical equipment does not mention lift chairs, so we could not confirm coverage. It says suppliers must be enrolled in Medicare and that a provider must order the equipment. Check with Medicare or your plan.</p>
 <h3>How hard is it to assemble?</h3>
-<p>The MCombo listings say assembly takes about 15 minutes for a novice and needs no tools, and that the chair arrives in 2 or 3 boxes.</p>
+<p>The MCombo listings say assembly takes about 15 minutes for a novice and needs no tools, and that the chair arrives in 2 or 3 boxes depending on the size. The CANMOV and Flamaker listings describe simple assembly too. Boxes are heavy and awkward, so ask someone to help carry them, and plug the chair in near an outlet before you decide where it will sit.</p>
 <h3>Are heat and massage worth it?</h3>
 <p>They are comfort extras and add parts. The MCombo 7040 turns them off after 15, 30 or 60 minutes, and the plain MCombos cost less and say they are simpler to maintain.</p>
+<h3>How tall do I need to be for the medium size?</h3>
+<p>The listing for the medium MCombo 7287 recommends it for people 5 feet 1 inch to 5 feet 9 inches tall, The large 7283 and the 7040 listings give no complete height range in the text we read. Sit with your feet flat on the floor and your knees about level with your hips before you commit, and ask the seller about the return policy for a chair that is the wrong size.</p>
+<h3>How much room does a lift chair take?</h3>
+<p>The listings give the chair's footprint: the medium MCombo is 37.8 inches deep and 33.5 wide, the large MCombo 40.2 deep and 36.2 wide, the CANMOV 38 deep and 39 wide, and the Flamaker 28.4 deep and 30.7 wide. These are the sizes of the chair in its upright position, so measure the spot and the doorways on the way to it, and leave room around it for the lift and recline.</p>
 
 <h2>Our Take</h2>
 <p>The MCombo 7287 at $499.90 is the best pick for an average-height user. It has no heat or massage to fail, a 2-year limited warranty and 3,956 reviews averaging 4.5 stars. Check the 5 foot 1 inch to 5 foot 9 inch height range in the listing. For a larger person the 7283 at $559.90 adds size and a 150-degree recline.</p>

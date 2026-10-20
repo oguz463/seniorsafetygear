@@ -46,7 +46,7 @@ PHOTO_ALT = 'two older adults walking away along a gravel path in a park with au
 PHOTO_CREDIT = 'Usame Dzinovic (Pexels)'
 CARDS_HEADING = 'Best Rollator Walkers'
 
-INTRO = '''<p>A rollator is a walker with wheels, hand brakes and a seat. You push it instead of lifting it, and you can sit on the seat when you tire. It suits someone who can walk but needs something to hold, and it is the biggest search in this niche for a reason: it keeps you moving and gives you somewhere to rest. The CDC says more than 1 in 4 older adults falls each year, and a mobility aid that fits is one way to reduce the risk of a fall while walking.</p>
+INTRO = '''<p>A rollator is a walker with wheels, hand brakes and a seat. You push it instead of lifting it, and you can sit on the seat when you tire. It suits someone who can walk but needs something to hold, and it is the biggest search in this niche for a reason: it keeps you moving and gives you somewhere to rest. OrthoInfo's wrist crease rule is the place to start when you fit one.</p>
 <p>The five picks below cost $53 to $80 and range from a 13-pound aluminum frame to one with 8-inch wheels for rough ground. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight limit, wheel size, how much the frame weighs and whether the handles reach the right height for you.</p>'''
 
 PRODUCTS = [
@@ -175,11 +175,15 @@ BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 <h3>What is the difference between a rollator and a walker?</h3>
 <p>A standard walker has four legs and you lift it with each step. A rollator has wheels and hand brakes, so you push it, and it has a seat. OrthoInfo's page describes the lifting kind, and its fit rule applies to both.</p>
 <h3>Can I use a rollator on stairs?</h3>
-<p>No. OrthoInfo says never to climb stairs or use an escalator with a walker. Use the handrail or ask someone to carry it.</p>
+<p>No. OrthoInfo says never to climb stairs or use an escalator with a walker, and a rollator is a walker with wheels. Use the handrail with one hand and a cane or a helper's arm with the other, or ask someone to carry the rollator and stay with you. Keep a second one upstairs if you need one on both floors.</p>
 <h3>How do I know the handles are the right height?</h3>
 <p>Stand up straight and let your arms hang. The top of the handgrip should reach the crease in your wrist, and your elbows should bend slightly when you hold it, as OrthoInfo says. Ask a physical therapist to check it if it feels wrong.</p>
 <h3>Is it safe to sit on a rollator?</h3>
-<p>The seat is made for a short rest. Lock the brakes first, keep all four wheels on even ground, and lower yourself slowly, as OrthoInfo advises for a walker.</p>
+<p>The seat is made for a short rest, not for riding. Lock the brakes first, keep all four wheels on even ground, and lower yourself slowly, as OrthoInfo advises for sitting with a walker. Check that the seat is rated for your weight, since the seat's limit can differ from the frame's, and do not let anyone push you while you sit.</p>
+<h3>How much does a rollator weigh?</h3>
+<p>Drive's page lists 13 pounds for its aluminum rollator and 18.5 for the steel one with 7.5-inch wheels. The listings give 16.5 pounds for the Medline, 20.4 for the HOMLAND and about 22 for the VOCIC. If you lift it into a car, try the weight first, and remember that the frame without the seat or bag may weigh less than the figure in the listing.</p>
+<h3>How do rollator brakes work?</h3>
+<p>Drive says its brake is pressed to slow the rollator and pushed down to lock it in place. The Medline listing says to push the handles up to brake and down to lock, and the HOMLAND listing describes loop brakes with three modes: free, deceleration and stop. Lock the brakes every time you sit or stand, and check them before you go out.</p>
 
 <h2>Our Take</h2>
 <p>The Drive Medical Rollator with 7.5-inch wheels at $53.32 is the best pick for most people. It is rated for 350 pounds, Drive's page gives its seat height, handle range and weight, and 51,609 reviews average 4.6 stars. It suits an average-height user, and its 12-inch seat is small.</p>
