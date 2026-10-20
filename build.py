@@ -152,6 +152,8 @@ def page(path, title, description, body, schema=None, canonical=None, image=None
 <link rel="icon" href="/favicon-48.png" type="image/png" sizes="48x48">
 <link rel="shortcut icon" href="/favicon.ico">
 <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="preload" href="/fonts/atkinson-hyperlegible-latin-400-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/source-serif-4-latin-700-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/style.css">
 {ld}
 </head>
