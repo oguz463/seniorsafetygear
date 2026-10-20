@@ -16,20 +16,21 @@ TITLE = 'Cane and Walker Height Checker: Set the Handle to Your Wrist Crease'
 SEO_TITLE = 'Cane and Walker Height Checker: Wrist Crease Rule'
 DESCRIPTION = 'Enter the height of your wrist crease to see the cane or rollator handle height OrthoInfo advises and which canes and rollators in our guides reach it.'
 UPDATED = datetime.date(2026, 10, 20)
-RELATED = ['best-canes', 'best-rollators', 'best-transport-wheelchairs']
+RELATED = ['best-canes', 'best-rollators']
+PICK_GUIDES = ['best-canes', 'best-rollators']
 
 CANES = [
-    ['HurryCane Freedom Edition', 30.5, 37.5],
-    ['KINGGEAR quad cane', 31, 36],
-    ['DMI adjustable cane', 30, 39],
-    ['Medline offset cane', 29, 38],
-    ['HONEYBULL folding cane', 30, 36],
+    ['HurryCane Freedom Edition', 30.5, 37.5, 'best-canes/hurrycane-freedom-edition'],
+    ['KINGGEAR quad cane', 31, 36, 'best-canes/kinggear-self-standing-quad-cane'],
+    ['DMI adjustable cane', 30, 39, 'best-canes/dmi-adjustable-walking-cane'],
+    ['Medline offset cane', 29, 38, 'best-canes/medline-aluminum-offset-cane'],
+    ['HONEYBULL folding cane', 30, 36, 'best-canes/honeybull-foldable-free-standing-cane'],
 ]
 ROLLATORS = [
-    ['Drive rollator, 7.5 in wheels', 30, 34],
-    ['Drive aluminum rollator', 32, 37],
-    ['Medline steel rollator', 31, 35],
-    ['HOMLAND extra-wide rollator', 33, 40],
+    ['Drive rollator, 7.5 in wheels', 30, 34, 'best-rollators/drive-rollator-7-5-inch-wheels'],
+    ['Drive aluminum rollator', 32, 37, 'best-rollators/drive-aluminum-rollator'],
+    ['Medline steel rollator', 31, 35, 'best-rollators/medline-steel-rollator'],
+    ['HOMLAND extra-wide rollator', 33, 40, 'best-rollators/homland-extra-wide-rollator'],
 ]
 
 INTRO = '''<p>OrthoInfo, the American Academy of Orthopaedic Surgeons' patient site, gives one rule for fitting a cane or a walker: when you stand up straight, the top of the handle should reach the crease in your wrist, and your elbow should be slightly bent when you hold it. Measure the height of your wrist crease and enter it below to see which products in our guides reach it.</p>'''
@@ -44,14 +45,14 @@ WIDGET = '''<form id="cw" onsubmit="return false">
 SCRIPT = 'var CANES = ' + json.dumps(CANES) + ', ROLLATORS = ' + json.dumps(ROLLATORS) + ''';
 (function () {
   var h = document.getElementById('cwh'), out = document.getElementById('cwo');
-  function fits(list, v) { return list.filter(function (x) { return v >= x[1] && v <= x[2]; }).map(function (x) { return x[0] + ' (' + x[1] + ' to ' + x[2] + ' in)'; }); }
+  function fits(list, v) { return list.filter(function (x) { return v >= x[1] && v <= x[2]; }); }
   function update() {
     var v = parseFloat(h.value);
     if (!(v > 0)) { out.innerHTML = 'Enter the height in inches.'; return; }
     var c = fits(CANES, v), r = fits(ROLLATORS, v);
     var msg = '<span class="big">Set the handle to about ' + v + ' in</span>OrthoInfo says the top should reach your wrist crease when you stand up straight.';
-    msg += '<br><strong>Canes that reach it:</strong> ' + (c.length ? c.join('; ') : 'none of the five in our guide') + '. <a href="/best-canes/">See the cane guide</a>.';
-    msg += '<br><strong>Rollators that reach it:</strong> ' + (r.length ? r.join('; ') : 'none of the four in our guide') + '. <a href="/best-rollators/">See the rollator guide</a>.';
+    msg += '<br>' + (c.length ? renderPicks(c.map(function (x) { return x[3]; }), 'Canes whose height range reaches ' + v + ' in:') : '<strong>No cane in our guide reaches this height.</strong>') + '<a href="/best-canes/">See the cane guide</a>.';
+    msg += '<br>' + (r.length ? renderPicks(r.map(function (x) { return x[3]; }), 'Rollators whose handle range reaches ' + v + ' in:') : '<strong>No rollator in our guide reaches this height.</strong>') + '<a href="/best-rollators/">See the rollator guide</a>.';
     msg += '<br>Check that your elbow is slightly bent when you hold the grip, and ask a physical therapist to confirm if it feels wrong.';
     out.innerHTML = msg;
   }

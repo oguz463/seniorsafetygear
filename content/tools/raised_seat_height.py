@@ -19,13 +19,14 @@ SEO_TITLE = 'Raised Toilet Seat Height Calculator: Find Your Rise in Inches'
 DESCRIPTION = 'Enter your toilet height and your ideal seated height to see how many inches a raised toilet seat should add, and which seats in our guide come closest.'
 UPDATED = datetime.date(2026, 10, 20)
 RELATED = ['best-raised-toilet-seats', 'best-bedside-commodes', 'best-grab-bars']
+PICK_GUIDES = ['best-raised-toilet-seats']
 
 SEATS = [
-    ['Bemis Assurance 3 in', 3, 'elongated'],
-    ['Vive with handles 3.5 in', 3.5, 'elongated'],
-    ['Carex with arms 3.5 in', 3.5, 'elongated'],
-    ['AquaSense 4 in', 4, 'round'],
-    ['HealthSmart 5 in', 5, 'round'],
+    ['Bemis Assurance 3 in', 3, 'elongated', 'best-raised-toilet-seats/bemis-assurance-3-inch'],
+    ['Vive with handles 3.5 in', 3.5, 'elongated', 'best-raised-toilet-seats/vive-raised-toilet-seat-with-handles'],
+    ['Carex with arms 3.5 in', 3.5, 'elongated', 'best-raised-toilet-seats/carex-raised-toilet-seat-with-arms'],
+    ['AquaSense 4 in', 4, 'round', 'best-raised-toilet-seats/aquasense-4-inch-riser'],
+    ['HealthSmart 5 in', 5, 'round', 'best-raised-toilet-seats/healthsmart-5-inch-padded-riser'],
 ]
 
 INTRO = '''<p>A raised toilet seat should add enough height that your feet are flat on the floor and your hips sit a little higher than your knees. The Joint Replacement Resource Centre gives a two-measurement method, and this calculator does the subtraction. Measure your toilet, find a seat where you sit comfortably, measure that, and enter both below.</p>'''
@@ -48,7 +49,7 @@ SCRIPT = 'var SEATS = ' + json.dumps(SEATS) + ''';
     if (need <= 0) { out.innerHTML = '<span class="big">No raised seat needed</span>Your toilet is already as high as your ideal seated height. A raised seat would put your hips well above your knees.'; return; }
     msg = '<span class="big">' + need.toFixed(2).replace(/\\.?0+$/, '') + ' inches</span>Seat height needed: your ideal seated height of ' + ideal + ' in minus your toilet height of ' + toilet + ' in.';
     var near = SEATS.map(function (s) { return [s, Math.abs(s[1] - need)]; }).sort(function (a, b) { return a[1] - b[1]; }).slice(0, 3);
-    msg += '<br><strong>Closest in our guide:</strong> ' + near.map(function (x) { return x[0][0] + ' (' + x[0][2] + ' bowls)'; }).join('; ') + '. <a href="/best-raised-toilet-seats/">See the guide</a>.';
+    msg += '<br>' + renderPicks(near.map(function (x) { return x[0][3]; }), 'Closest seats in our guide (' + near.map(function (x) { return x[0][1] + ' in, ' + x[0][2]; }).join('; ') + '):') + '<a href="/best-raised-toilet-seats/">See the full guide</a>.';
     if (need < 2) msg += '<br>The Joint Replacement Resource Centre says a 2 to 3 inch seat may work if your hips and knees are level when seated. Under 2 inches, check with a therapist.';
     if (need > 5) msg += '<br>Our picks add at most 5 inches. A bedside commode over the toilet can add more, so see our <a href="/best-bedside-commodes/">bedside commode guide</a>.';
     msg += '<br>Wear the shoes you use when you measure, and check whether your bowl is round or elongated.';

@@ -17,13 +17,15 @@ SEO_TITLE = 'Wheelchair Ramp Length Calculator: 1:12 Slope by Step Height'
 DESCRIPTION = 'Enter the height of your step in inches to see the ramp length the ADA 1:12 slope needs, and which portable ramps in our guide are long enough.'
 UPDATED = datetime.date(2026, 10, 20)
 RELATED = ['best-wheelchair-ramps', 'best-transport-wheelchairs', 'best-mobility-scooters']
+PICK_GUIDES = ['best-wheelchair-ramps']
 
 # (name, length in inches, listed step heights) from the wheelchair ramp guide
 RAMPS = [
-    ['FACHNUO 2FT', 24, '2 to 6 in', '/best-wheelchair-ramps/'],
-    ['VNN 3FT or VEVOR 3FT', 36, '3 to 9 in or 3 to 6 in', '/best-wheelchair-ramps/'],
-    ['VNN 6FT', 72, '6 to 18 in', '/best-wheelchair-ramps/'],
-    ['WHALEMOTOR 8FT', 96, '8 to 24 in', '/best-wheelchair-ramps/'],
+    ['FACHNUO 2FT', 24, '2 to 6 in', 'best-wheelchair-ramps/fachnuo-2ft-portable-ramp'],
+    ['VNN 3FT', 36, '3 to 9 in', 'best-wheelchair-ramps/vnn-3ft-portable-ramp'],
+    ['VEVOR 3FT', 36, '3 to 6 in', 'best-wheelchair-ramps/vevor-3ft-portable-ramp'],
+    ['VNN 6FT', 72, '6 to 18 in', 'best-wheelchair-ramps/vnn-6ft-portable-ramp'],
+    ['WHALEMOTOR 8FT', 96, '8 to 24 in', 'best-wheelchair-ramps/whalemotor-8ft-portable-ramp'],
 ]
 
 INTRO = '''<p>A ramp has to be long enough for the height of the step. The ADA Standards set the limit at a slope of 1:12, which means 12 inches of ramp for every 1 inch of rise. Enter your step height below and the calculator gives the length that slope needs, plus the portable ramps in our guide that are long enough.</p>'''
@@ -46,7 +48,7 @@ SCRIPT = 'var RAMPS = ' + json.dumps(RAMPS) + ''';
     if (rise > 30) msg += ' <strong>The ADA allows a rise of 30 in at most for one ramp run,</strong> so this step needs landings and more than one run.';
     if (rise > 6) msg += ' The ADA also asks for handrails on ramp runs with a rise over 6 in, and portable ramps do not have them.';
     var fit = RAMPS.filter(function (x) { return x[1] >= len; });
-    if (fit.length) { msg += '<br><strong>Long enough in our guide:</strong> ' + fit.map(function (x) { return x[0] + ' (' + x[1] + ' in, listed for ' + x[2] + ')'; }).join('; ') + '. <a href="/best-wheelchair-ramps/">See the ramp guide</a>.'; }
+    if (fit.length) { msg += '<br>' + renderPicks(fit.map(function (x) { return x[3]; }), 'Ramps in our guide that are long enough at 1:12:') + '<a href="/best-wheelchair-ramps/">See the full ramp guide</a>.'; }
     else { msg += '<br>None of the portable ramps in our guide is long enough. The longest, the 8 ft WHALEMOTOR (96 in), suits a rise up to 8 in at 1:12.'; }
     if (rise <= 3) msg += '<br>For an existing site with no room, the ADA allows steeper slopes only for small rises: up to 1:10 for 6 in or less, and up to 1:8 for 3 in or less.';
     out.innerHTML = msg;
