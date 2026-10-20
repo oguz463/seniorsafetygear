@@ -45,7 +45,7 @@ PHOTO_CREDIT = 'H&CO (Pexels)'
 CARDS_HEADING = 'Best Transport Wheelchairs'
 
 INTRO = '''<p>A transport wheelchair is a light folding chair with four small wheels that someone else pushes. It is made for short trips: from the car to an appointment, around a shop or through an airport. It differs from a standard wheelchair, whose large rear wheels let the rider propel it, and it folds smaller and weighs less. A chair for the long distances can save your energy for the short ones.</p>
-<p>The five picks below cost $105 to $173 and weigh from 15 to 26 pounds. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight, seat width, whether the pusher gets hand brakes and the weight limit. We found no federal guide to transport chairs, so the safety advice comes from the makers' own pages.</p>'''
+<p>The five picks below weigh from 15 to 26 pounds. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight, seat width, whether the pusher gets hand brakes and the weight limit. We found no federal guide to transport chairs, so the safety advice comes from the makers' own pages.</p>'''
 
 PRODUCTS = [
     {
@@ -58,7 +58,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is Amazon's number one attendant and transport wheelchair, with 12,879 reviews averaging 4.5 stars. Hand brakes let a caregiver control it on a slope or ramp, which the locks alone do not, and the larger rear wheels roll over thresholds more easily than 8-inch ones. The 19-inch seat is wider than the economy chair's 17 inches.</p>"),
-            ('What to know before you buy', "<p>At 26 pounds on the listing, it is the heaviest of the aluminum chairs here, and it costs about $159. We could not open Medline's own page, so every figure comes from the listing. A transport chair is pushed by someone else, so check that the pusher can lift 26 pounds into a car.</p>"),
+            ('What to know before you buy', "<p>At 26 pounds on the listing, it is the heaviest of the aluminum chairs here, and it costs more than the Drive chairs. We could not open Medline's own page, so every figure comes from the listing. A transport chair is pushed by someone else, so check that the pusher can lift 26 pounds into a car.</p>"),
         ],
         'best_for': 'A caregiver who pushes on ramps, slopes or rough pavement.',
         'skip_if': 'You lift it into a car often, or want the lightest chair.',
@@ -76,13 +76,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the lightest chair here whose weight comes from the maker, and Drive gives the seat height too, 18 inches from the floor. At 18.9 pounds with footrests it is easy to lift into a car. It has 2,614 reviews at 4.6 stars.</p>"),
-            ('What to know before you buy', "<p>It costs about $173, the most of the five. The sources disagree on the folded size: Drive's page says 33 by 9 by 28 inches, and the Amazon listing says 22 by 33 by 36. Drive's page lists no warranty. It has no hand brakes, only rear wheel locks, so the pusher cannot brake it from the handles.</p>"),
+            ('What to know before you buy', "<p>It is the most expensive of the five. The sources disagree on the folded size: Drive's page says 33 by 9 by 28 inches, and the Amazon listing says 22 by 33 by 36. Drive's page lists no warranty. It has no hand brakes, only rear wheel locks, so the pusher cannot brake it from the handles.</p>"),
         ],
         'best_for': 'Lifting into a car often, with maker-confirmed weight and size.',
         'skip_if': 'You want hand brakes on the handles or the lowest price.',
         'specs': {'Limit': '300 lb (Drive)', 'Weight': '16.2 lb, 18.9 lb with footrests (Drive)', 'Seat': '19 x 15.5 in, 18 in high (Drive)', 'Wheels': '8 in rear, 6 in front (Drive)', 'Folded': '33 x 9 x 28 in (Drive)', 'Model': 'DFL19-BLK'},
         'pros': ['16.2 lb without footrests, per Drive', 'Seat height stated by the maker'],
-        'cons': ['About $173', 'No hand brakes, no warranty listed'],
+        'cons': ['Most expensive', 'No hand brakes, no warranty listed'],
     },
     {
         'id': 'medline-ultra-lightweight-transport-chair', 'rank': 'Lightest listed', 'name': 'Medline Ultra Lightweight Transport Wheelchair', 'img': 'medline-ultra-lightweight-transport-chair.jpg',
@@ -93,7 +93,7 @@ PRODUCTS = [
             'It has desk-length armrests, swing-away footrests, rear-wheel locking brakes and a cup holder.',
         ],
         'sections': [
-            ('Why we picked it', "<p>At 15 pounds it is about 4 pounds lighter than the Fly-Lite with footrests, for about $26 less. It has 7,833 reviews at 4.6 stars and needs no assembly, and the listing says it folds to fit a car trunk.</p>"),
+            ('Why we picked it', "<p>At 15 pounds it is about 4 pounds lighter than the Fly-Lite with footrests, for less money. It has 7,833 reviews at 4.6 stars and needs no assembly, and the listing says it folds to fit a car trunk.</p>"),
             ('What to know before you buy', "<p>We could not open Medline's own page, so the 15-pound figure comes from the listing, and the maker's confirmed weight may differ. Desk-length armrests are shorter, which can make it easier to get close to a table or a seat, but give less support. It has rear-wheel locks and no hand brakes.</p>"),
         ],
         'best_for': 'A light chair that goes in a car trunk, at a mid-range price.',
@@ -111,13 +111,13 @@ PRODUCTS = [
             'It has tool-free height-adjustable footrests and a release hinge that folds the back down.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It sits between the economy chair and the lighter aluminum ones, at about $124, with a 19-inch seat and a 300-pound limit. The listing says the wheels are composite and need no maintenance, and it has 2,525 reviews at 4.5 stars.</p>"),
+            ('Why we picked it', "<p>It sits between the economy chair and the lighter aluminum ones in price, with a 19-inch seat and a 300-pound limit. The listing says the wheels are composite and need no maintenance, and it has 2,525 reviews at 4.5 stars.</p>"),
             ('What to know before you buy', "<p>The sources disagree on weight: the bullets say 19 pounds and the details table says 21, so plan on 21. We found no Drive page for this model, so every figure is from the Amazon listing. It folds to 33 by 22 by 39 inches, per the listing.</p>"),
         ],
         'best_for': 'An aluminum chair with a 19-inch seat at a mid price.',
         'skip_if': 'You want a maker page or hand brakes.',
         'specs': {'Limit': '300 lb (listing)', 'Weight': '19 lb (bullets), 21 lb (details)', 'Seat': '19 x 16 in (listing)', 'Wheels': '8 in composite', 'Folded': '33 x 22 x 39 in (listing)', 'Model': 'ATC19-BL'},
-        'pros': ['About $124', '19-inch seat, 300 lb'],
+        'pros': ['Mid price', '19-inch seat, 300 lb'],
         'cons': ['Weight differs between listing sections', 'Listing only'],
     },
     {
@@ -129,13 +129,13 @@ PRODUCTS = [
             'It folds to 23 by 9 by 30.5 inches without its footrests, has rear wheel locks and swing-away footrests, and carries a limited lifetime warranty.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It is the cheapest pick here at about $105 and the only one with a limited lifetime warranty on the maker's page. It has 10,741 reviews at 4.4 stars, and Drive's page gives the folded size and the seat height.</p>"),
+            ('Why we picked it', "<p>It is the cheapest pick here and the only one with a limited lifetime warranty on the maker's page. It has 10,741 reviews at 4.4 stars, and Drive's page gives the folded size and the seat height.</p>"),
             ('What to know before you buy', "<p>The seat is 17 inches wide, narrower than the others' 19, and the limit is 250 pounds, not 300. It has a steel frame at 26 pounds, about 10 pounds heavier than the lightest, and rear locks only. Check the seat width against the rider before you buy.</p>"),
         ],
         'best_for': 'An occasional-use chair at the lowest price.',
         'skip_if': 'The rider needs a 19-inch seat or weighs over 250 pounds.',
         'specs': {'Limit': '250 lb (Drive)', 'Weight': '26 lb (Drive)', 'Seat': '17 x 16 in, 19 in high (Drive)', 'Folded': '23 x 9 x 30.5 in without riggings (Drive)', 'Warranty': 'Limited lifetime (Drive)', 'Model': 'TR37E-SV'},
-        'pros': ['About $105', 'Maker page and lifetime warranty'],
+        'pros': ['Lowest price', 'Maker page and lifetime warranty'],
         'cons': ['17-inch seat, 250 lb limit', 'Heavy steel frame at 26 lb'],
     },
 ]
@@ -185,9 +185,9 @@ BODY = '''<h2>What the CDC Says and What We Could Not Find</h2>
 <p>Drive's page gives a folded size of 33 by 9 by 28 inches for the Fly-Lite with its riggings and 23 by 9 by 30.5 inches for the economy chair without footrests, and the Medline listings say their chairs fold to fit a car trunk. Measure your trunk opening and depth and compare, and remember that the footrests come off or swing away and need a place too.</p>
 
 <h2>Our Take</h2>
-<p>The Medline Transport Wheelchair with 12-inch wheels at $158.50 is the best pick for a caregiver. It is Amazon's number one transport chair with 12,879 reviews at 4.5, it has hand brakes on the handles, and the 12-inch rear wheels handle thresholds. It weighs 26 pounds, and we could not read Medline's own page.</p>
-<p>If you lift it into a car often, the Drive Fly-Lite at $172.76 is the lightest chair with maker-confirmed numbers, 16.2 pounds without footrests, and the Medline Ultra Lightweight at $146.97 is listed at 15 pounds for about $26 less. The Drive ATC19 at $123.86 sits in the middle, though its two weight figures disagree.</p>
-<p>For occasional use, the Drive economy chair at $104.99 is the cheapest and has a limited lifetime warranty, but it has a 17-inch seat, a 250-pound limit and a heavy steel frame.</p>
+<p>The Medline Transport Wheelchair with 12-inch wheels is the best pick for a caregiver. It is Amazon's number one transport chair with 12,879 reviews at 4.5, it has hand brakes on the handles, and the 12-inch rear wheels handle thresholds. It weighs 26 pounds, and we could not read Medline's own page.</p>
+<p>If you lift it into a car often, the Drive Fly-Lite is the lightest chair with maker-confirmed numbers, 16.2 pounds without footrests, and the Medline Ultra Lightweight is listed at 15 pounds for less money. The Drive ATC19 sits in the middle, though its two weight figures disagree.</p>
+<p>For occasional use, the Drive economy chair is the cheapest and has a limited lifetime warranty, but it has a 17-inch seat, a 250-pound limit and a heavy steel frame.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Medline Transport Wheelchair with 12-inch wheels is the best all-round transport chair, the Drive Fly-Lite the best for a light, maker-confirmed lift and the Drive economy chair the budget pick. Check the weight limit and seat width against the rider, lock the rear wheels before any transfer and read the manual for your chair. See also our guides to <a href="/best-rollators/">rollators</a> and <a href="/best-canes/">canes</a>.</p>'''

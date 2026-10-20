@@ -43,7 +43,7 @@ PHOTO_CREDIT = 'Muhammed Hanefi (Pexels)'
 CARDS_HEADING = 'Best Walking Canes'
 
 INTRO = '''<p>A cane takes some of your weight off a sore hip, knee or ankle and gives you a third point of contact with the ground. It is the lightest mobility aid. OrthoInfo gives a simple rule for setting a cane to the right height.</p>
-<p>The five picks below cost $15 to $37 and include a plain offset cane, a quad-base cane, and folding canes that stand on their own. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by height range, weight limit and base, then fit it using the OrthoInfo wrist rule below.</p>'''
+<p>The five picks below include a plain offset cane, a quad-base cane, and folding canes that stand on their own. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by height range, weight limit and base, then fit it using the OrthoInfo wrist rule below.</p>'''
 
 PRODUCTS = [
     {
@@ -56,13 +56,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the only cane here with a maker page that states a tested weight, 350 pounds, a height range and a warranty, a limited lifetime one. It folds to about a third of its length for a bag or a car seat, and 26,168 reviews average 4.6 stars.</p>"),
-            ('What to know before you buy', "<p>At $37 it costs about twice as much as the plain canes. Drive's page lists no base size, weight or folded length, so those come from the Amazon listing. The Amazon seller is a third party, Deep Roots Grow Tall. It has a straight T handle and not an offset one, which some people find harder on the wrist.</p>"),
+            ('What to know before you buy', "<p>It costs about twice as much as the plain canes. Drive's page lists no base size, weight or folded length, so those come from the Amazon listing. The Amazon seller is a third party, Deep Roots Grow Tall. It has a straight T handle and not an offset one, which some people find harder on the wrist.</p>"),
         ],
         'best_for': 'Someone who wants a folding cane with a stated 350-pound test.',
         'skip_if': 'You prefer an offset handle or a lower price.',
         'specs': {'Limit': '350 lb tested (Drive)', 'Height': '30.5 to 37.5 in, 8 settings (Drive)', 'Base': '4.25 in, pivoting (listing)', 'Folded': '13.7 in (listing)', 'Warranty': 'Limited lifetime (Drive)', 'Sold by': 'Deep Roots Grow Tall'},
         'pros': ['350 lb tested, on the maker page', 'Folds to about a third'],
-        'cons': ['About $37', 'Third-party Amazon seller'],
+        'cons': ['Costs about twice the plain canes', 'Third-party Amazon seller'],
     },
     {
         'id': 'kinggear-self-standing-quad-cane', 'rank': 'Best quad base', 'name': 'KINGGEAR Self-Standing Quad Cane', 'img': 'kinggear-self-standing-quad-cane.jpg',
@@ -73,13 +73,13 @@ PRODUCTS = [
             'Its height adjusts from 31 to 36 inches in 1-inch steps with a push-button lock, and the handle is offset with EVA foam.',
         ],
         'sections': [
-            ('Why we picked it', "<p>A quad base puts four points on the ground, so the cane stays upright when you let go of it. At $19.34 it is the cheapest self-standing cane here, with 17,106 reviews at 4.6 stars. The listing gives a lifetime guarantee and says the foam handle is padded for sore hands.</p>"),
+            ('Why we picked it', "<p>A quad base puts four points on the ground, so the cane stays upright when you let go of it. It is the cheapest self-standing cane here, with 17,106 reviews at 4.6 stars. The listing gives a lifetime guarantee and says the foam handle is padded for sore hands.</p>"),
             ('What to know before you buy', "<p>The height range is 31 to 36 inches, narrower than most, so check it against your wrist crease. We found no maker page, so every figure is from the listing. A wide base is bulky on stairs, so follow OrthoInfo's stair steps and use the handrail.</p>"),
         ],
         'best_for': 'A cane that stands up by itself at a low price.',
         'skip_if': 'You are taller than the listing range or want a slim tip.',
         'specs': {'Limit': '300 lb (listing)', 'Height': '31 to 36 in, 1 in steps', 'Base': '4.3 in four-tipped (listing)', 'Weight': '1.1 lb (listing)', 'Handle': 'Offset, EVA foam', 'Sold by': 'KingGear'},
-        'pros': ['Stands on its own', 'About $19 with 17,106 reviews'],
+        'pros': ['Stands on its own', 'Low price, 17,106 reviews'],
         'cons': ['Narrow 31 to 36 inch range', 'Listing only, no maker page'],
     },
     {
@@ -105,17 +105,17 @@ PRODUCTS = [
         'alt': 'black aluminum walking cane with a curved offset foam handle and a wrist strap', 'price': '$14.99',
         'q': 'Medline aluminum offset walking cane',
         'text': [
-            'The Medline is the cheapest cane here at about $15. The listing says it adjusts from 29 to 38 inches, supports 300 pounds and weighs under a pound.',
+            'The Medline is the cheapest cane here. The listing says it adjusts from 29 to 38 inches, supports 300 pounds and weighs under a pound.',
             'It has a foam handle with a wrist strap and a rubber pad at the bottom for slippery surfaces.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It has a 300-pound rating for $15, which is the best ratio of limit to price. The listing says it has a curved handle for better stability, and 4,219 reviews average 4.7 stars. It starts a little lower than the others, at 29 inches, which suits a shorter user.</p>"),
+            ('Why we picked it', "<p>It has a 300-pound rating at the lowest price here, which is the best ratio of limit to price. The listing says it has a curved handle for better stability, and 4,219 reviews average 4.7 stars. It starts a little lower than the others, at 29 inches, which suits a shorter user.</p>"),
             ('What to know before you buy', "<p>We could not open Medline's own page, so these figures come from the Amazon listing. It does not fold and has a single tip, so it will not stand on its own. The listing calls it a walking aid for minimal support, so it is not for someone who needs a wider base.</p>"),
         ],
         'best_for': 'A shorter user who wants a cane for the lowest price.',
         'skip_if': 'You need a quad base or a folding cane.',
         'specs': {'Limit': '300 lb (listing)', 'Height': '29 to 38 in (listing)', 'Weight': 'Under 1 lb (listing)', 'Handle': 'Offset foam, wrist strap', 'Folds': 'No', 'Sold by': 'Amazon'},
-        'pros': ['About $15', '300 lb limit'],
+        'pros': ['Lowest price', '300 lb limit'],
         'cons': ['Single tip, does not stand', 'Listing only, no maker page'],
     },
     {
@@ -128,7 +128,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It has the most reviews of any cane here, 31,230 at 4.5 stars, and a pivoting base that the listing says keeps full contact on angled surfaces. It stands on its own and folds for a bag.</p>"),
-            ('What to know before you buy', "<p>The listing text we read gives no weight limit, so find it on the product page before you buy. It is sold by Sugar fox LLC, a third-party seller, and we found no maker page. It costs about $30, and the height range stops at 36 inches.</p>"),
+            ('What to know before you buy', "<p>The listing text we read gives no weight limit, so find it on the product page before you buy. It is sold by Sugar fox LLC, a third-party seller, and we found no maker page. It costs less than the HurryCane, and the height range stops at 36 inches.</p>"),
         ],
         'best_for': 'A folding cane that stands on its own, if the weight limit suits you.',
         'skip_if': 'You need a stated weight limit or a range above 36 inches.',
@@ -182,9 +182,9 @@ BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 <p>A cane takes some weight off one side. If you need support on both sides, tire after a short distance or feel unsteady even with the cane, ask a doctor or physical therapist whether a walker or rollator would suit you better. A rollator adds a seat and brakes, and a standard walker gives a wider base. See our rollator guide and the article on choosing between a cane, walker and rollator.</p>
 
 <h2>Our Take</h2>
-<p>The HurryCane Freedom Edition at $37.04 is the best pick if you want a maker-backed folding cane. Drive says it is tested to 350 pounds and gives the height range and a limited lifetime warranty, and 26,168 reviews average 4.6 stars. It costs about twice as much as the plain canes, and the Amazon seller is a third party.</p>
-<p>For a cane that stands on its own at a low price, the KINGGEAR quad at $19.34 is the one to buy, with a 300-pound rating on its listing and 17,106 reviews at 4.6. For a plain cane, the DMI at $19.99 is the lightest and goes up to 39 inches, and the Medline at $14.99 is the cheapest, with a 300-pound rating.</p>
-<p>The HONEYBULL at $29.99 has the most reviews of any folding cane here, but find its weight limit first, because the listing text we read gives none.</p>
+<p>The HurryCane Freedom Edition is the best pick if you want a maker-backed folding cane. Drive says it is tested to 350 pounds and gives the height range and a limited lifetime warranty, and 26,168 reviews average 4.6 stars. It costs about twice as much as the plain canes, and the Amazon seller is a third party.</p>
+<p>For a cane that stands on its own at a low price, the KINGGEAR quad is the one to buy, with a 300-pound rating on its listing and 17,106 reviews at 4.6. For a plain cane, the DMI is the lightest and goes up to 39 inches, and the Medline is the cheapest, with a 300-pound rating.</p>
+<p>The HONEYBULL has the most reviews of any folding cane here, but find its weight limit first, because the listing text we read gives none.</p>
 
 <h2>The Bottom Line</h2>
 <p>The HurryCane Freedom Edition is the best all-round cane, the KINGGEAR the best quad base, and the DMI and Medline the best plain canes. Whichever you choose, set the height to your wrist crease, hold it in the hand opposite the sore side and use the handrail on stairs, as OrthoInfo advises. See also our guides to <a href="/best-rollators/">rollators</a> and <a href="/best-shower-chairs/">shower chairs</a>.</p>'''

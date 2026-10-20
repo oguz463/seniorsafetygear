@@ -45,7 +45,7 @@ PHOTO_CREDIT = 'Charlotte May (Pexels)'
 CARDS_HEADING = 'Best Bed Assist Rails'
 
 INTRO = '''<p>A bed assist rail is a handle that sits beside the mattress so you can push up to sit, stand or roll. Some are short bars, and some are longer guards that also stop you rolling out. They are sold as "bed rails for the elderly", but they have a hazard that most mobility aids do not: a gap between the rail and the mattress can trap a body part. That is why the CPSC makes it a mandatory safety standard.</p>
-<p>The five picks below cost $40 to $150. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page or the standard's text, so every figure and every safety claim comes from the Amazon listing, and we say so. Choose a rail that names the standard it was tested to, and read the label on the one you receive.</p>'''
+<p>The five picks below run from short low-cost handles to a longer rail that folds down. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page or the standard's text, so every figure and every safety claim comes from the Amazon listing, and we say so. Choose a rail that names the standard it was tested to, and read the label on the one you receive.</p>'''
 
 PRODUCTS = [
     {
@@ -58,13 +58,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the only listing that says it passed the standard CPSC made mandatory, and it is sold and shipped by Amazon. The rail pivots out of the way for bed making and transfers, and has a strap to hold it to the bed. It has 7,824 reviews at 4.6 stars.</p>"),
-            ('What to know before you buy', "<p>It costs about $150, and weighs 15 pounds. The standards claim is the seller's, and we could not read the test report, so check the label for the maker's compliance statement. The listing says it is not for adjustable or hospital beds. CPSC's standard applies to rails made after August 21, 2023, so check the date on the label.</p>"),
+            ('What to know before you buy', "<p>It is the most expensive of the five and weighs 15 pounds. The standards claim is the seller's, and we could not read the test report, so check the label for the maker's compliance statement. The listing says it is not for adjustable or hospital beds. CPSC's standard applies to rails made after August 21, 2023, so check the date on the label.</p>"),
         ],
         'best_for': 'Someone who wants a longer rail that folds down and names the CPSC standard.',
         'skip_if': 'You have an adjustable bed, or want a short low-cost handle.',
         'specs': {'Length': '26 to 38.5 in (listing)', 'Limit': '300 lb (listing)', 'Mattress': '8 to 12 in thick', 'Standard': 'ASTM F3186-17 (listing claim)', 'Weight': '15 lb (listing)', 'Sold by': 'Amazon'},
         'pros': ['Names ASTM F3186-17', 'Pivots down 180 degrees'],
-        'cons': ['About $150, 15 lb', 'Standards claim is the seller\'s'],
+        'cons': ['Most expensive, 15 lb', 'Standards claim is the seller\'s'],
     },
     {
         'id': 'medline-adjustable-bed-assist-bar', 'rank': 'Most reviewed', 'name': 'Medline Adjustable Bed Assist Bar', 'img': 'medline-adjustable-bed-assist-bar.jpg',
@@ -75,13 +75,13 @@ PRODUCTS = [
             'It weighs 6.4 pounds and has a nylon bag for storage.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It has by far the most reviews, 15,543 at 4.6 stars, and is sold by Amazon at under $46. Multiple hand positions let you pull up in stages, and it folds to carry.</p>"),
+            ('Why we picked it', "<p>It has by far the most reviews, 15,543 at 4.6 stars, and is sold by Amazon at a low price. Multiple hand positions let you pull up in stages, and it folds to carry.</p>"),
             ('What to know before you buy', "<p>The listing does not say what standard it meets, and the model has been on sale since 2011, before the CPSC rule took effect for products made after August 21, 2023. Ask Medline whether the one you are buying was made to F3186 and check its label. The listing gives no weight limit in the text we read.</p>"),
         ],
         'best_for': 'A well-reviewed short handle at a low price.',
         'skip_if': 'You want a stated standard and weight limit.',
         'specs': {'Size': '27.5 x 14 x 43.75 in (listing)', 'Weight': '6.4 lb (listing)', 'Handle': 'Foam, multiple hand positions', 'Fit': 'Most beds, queen and king', 'Standard': 'Not named in the listing', 'Model': 'BA6800'},
-        'pros': ['15,543 reviews at 4.6', 'Folds, about $46'],
+        'pros': ['15,543 reviews at 4.6', 'Folds, low price'],
         'cons': ['No standard or weight limit in the listing text', 'Listed since 2011'],
     },
     {
@@ -94,7 +94,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>The CDC's home checklist suggests a nightlight on the path from the bed to the bathroom, and this rail has one built in, with a rechargeable battery the listing says lasts weeks. It has 2,895 reviews at 4.7 stars.</p>"),
-            ('What to know before you buy', "<p>The listing says 300 pounds was tested but does not name a standard, so check the label. It is not for adjustable beds. It costs $60, and the seller, Lunderg, makes the claims on the listing, which we could not verify.</p>"),
+            ('What to know before you buy', "<p>The listing says 300 pounds was tested but does not name a standard, so check the label. It is not for adjustable beds. It costs more than the other handles, and the seller, Lunderg, makes the claims on the listing, which we could not verify.</p>"),
         ],
         'best_for': 'A rail with a light for night trips to the bathroom.',
         'skip_if': 'You have an adjustable bed or want a named standard.',
@@ -111,13 +111,13 @@ PRODUCTS = [
             'It says the rail is tested to U.S. ASTM safety standards and fits mattresses 3 to 12 inches thick.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It has the highest weight limit here, 380 pounds, and the listing says it is tested to U.S. ASTM standards, at about $40. It weighs 5.5 pounds, and has 2,566 reviews at 4.6 stars. It fits a wide range of mattress thicknesses.</p>"),
+            ('Why we picked it', "<p>It has the highest weight limit here, 380 pounds, and the listing says it is tested to U.S. ASTM standards, at a low price. It weighs 5.5 pounds, and has 2,566 reviews at 4.6 stars. It fits a wide range of mattress thicknesses.</p>"),
             ('What to know before you buy', "<p>The listing says ASTM without naming F3186, so it is not clear it is the bed rail standard. The listing says it is not for adjustable beds. A wider mattress range can leave a gap between the rail and the mattress, so check the fit once it is installed.</p>"),
         ],
         'best_for': 'A heavier user who wants a low-cost rail that claims ASTM testing.',
         'skip_if': 'You need the exact standard named or have an adjustable bed.',
         'specs': {'Limit': '380 lb (listing)', 'Height': '17.6 to 20.9 in', 'Horizontal': '28.6 to 34.7 in', 'Mattress': '3 to 12 in', 'Weight': '5.5 lb (listing)', 'Sold by': 'KingPavonini'},
-        'pros': ['380 lb listed, about $40', 'Claims ASTM testing'],
+        'pros': ['380 lb listed, low price', 'Claims ASTM testing'],
         'cons': ['ASTM claim does not name F3186', 'Listing only'],
     },
     {
@@ -129,13 +129,13 @@ PRODUCTS = [
             'It weighs 6 pounds, and the listing says it meets all USA safety requirements without naming a standard.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It has 9,603 reviews at 4.4 stars for $40, and the height adjusts without tools. It can go on either side of the bed.</p>"),
+            ('Why we picked it', "<p>It has 9,603 reviews at 4.4 stars at a low price, and the height adjusts without tools. It can go on either side of the bed.</p>"),
             ('What to know before you buy', "<p>The listing says it meets all USA safety requirements, which is a broad claim that names no rule, and it gives no weight limit. We would ask the seller, Zaxbo, which standard it was tested to and for the test report before relying on it. It has the lowest rating of the five.</p>"),
         ],
         'best_for': 'A low-cost handle, if the seller can show a compliance statement.',
         'skip_if': 'You want a named standard or a stated weight limit.',
         'specs': {'Fit': 'Any mattress thickness, any size (listing)', 'Weight': '6 lb (listing)', 'Handle': 'Non-slip bar', 'Standard': '"Meets all USA safety requirements" (listing)', 'Limit': 'Not in the listing text', 'Sold by': 'Zaxbo'},
-        'pros': ['9,603 reviews, about $40', 'Tool-free height adjustment'],
+        'pros': ['9,603 reviews, low price', 'Tool-free height adjustment'],
         'cons': ['No named standard or weight limit', 'Lowest rating, 4.4'],
     },
 ]
@@ -184,9 +184,9 @@ BODY = '''<h2>The CPSC Rule for Adult Bed Rails</h2>
 <p>Yes. CPSC's page links to saferproducts.gov, where you can report a product you think is unsafe. Keep the rail's label, which should show the maker, the model and a date of manufacture, and your Amazon order, so you can give the details. Makers and importers of rails made after August 21, 2023 must also issue a General Certificate of Compliance, which you can ask the seller for.</p>
 
 <h2>Our Take</h2>
-<p>The Stander Wonder Pivot at $149.99 is the best pick for anyone who wants a named standard. Its listing says it passed ASTM F3186-17, it pivots down, and 7,824 reviews average 4.6 stars. We could not read the test report, so check the label for the maker's statement.</p>
-<p>If you only need a handle, the Medline at $45.74 has the most reviews, 15,543, but its listing names no standard and the model has been sold since 2011. The Lunderg at $59.95 adds a motion light that fits the CDC's nightlight advice, and the KingPavonini at $39.99 lists the highest limit, 380 pounds, and says it was tested to ASTM standards without naming F3186.</p>
-<p>The Medical King at $39.99 has many reviews and the broadest claim, "meets all USA safety requirements", which names no rule. Ask the seller for its compliance certificate before you use it.</p>
+<p>The Stander Wonder Pivot is the best pick for anyone who wants a named standard. Its listing says it passed ASTM F3186-17, it pivots down, and 7,824 reviews average 4.6 stars. We could not read the test report, so check the label for the maker's statement.</p>
+<p>If you only need a handle, the Medline has the most reviews, 15,543, but its listing names no standard and the model has been sold since 2011. The Lunderg adds a motion light that fits the CDC's nightlight advice, and the KingPavonini lists the highest limit, 380 pounds, and says it was tested to ASTM standards without naming F3186.</p>
+<p>The Medical King has many reviews and the broadest claim, "meets all USA safety requirements", which names no rule. Ask the seller for its compliance certificate before you use it.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Stander Wonder Pivot is the best all-round bed rail and the only one here whose listing names ASTM F3186-17. For a short handle, the Medline is the most reviewed and the Lunderg adds a night light. Check the label for the maker's compliance statement and a manufacture date after August 21, 2023, check the gap to the mattress, and never use one on an adjustable bed unless the maker says it is allowed. See also our guides to <a href="/best-bedside-commodes/">bedside commodes</a> and <a href="/best-grab-bars/">grab bars</a>.</p>'''

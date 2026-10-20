@@ -42,7 +42,7 @@ PHOTO_CREDIT = 'Eugene Lee (Pexels)'
 CARDS_HEADING = 'Best Wheelchair Ramps'
 
 INTRO = '''<p>A portable ramp covers a step, a threshold or a curb so a wheelchair, scooter or walker can roll over it. The right one is decided by arithmetic, not by brand: the ramp has to be long enough for the height of the step. The ADA Standards set the limit at 1:12, which means 12 inches of ramp for every inch of rise.</p>
-<p>The five picks below cost $74 to $350 and run from 2 to 8 feet. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing. Measure the rise first, then pick the length, because the listings say their ramps work at steeper slopes than the ADA's rule allows.</p>'''
+<p>The five picks below run from 2 to 8 feet. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing. Measure the rise first, then pick the length, because the listings say their ramps work at steeper slopes than the ADA's rule allows.</p>'''
 
 PRODUCTS = [
     {
@@ -86,17 +86,17 @@ PRODUCTS = [
         'alt': 'folding aluminum wheelchair ramp with a black non-slip surface, side baffles and a yellow warning strip', 'price': '$73.63',
         'q': 'VEVOR 3FT portable wheelchair ramp smooth door access 800 LBS',
         'text': [
-            'The VEVOR 3-foot ramp is the cheapest here at about $74. The listing gives 36 by 29.3 by 2.4 inches open, 36 by 14.65 by 3.35 folded, 18.1 pounds and an 800-pound load.',
+            'The VEVOR 3-foot ramp is the cheapest here. The listing gives 36 by 29.3 by 2.4 inches open, 36 by 14.65 by 3.35 folded, 18.1 pounds and an 800-pound load.',
             'It says the ramp is for 3 to 6 inch doors and curbs and has raised side baffles and reflective strips.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It costs $42 less than the VNN 3-foot ramp for nearly the same size and weight, and the listing says it has transition plates that let the ramp meet the ground and the step. Amazon sells and ships it.</p>"),
+            ('Why we picked it', "<p>It costs much less than the VNN 3-foot ramp for nearly the same size and weight, and the listing says it has transition plates that let the ramp meet the ground and the step. Amazon sells and ships it.</p>"),
             ('What to know before you buy', "<p>It has only 129 reviews at 4.1 stars, the lowest rating of the five, and the listing's 3 to 6 inch range is steeper than 1:12 above 3 inches. The listing says a slight sinking and rebound is normal. All the figures come from the listing.</p>"),
         ],
         'best_for': 'A 3-inch step on a tight budget.',
         'skip_if': 'You want a larger body of reviews or a higher rating.',
         'specs': {'Length': '36 in', 'Width': '29.3 in', 'Step heights': '3 to 6 in (listing)', 'Load': '800 lb (listing)', 'Weight': '18.1 lb (listing)', 'Sold by': 'Amazon'},
-        'pros': ['About $74', 'Sold and shipped by Amazon'],
+        'pros': ['Lowest price', 'Sold and shipped by Amazon'],
         'cons': ['129 reviews at 4.1', 'Listing only'],
     },
     {
@@ -127,13 +127,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>At 96 inches it suits an 8-inch rise at 1:12, the longest run here, so it gives the gentlest slope for a high step or a car threshold. It has 910 reviews at 4.4 stars, and the listing says it is anti-slip with a jagged texture.</p>"),
-            ('What to know before you buy', "<p>The listing disagrees with itself on capacity, 800 pounds in the title and 606 in the bullets, so plan on 606. It weighs 49 pounds, costs $350 and the listing says the center hump can flatten under a heavy load. The 24-inch top of its stated range would be a 1:4 slope.</p>"),
+            ('What to know before you buy', "<p>The listing disagrees with itself on capacity, 800 pounds in the title and 606 in the bullets, so plan on 606. It weighs 49 pounds, is the most expensive of the five and the listing says the center hump can flatten under a heavy load. The 24-inch top of its stated range would be a 1:4 slope.</p>"),
         ],
         'best_for': 'An 8-inch step where you want the gentlest slope.',
         'skip_if': 'You need to carry it, or need a confirmed load rating.',
         'specs': {'Length': '96 in', 'Step heights': '8 to 24 in (listing)', 'Load': '800 lb (title), 606 lb (bullets)', 'Weight': '49 lb (listing)', 'Extras': 'Transition plates, anti-slip mat', 'Sold by': 'WHALEMOTOR'},
         'pros': ['Right length for an 8-inch rise at 1:12', '910 reviews at 4.4'],
-        'cons': ['Listing disagrees on load', '49 lb and $350'],
+        'cons': ['Listing disagrees on load', '49 lb and the highest price'],
     },
 ]
 
@@ -183,8 +183,8 @@ BODY = '''<h2>The 1:12 Rule from the ADA Standards</h2>
 <p>The FACHNUO, VNN and VEVOR listings say a long portable ramp may sink slightly under load and rebound, and the WHALEMOTOR listing says the hump in the center can flatten under a heavy load. This is the hinge and the aluminum flexing, and the listings call it normal. A ramp that bends sharply, rocks or has a gap at the hinge is not normal, so stop using it and contact the seller.</p>
 
 <h2>Our Take</h2>
-<p>The VNN 3-foot ramp at $115.99 is the best pick for the most common case, a 3-inch step, with 2,231 reviews averaging 4.4 stars. The FACHNUO 2-foot ramp at $86.98 is the choice for a 2-inch threshold and a light carry, and the VEVOR at $73.63 is the cheapest 3-foot option, with a lower rating from far fewer reviews.</p>
-<p>For a 6-inch porch step, the VNN 6-foot ramp at $249.99 gives the right length for 1:12, at 35.5 pounds. For an 8-inch step, the WHALEMOTOR 8-foot at $349.99 does, but its listing disagrees on capacity, so plan on 606 pounds.</p>
+<p>The VNN 3-foot ramp is the best pick for the most common case, a 3-inch step, with 2,231 reviews averaging 4.4 stars. The FACHNUO 2-foot ramp is the choice for a 2-inch threshold and a light carry, and the VEVOR is the cheapest 3-foot option, with a lower rating from far fewer reviews.</p>
+<p>For a 6-inch porch step, the VNN 6-foot ramp gives the right length for 1:12, at 35.5 pounds. For an 8-inch step, the WHALEMOTOR 8-foot does, but its listing disagrees on capacity, so plan on 606 pounds.</p>
 <p>Whichever you choose, measure first and match the length to the rise, and do not rely on the highest step height the listing claims.</p>
 
 <h2>The Bottom Line</h2>

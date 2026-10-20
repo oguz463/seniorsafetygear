@@ -247,8 +247,8 @@ def compare_table(g):
         return ''
     # Amazon ratings stay in each guide's research notes, not on the page.
     keep = [i for i, col in enumerate(c['cols']) if col != 'Rating']
-    head = ''.join(f'<th>{e(x)}</th>' for x in ['Pick', 'Price'] + [c['cols'][i] for i in keep])
-    rows = ''.join(f'<tr><th><a href="#{p["id"]}">{e(title_case(p["name"]))}</a></th><td>{e(p["price"])}</td>'
+    head = ''.join(f'<th>{e(x)}</th>' for x in ['Pick'] + [c['cols'][i] for i in keep])
+    rows = ''.join(f'<tr><th><a href="#{p["id"]}">{e(title_case(p["name"]))}</a></th>'
                    + ''.join(f'<td>{e(c["rows"][p["id"]][i])}</td>' for i in keep) + '</tr>' for p in g.PRODUCTS)
     return (f'<h2 id="compare">Compare the {len(g.PRODUCTS)} picks</h2><div class="scroll"><table class="compare"><thead><tr>{head}</tr></thead>'
             f'<tbody>{rows}</tbody></table></div>')
@@ -256,11 +256,11 @@ def compare_table(g):
 
 def guide_body(g):
     picks = ''.join(f'<tr><td>{e(p["rank"])}</td><td><a href="#{p["id"]}">{e(title_case(p["name"]))}</a></td>'
-                    f'<td><a href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank">{e(p["price"])}</a></td></tr>'
+                    f'<td><a href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price</a></td></tr>'
                     for p in g.PRODUCTS)
     cards = []
     for i, p in enumerate(g.PRODUCTS, 1):
-        specs = ''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in [('Price', p['price'])] + list(p['specs'].items()))
+        specs = ''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in list(p['specs'].items()))
         pros = ''.join(f'<li>{e(x)}</li>' for x in p['pros'])
         cons = ''.join(f'<li>{e(x)}</li>' for x in p['cons'])
         text = ''.join(f'<p>{x}</p>' for x in p['text'])
@@ -300,7 +300,7 @@ def guide_body(g):
     {hero(g.PHOTO, g.PHOTO_ALT)}
 {g.INTRO}
 {verdict}
-<table class="picks"><thead><tr><th>Best for</th><th>Pick</th><th>Price</th></tr></thead><tbody>{picks}</tbody></table>
+<table class="picks"><thead><tr><th>Best for</th><th>Pick</th><th>Amazon</th></tr></thead><tbody>{picks}</tbody></table>
 <h2 id="picks">{e(g.CARDS_HEADING)}</h2>
 {''.join(cards)}
 {compare_table(g)}
@@ -386,7 +386,7 @@ def with_ids(body):
 
 PICKS_JS = """function renderPicks(keys, head) {
   var cards = keys.map(function (k) { return PICKS[k]; }).filter(Boolean).map(function (p) {
-    return '<div class="pick"><img src="/img/' + p.img + '" alt="' + p.alt + '" width="400" height="400" loading="lazy"><em>' + p.rank + '</em><strong>' + p.name + '</strong><span>' + p.price + '</span>'
+    return '<div class="pick"><img src="/img/' + p.img + '" alt="' + p.alt + '" width="400" height="400" loading="lazy"><em>' + p.rank + '</em><strong>' + p.name + '</strong>'
       + '<a class="btn" href="' + p.url + '" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a><a class="rev" href="/' + p.guide + '/#' + p.id + '">Read our notes</a></div>';
   });
   return cards.length ? '<span class="picks-head">' + head + '</span><div class="picks-grid">' + cards.join('') + '</div><p class="small">""" + html.escape(site.DISCLOSURE) + """</p>' : '';

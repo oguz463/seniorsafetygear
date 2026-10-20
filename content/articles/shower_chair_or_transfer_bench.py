@@ -56,7 +56,7 @@ BODY = '''<p>Both a shower chair and a tub transfer bench give you somewhere to 
 <p>MedlinePlus recommends two grab bars fixed to the wall, and says towel racks can't support your weight. A seat gives you somewhere to sit, and a grab bar gives you something to hold as you get in, out and up. See our <a href="/best-grab-bars/">grab bar guide</a>.</p>
 
 <h2>What They Cost in Our Guide</h2>
-<p>The three chairs and stools in our guide cost about $30 to $44, and the Drive transfer bench costs about $52 on Amazon. The bench costs more because it is larger, with a seat 26 inches wide against 16 to 19 inches for the chairs, and because it has four legs and a back and side handle to adjust. Price should not decide this: if you cannot step over the tub wall safely, a cheaper chair does not solve the problem.</p>
+<p>The three chairs and stools in our guide cost less than the Drive transfer bench. The bench costs more because it is larger, with a seat 26 inches wide against 16 to 19 inches for the chairs, and because it has four legs and a back and side handle to adjust. Price should not decide this: if you cannot step over the tub wall safely, a cheaper chair does not solve the problem.</p>
 
 <h2>Setting Up Either One</h2>
 <ul>

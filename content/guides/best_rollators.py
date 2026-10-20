@@ -47,7 +47,7 @@ PHOTO_CREDIT = 'Usame Dzinovic (Pexels)'
 CARDS_HEADING = 'Best Rollator Walkers'
 
 INTRO = '''<p>A rollator is a walker with wheels, hand brakes and a seat. You push it instead of lifting it, and you can sit on the seat when you tire. It suits someone who can walk but needs something to hold, and it is the biggest search in this niche for a reason: it keeps you moving and gives you somewhere to rest. OrthoInfo's wrist crease rule is the place to start when you fit one.</p>
-<p>The five picks below cost $53 to $80 and range from a 13-pound aluminum frame to one with 8-inch wheels for rough ground. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight limit, wheel size, how much the frame weighs and whether the handles reach the right height for you.</p>'''
+<p>The five picks below range from a 13-pound aluminum frame to one with 8-inch wheels for rough ground. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight limit, wheel size, how much the frame weighs and whether the handles reach the right height for you.</p>'''
 
 PRODUCTS = [
     {
@@ -59,7 +59,7 @@ PRODUCTS = [
             'It has 7.5-inch casters and a hand brake that you press to slow and push down to lock, and Drive gives it a limited lifetime warranty.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It has the most reviews of any rollator on Amazon, 51,609 at 4.6 stars, it is rated for 350 pounds, and Drive's own page gives the numbers you need to check fit: seat height, handle range, seat size and weight. At 18.5 pounds and $53 it costs less than most rollators with a back.</p>"),
+            ('Why we picked it', "<p>It has the most reviews of any rollator on Amazon, 51,609 at 4.6 stars, it is rated for 350 pounds, and Drive's own page gives the numbers you need to check fit: seat height, handle range, seat size and weight. At 18.5 pounds it costs less than most rollators with a back.</p>"),
             ('What to know before you buy', "<p>The 12-by-12-inch seat is small, and the 30 to 34 inch handle range suits a shorter to average user, so check it against the OrthoInfo wrist rule below. Drive's page gives no folded width. The 7.5-inch wheels are bigger than the 6-inch ones on the Medline but smaller than the 8-inch wheels on the VOCIC.</p>"),
         ],
         'best_for': 'Most people who want a proven, plain rollator at a low price.',
@@ -96,7 +96,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It has a back as well as a seat, 25,189 reviews at 4.5 stars, and a 350-pound rating at 16.5 pounds, lighter than the steel Drive. The handle range reaches 35 inches, an inch more than the Drive's.</p>"),
-            ('What to know before you buy', "<p>We could not open Medline's own page, so every figure here comes from the listing. The seat is the same small 12 inches, and the 6-inch wheels are the smallest of the five, the same as the aluminum Drive. It costs about $14 more than the Drive with 7.5-inch wheels.</p>"),
+            ('What to know before you buy', "<p>We could not open Medline's own page, so every figure here comes from the listing. The seat is the same small 12 inches, and the 6-inch wheels are the smallest of the five, the same as the aluminum Drive. It costs more than the Drive with 7.5-inch wheels.</p>"),
         ],
         'best_for': 'A steel rollator with a backrest and a 350-pound rating.',
         'skip_if': 'You want bigger wheels or a wide seat.',
@@ -132,7 +132,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It has the widest seat and the tallest handle range of the five, so it fits taller users and larger frames. The loop brakes need less grip than a lever, which the listing says suits arthritic hands. It weighs 20.4 pounds on the listing.</p>"),
-            ('What to know before you buy', "<p>The listing text we read gives no weight limit, so find it on the product page before you order. It is sold by a third-party seller, CoreLinki, and we found no maker page. It costs about $80, the most of the five.</p>"),
+            ('What to know before you buy', "<p>The listing text we read gives no weight limit, so find it on the product page before you order. It is sold by a third-party seller, CoreLinki, and we found no maker page. It is the most expensive of the five.</p>"),
         ],
         'best_for': 'A taller user who wants a wide seat and a high handle range.',
         'skip_if': 'You need a confirmed weight limit before you buy.',
@@ -186,9 +186,9 @@ BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 <p>Drive says its brake is pressed to slow the rollator and pushed down to lock it in place. The Medline listing says to push the handles up to brake and down to lock, and the HOMLAND listing describes loop brakes with three modes: free, deceleration and stop. Lock the brakes every time you sit or stand, and check them before you go out.</p>
 
 <h2>Our Take</h2>
-<p>The Drive Medical Rollator with 7.5-inch wheels at $53.32 is the best pick for most people. It is rated for 350 pounds, Drive's page gives its seat height, handle range and weight, and 51,609 reviews average 4.6 stars. It suits an average-height user, and its 12-inch seat is small.</p>
-<p>If weight is the problem, the Drive Aluminum at $74.87 is about 5 pounds lighter at 13 pounds, with taller handles up to 37 inches, but the limit drops to 300 pounds. The Medline at $67.54 is the steel option with a back, and the sources for it are the Amazon listing alone.</p>
-<p>For rough ground, the VOCIC at $69.98 has 8-inch wheels but weighs about 22 pounds. For a taller user, the HOMLAND at $79.99 has the widest seat and a handle range to 40 inches, but find its weight limit first.</p>
+<p>The Drive Medical Rollator with 7.5-inch wheels is the best pick for most people. It is rated for 350 pounds, Drive's page gives its seat height, handle range and weight, and 51,609 reviews average 4.6 stars. It suits an average-height user, and its 12-inch seat is small.</p>
+<p>If weight is the problem, the Drive Aluminum is about 5 pounds lighter at 13 pounds, with taller handles up to 37 inches, but the limit drops to 300 pounds. The Medline is the steel option with a back, and the sources for it are the Amazon listing alone.</p>
+<p>For rough ground, the VOCIC has 8-inch wheels but weighs about 22 pounds. For a taller user, the HOMLAND has the widest seat and a handle range to 40 inches, but find its weight limit first.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Drive Medical Rollator with 7.5-inch wheels is the best all-round rollator. Choose the Drive Aluminum for a light frame, the VOCIC for rough ground and the HOMLAND for a wide seat and tall handles. Fit the handles to your wrist crease as OrthoInfo says, lock the brakes before you sit and never take it on stairs. See also our guides to <a href="/best-shower-chairs/">shower chairs</a> and <a href="/best-bedside-commodes/">bedside commodes</a>.</p>'''

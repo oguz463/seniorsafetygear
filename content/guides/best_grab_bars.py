@@ -45,7 +45,7 @@ PHOTO_CREDIT = 'Jan van der Wolf (Pexels)'
 CARDS_HEADING = 'Best Grab Bars'
 
 INTRO = '''<p>A grab bar is a fixed handle you hold when you get into the tub, out of the shower or up from the toilet. Unlike a chair, it never moves, which is the point: you put weight on it. The CDC's home checklist recommends grab bars next to and inside the tub and next to the toilet, and MedlinePlus says two are needed in the tub area.</p>
-<p>The five picks below cost $15 to $34 and are all stainless steel, in lengths from 12 to 36 inches. All were in stock on Amazon for delivery to ZIP 10001 when we checked. A bar is only as strong as the wall behind it, so the mounting counts for more than the model.</p>'''
+<p>The five picks below are all stainless steel, in lengths from 12 to 36 inches. All were in stock on Amazon for delivery to ZIP 10001 when we checked. A bar is only as strong as the wall behind it, so the mounting counts for more than the model.</p>'''
 
 PRODUCTS = [
     {
@@ -111,13 +111,13 @@ PRODUCTS = [
             'The listing says it is made to be used with Moen SecureMount Anchors, sold separately, where you cannot screw into a stud.',
         ],
         'sections': [
-            ('Why we picked it', "<p>At about $15 it is a low-cost way to add a hand-hold in a spot where a longer bar will not fit, such as a short wall beside the shower valve. It has a 4.8 rating from 3,556 reviews, and the listing says it suits bathtubs, showers and toilets.</p>"),
+            ('Why we picked it', "<p>It is a low-cost way to add a hand-hold in a spot where a longer bar will not fit, such as a short wall beside the shower valve. It has a 4.8 rating from 3,556 reviews, and the listing says it suits bathtubs, showers and toilets.</p>"),
             ('What to know before you buy', "<p>The listing text gives no weight rating for this bar, so we cannot tell you its load, and we could not open a Moen page for it. Twelve inches gives a small grip area, so it is a supplement to a longer bar and not a replacement. Plan on buying the SecureMount anchors if there is no stud.</p>"),
         ],
         'best_for': 'A short wall or a second hand-hold beside the controls.',
         'skip_if': 'It will be your main bar, or you need a stated weight rating.',
         'specs': {'Length': '12 in', 'Diameter': '1.5 in (listing)', 'Load': 'Not in the listing text', 'Hardware': 'Concealed; anchors SMA1005CH sold separately', 'Weight': '5.76 oz', 'Model': '8912'},
-        'pros': ['About $15', '4.8 from 3,556 reviews'],
+        'pros': ['Lowest price', '4.8 from 3,556 reviews'],
         'cons': ['No weight rating in the listing', 'Anchors sold separately'],
     },
     {
@@ -129,13 +129,13 @@ PRODUCTS = [
             'The listing says each bar takes up to 500 pounds of pulling force, but it does not say what it must be mounted into.',
         ],
         'sections': [
-            ('Why we picked it', "<p>MedlinePlus says to fit two grab bars in the tub area, and this pack gives you both for about $20, $10 less than a single Moen 24-inch bar. The knurled grip is a texture you can feel when your hands are wet.</p>"),
+            ('Why we picked it', "<p>MedlinePlus says to fit two grab bars in the tub area, and this pack gives you both for less than the price of a single Moen 24-inch bar. The knurled grip is a texture you can feel when your hands are wet.</p>"),
             ('What to know before you buy', "<p>Moen and Amazon Basics both tie their 500-pound ratings to a stud or another secure surface, and this listing does not. The photo shows plastic wall plugs with the screws, so find the studs and screw into them rather than relying on plugs alone. It is sold by a third party, MoveCatcher, we found no maker page, and the rating is 4.4 from 3,633 reviews, the lowest here.</p>"),
         ],
         'best_for': 'A budget pair of bars for a tub, if you can screw into studs.',
         'skip_if': 'You want a stated mounting condition and a longer warranty.',
         'specs': {'Length': '16 in, pack of 2', 'Load': '500 lb pulling force (listing, no mounting stated)', 'Grip': 'Knurled', 'Hardware': 'Concealed screws, plastic plugs in photo', 'Weight': '0.54 kg', 'Sold by': 'MoveCatcher'},
-        'pros': ['Two bars for about $20', 'Textured grip'],
+        'pros': ['Two bars for less than one Moen', 'Textured grip'],
         'cons': ['Mounting condition not stated', 'Third-party seller, 4.4 rating'],
     },
 ]
@@ -184,9 +184,9 @@ BODY = '''<h2>What MedlinePlus, the CDC and the ADA Say</h2>
 <p>Moen's listing says its bar is corrosion-resistant stainless steel with a limited lifetime warranty, and the Amazon Basics listings say the bars are designed to resist rust and corrosion. Stainless steel is the usual choice for a wet room. Wipe the bar and check the screws or covers from time to time, and replace any bar with a loose mount or visible damage.</p>
 
 <h2>Our Take</h2>
-<p>The Moen Home Care 24-inch bar at $27.29 is the best pick. Moen's page states the diameter, the 500-pound load and a limited lifetime warranty, and 6,092 reviews average 4.8 stars. Plan for a stud, or for the SecureMount anchors, which cost extra.</p>
-<p>The Amazon Basics 36-inch bar at $34.41 is the one to buy for a long wall, and the 18-inch bar at $30.81 gives you a thicker 1.5-inch grip for a short vertical position. Both have a 1-year warranty and listing-only specs. The Moen 12-inch at $14.89 is a cheap second bar, but its listing gives no weight rating.</p>
-<p>The Gotega pack at $19.99 gives you the two bars MedlinePlus advises for the price of one Moen, but its listing names no mounting condition and it has the lowest rating of the five. Fit it into studs, not plugs.</p>
+<p>The Moen Home Care 24-inch bar is the best pick. Moen's page states the diameter, the 500-pound load and a limited lifetime warranty, and 6,092 reviews average 4.8 stars. Plan for a stud, or for the SecureMount anchors, which cost extra.</p>
+<p>The Amazon Basics 36-inch bar is the one to buy for a long wall, and the 18-inch bar gives you a thicker 1.5-inch grip for a short vertical position. Both have a 1-year warranty and listing-only specs. The Moen 12-inch is a cheap second bar, but its listing gives no weight rating.</p>
+<p>The Gotega pack gives you the two bars MedlinePlus advises for the price of one Moen, but its listing names no mounting condition and it has the lowest rating of the five. Fit it into studs, not plugs.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Moen Home Care 24-inch bar is the best all-round grab bar. Choose the Amazon Basics 36-inch bar for a long wall and the 18-inch for a short vertical one. Put two in the tub area and one by the toilet, screw into studs and never use a towel rack, as MedlinePlus advises. See also our guides to <a href="/best-shower-chairs/">shower chairs</a> and <a href="/best-raised-toilet-seats/">raised toilet seats</a>.</p>'''

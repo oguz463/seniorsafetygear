@@ -41,7 +41,7 @@ PHOTO_CREDIT = 'Luisa Sanfelice (Pexels)'
 CARDS_HEADING = 'Best Lift Chairs'
 
 INTRO = '''<p>A lift chair is a recliner with a motor that tilts the whole chair forward and up, so you stand with the chair's help instead of pushing out of a low seat. It suits someone with weak legs, a painful hip or knee, or trouble getting up from a standard chair. Standing up from a low seat is the moment it helps with.</p>
-<p>The five picks below cost $290 to $560 and range from a plain fabric recliner to chairs with heat and massage. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing, and we say so on each card. Choose by size and your height first, then by the extras you want.</p>'''
+<p>The five picks below range from a plain fabric recliner to chairs with heat and massage. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing, and we say so on each card. Choose by size and your height first, then by the extras you want.</p>'''
 
 PRODUCTS = [
     {
@@ -72,13 +72,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It gives more room for a larger person, with a 150-degree recline against 140 on the medium, and a taller back. The simple design and the same warranty carry over.</p>"),
-            ('What to know before you buy', "<p>It costs $60 more than the medium and ships in 3 boxes. At 36.2 inches wide it needs more floor space, so measure the spot, and the listing does not give a recommended height range for this size. The figures come from the Amazon listing.</p>"),
+            ('What to know before you buy', "<p>It costs more than the medium and ships in 3 boxes. At 36.2 inches wide it needs more floor space, so measure the spot, and the listing does not give a recommended height range for this size. The figures come from the Amazon listing.</p>"),
         ],
         'best_for': 'A taller or larger user who wants a plain lift chair.',
         'skip_if': 'The room is small or you want massage and heat.',
         'specs': {'Size': '40.2 D x 36.2 W x 46.5 H in (listing)', 'Recline': '150 degrees (listing)', 'Footrest': '4.7 in extended', 'Extras': 'Two cup holders, USB and Type-C', 'Warranty': '2 years limited (listing)', 'Sold by': 'MCombo'},
         'pros': ['Larger frame, 150-degree recline', 'Same 2-year warranty'],
-        'cons': ['About $560', 'Needs more floor space'],
+        'cons': ['Priciest of the five', 'Needs more floor space'],
     },
     {
         'id': 'mcombo-7040-heat-massage-lift-chair', 'rank': 'Best with heat and massage', 'name': 'MCombo Power Lift Recliner 7040 with Heat and Massage', 'img': 'mcombo-7040-heat-massage-lift-chair.jpg',
@@ -107,13 +107,13 @@ PRODUCTS = [
             'The listing says it has an iron frame and an anti-tipping device.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It is about $180 less than the large MCombo, with a wide seat and an anti-tipping device, which the listing says adds stability to the recliner. It has heat and massage and 796 reviews at 4.4 stars.</p>"),
+            ('Why we picked it', "<p>It costs far less than the large MCombo, with a wide seat and an anti-tipping device, which the listing says adds stability to the recliner. It has heat and massage and 796 reviews at 4.4 stars.</p>"),
             ('What to know before you buy', "<p>It has far fewer reviews than the MCombos, and the listing text we read gives no warranty length or weight limit, so confirm both before ordering. The size is 38 inches deep, 39 wide and 43 tall, so measure the room.</p>"),
         ],
         'best_for': 'A larger user on a smaller budget who wants massage and heat.',
         'skip_if': 'You need a stated weight limit or a longer track record.',
         'specs': {'Seat': '21 in wide, 30 in backrest (listing)', 'Size': '38 D x 39 W x 43 H in (listing)', 'Massage': '5 modes, 8 points', 'Heat': 'Yes', 'Frame': 'Iron, anti-tipping device', 'Sold by': 'CANMOV'},
-        'pros': ['21-inch seat for about $380', 'Anti-tipping device'],
+        'pros': ['21-inch seat at a mid price', 'Anti-tipping device'],
         'cons': ['796 reviews', 'No weight limit or warranty in the listing text'],
     },
     {
@@ -121,17 +121,17 @@ PRODUCTS = [
         'alt': 'dark leatherette power lift recliner with a tilted seat and a raised footrest', 'price': '$289.99',
         'q': 'Flamaker power lift recliner chair electric lift recliner for elderly',
         'text': [
-            'The Flamaker is the cheapest lift chair here at about $290. The listing says it has four recline positions, eight vibration points with three modes and a timer, and a wired remote.',
+            'The Flamaker is the cheapest lift chair here. The listing says it has four recline positions, eight vibration points with three modes and a timer, and a wired remote.',
             'It is covered in Leathaire fabric on a wood and iron frame.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It is the only one under $300, and the listing says the motor works from a wired remote, so you can place it anywhere. The size is smaller, 28.4 inches deep and 30.7 wide, which suits a small room.</p>"),
+            ('Why we picked it', "<p>It is the lowest-priced chair here, and the listing says the motor works from a wired remote, so you can place it anywhere. The size is smaller, 28.4 inches deep and 30.7 wide, which suits a small room.</p>"),
             ('What to know before you buy', "<p>It has the lowest rating of the five, 3.9 stars from 810 reviews. The listing gives no warranty or weight limit in the text we read. At 30.7 inches wide it is the narrowest, so a larger person may find it tight.</p>"),
         ],
         'best_for': 'A small room and a tight budget.',
         'skip_if': 'You want a higher rating, a stated warranty or a roomy seat.',
         'specs': {'Size': '28.4 D x 30.7 W x 41 H in (listing)', 'Positions': '4 recline positions (listing)', 'Massage': '8 vibration points, timer', 'Upholstery': 'Leathaire', 'Remote': 'Wired', 'Sold by': 'FlamakerDirect'},
-        'pros': ['About $290', 'Compact for a small room'],
+        'pros': ['Lowest price', 'Compact for a small room'],
         'cons': ['3.9 stars from 810 reviews', 'No warranty or weight limit in the listing text'],
     },
 ]
@@ -179,9 +179,9 @@ BODY = '''<h2>What the CDC Says and What We Could Not Confirm</h2>
 <p>The listings give the chair's footprint: the medium MCombo is 37.8 inches deep and 33.5 wide, the large MCombo 40.2 deep and 36.2 wide, the CANMOV 38 deep and 39 wide, and the Flamaker 28.4 deep and 30.7 wide. These are the sizes of the chair in its upright position, so measure the spot and the doorways on the way to it, and leave room around it for the lift and recline.</p>
 
 <h2>Our Take</h2>
-<p>The MCombo 7287 at $499.90 is the best pick for an average-height user. It has no heat or massage to fail, a 2-year limited warranty and 3,956 reviews averaging 4.5 stars. Check the 5 foot 1 inch to 5 foot 9 inch height range in the listing. For a larger person the 7283 at $559.90 adds size and a 150-degree recline.</p>
-<p>If you want heat and massage, the MCombo 7040 at $549.90 has the most reviews, 7,003 at 4.4, and timers, but the listing does not state a warranty. The CANMOV at $379.99 gives a 21-inch seat and an anti-tipping device for less money, with fewer reviews and no warranty in the listing text.</p>
-<p>The Flamaker at $289.99 is the budget option for a small room, and it has the lowest rating, 3.9 stars from 810 reviews.</p>
+<p>The MCombo 7287 is the best pick for an average-height user. It has no heat or massage to fail, a 2-year limited warranty and 3,956 reviews averaging 4.5 stars. Check the 5 foot 1 inch to 5 foot 9 inch height range in the listing. For a larger person the 7283 adds size and a 150-degree recline.</p>
+<p>If you want heat and massage, the MCombo 7040 has the most reviews, 7,003 at 4.4, and timers, but the listing does not state a warranty. The CANMOV gives a 21-inch seat and an anti-tipping device for less money, with fewer reviews and no warranty in the listing text.</p>
+<p>The Flamaker is the budget option for a small room, and it has the lowest rating, 3.9 stars from 810 reviews.</p>
 
 <h2>The Bottom Line</h2>
 <p>The MCombo 7287 is the best all-round lift chair, the 7283 the choice for a larger frame and the 7040 the one with heat and massage. Check the size and your height against the listing, ask the seller for the warranty and weight limit, and ask Medicare or your plan about coverage before you pay. See also our guides to <a href="/best-rollators/">rollators</a> and <a href="/best-canes/">canes</a>.</p>'''

@@ -44,7 +44,7 @@ PHOTO_CREDIT = 'Momo (Pexels)'
 CARDS_HEADING = 'Best Mobility Scooters'
 
 INTRO = '''<p>A mobility scooter is a battery-powered seat on wheels that you steer with a handlebar, for people who can walk a little but not far. The three-wheel portable kind comes apart or folds so it fits in a car trunk. A scooter replaces long walks, but it brings its own risks, from the transfer on and off to the lift into a car.</p>
-<p>The five picks below cost $550 to $900 and range from a 30-pound lifting weight to a 300-pound rating. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing. Choose by the weight of the heaviest piece, since someone must lift it, then by range and weight limit.</p>'''
+<p>The five picks below range from a 30-pound lifting weight to a 300-pound rating. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the Amazon listing. Choose by the weight of the heaviest piece, since someone must lift it, then by range and weight limit.</p>'''
 
 PRODUCTS = [
     {
@@ -75,13 +75,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It has the highest weight rating here and a 4.7 rating, and it is sold by Amazon. The seat, armrests and tiller adjust, and the swivel seat helps with transfers. The listing calls it an FDA Class II medical device, which matches the federal rule: 21 CFR 890.3800 classifies a motorized three-wheeled vehicle as Class II.</p>"),
-            ('What to know before you buy', "<p>It costs about $699, and the 4.7 rating rests on only 116 reviews. The listing gives a shipping weight of 96.5 pounds, and the range of 10 miles is the shortest of the group. We could not read Rascal's own page, so the figures come from the listing.</p>"),
+            ('What to know before you buy', "<p>It is among the pricier scooters here, and the 4.7 rating rests on only 116 reviews. The listing gives a shipping weight of 96.5 pounds, and the range of 10 miles is the shortest of the group. We could not read Rascal's own page, so the figures come from the listing.</p>"),
         ],
         'best_for': 'A heavier user who wants a 300-pound rating and a swivel seat.',
         'skip_if': 'You need the longest range or the lowest price.',
         'specs': {'Limit': '300 lb (listing title)', 'Range': 'Up to 10 miles (listing)', 'Speed': 'Up to 4 mph', 'Brakes': 'Regenerative and electromechanical', 'Heaviest piece': '29.5 lb (listing)', 'Sold by': 'Amazon'},
         'pros': ['300 lb rating', '4.7 rating, sold by Amazon'],
-        'cons': ['About $699', 'Only 116 reviews, shortest range'],
+        'cons': ['Pricier than most here', 'Only 116 reviews, shortest range'],
     },
     {
         'id': 'superhandy-passport-mobility-scooter', 'rank': 'Best budget travel scooter', 'name': 'SuperHandy Passport Foldable Scooter', 'img': 'superhandy-passport-mobility-scooter.jpg',
@@ -116,7 +116,7 @@ PRODUCTS = [
         'best_for': 'The lowest price with bigger tires, if the weight limit suits you.',
         'skip_if': 'You need a confirmed weight limit or a long track record.',
         'specs': {'Range': 'Up to 13 miles (listing)', 'Battery': '25.6V 8Ah LiFePO4', 'Speed': '3.7 mph, 1.9 mph reverse', 'Tires': '8 in shock-absorbing solid', 'Weight': '61 lb (listing)', 'Warranty': '1 year'},
-        'pros': ['About $550, 8-inch tires', 'Dual braking system'],
+        'pros': ['Lowest price, 8-inch tires', 'Dual braking system'],
         'cons': ['24 reviews, new model', 'No weight limit in the listing text'],
     },
     {
@@ -129,13 +129,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the lightest to load, with the longest listed range, and it folds the smallest. It has front and rear lights, electromagnetic braking that slows when you release the lever, and the listing says GPS location support is available for caregivers.</p>"),
-            ('What to know before you buy', "<p>It costs about $900, the most of the five, and it first appeared on Amazon in June 2026 with only 13 reviews, though they average 4.9. The listing says it supports 265 pounds including cargo, a stricter limit than it sounds. It is sold by Ladyroad Direct, and we found no maker page. Treat the airline-friendly claim as the seller's and check with your airline.</p>"),
+            ('What to know before you buy', "<p>It is the most expensive of the five, and it first appeared on Amazon in June 2026 with only 13 reviews, though they average 4.9. The listing says it supports 265 pounds including cargo, a stricter limit than it sounds. It is sold by Ladyroad Direct, and we found no maker page. Treat the airline-friendly claim as the seller's and check with your airline.</p>"),
         ],
         'best_for': 'Someone who must lift the scooter and values range and a small fold.',
         'skip_if': 'You want a long track record or the lowest price.',
         'specs': {'Limit': '265 lb including cargo (listing)', 'Lift weight': '30 lb without seat and batteries (listing)', 'Range': '20 miles (8Ah) or 32 (12Ah)', 'Folded': '11.8 x 20.1 x 28.2 in', 'Turning radius': '34 in', 'Sold by': 'Ladyroad Direct'},
         'pros': ['30 lb lift weight, small fold', 'Up to 32 miles on the larger batteries'],
-        'cons': ['About $900, 13 reviews', 'New model, listing only'],
+        'cons': ['Most expensive, 13 reviews', 'New model, listing only'],
     },
 ]
 
@@ -184,9 +184,9 @@ BODY = '''<h2>What the Federal Rule and the CDC Say</h2>
 <p>The listings vary. The SuperHandy Passport listing says its batteries recharge in 1.5 hours, and the Hoverfly listing says a 5-hour charge gives up to 13 miles. The Vive, Rascal and Iris listings in the text we read give no charge time. Ask the seller before you buy, and plan for the longer figure if you ride every day.</p>
 
 <h2>Our Take</h2>
-<p>The Vive at $624.99 is the best pick for most people. It has a swivel seat, flip-up armrests and 8-inch flat-free tires, and 1,146 reviews average 4.3 stars. Its heaviest piece is 29 pounds and the limit is 265, and every figure comes from the listing.</p>
-<p>The Rascal Venture at $699 is the choice for a heavier user, with a 300-pound rating, a 4.7 rating and a Class II label that matches the federal rule, but only 116 reviews and a 10-mile range. The SuperHandy Passport at $567.99 has the lightest frame at 27 pounds and two batteries, but no armrests and 6.75-inch solid tires for flat surfaces.</p>
-<p>The Hoverfly at $549.99 is the cheapest, with only 24 reviews and no weight limit in the listing text. The Iris 3 at $899.99 is the lightest to lift and has the longest range, but it is the most expensive and has only 13 reviews. Check with the seller about the limit on each before you order.</p>
+<p>The Vive is the best pick for most people. It has a swivel seat, flip-up armrests and 8-inch flat-free tires, and 1,146 reviews average 4.3 stars. Its heaviest piece is 29 pounds and the limit is 265, and every figure comes from the listing.</p>
+<p>The Rascal Venture is the choice for a heavier user, with a 300-pound rating, a 4.7 rating and a Class II label that matches the federal rule, but only 116 reviews and a 10-mile range. The SuperHandy Passport has the lightest frame at 27 pounds and two batteries, but no armrests and 6.75-inch solid tires for flat surfaces.</p>
+<p>The Hoverfly is the cheapest, with only 24 reviews and no weight limit in the listing text. The Iris 3 is the lightest to lift and has the longest range, but it is the most expensive and has only 13 reviews. Check with the seller about the limit on each before you order.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Vive 3 Wheel is the best all-round portable scooter, the Rascal Venture the choice for 300 pounds and the SuperHandy Passport the budget travel pick. Lift the heaviest piece first, ask your airline about the batteries and check with a doctor or occupational therapist that a scooter suits you. See also our guides to <a href="/best-rollators/">rollators</a> and <a href="/best-transport-wheelchairs/">transport wheelchairs</a>.</p>'''

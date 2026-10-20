@@ -47,7 +47,7 @@ PHOTO_CREDIT = 'Tima Miroshnichenko (Pexels)'
 CARDS_HEADING = 'Best Bedside Commodes'
 
 INTRO = '''<p>A bedside commode is a portable toilet with a seat, a bucket and a frame, placed next to the bed so you do not have to walk to the bathroom at night. It is useful after surgery, during an illness, or when the walk is too far or too dark to be safe. A night-time trip to the bathroom is one of the walks a commode can shorten.</p>
-<p>The five picks below cost $31 to $88 and include a steel folding commode, a 3-in-1 that can also sit over a toilet, two drop-arm models for sliding on from a wheelchair, and an extra-wide model rated to 500 pounds. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight limit, seat height and whether you need the arms to move out of the way.</p>'''
+<p>The five picks below include a steel folding commode, a 3-in-1 that can also sit over a toilet, two drop-arm models for sliding on from a wheelchair, and an extra-wide model rated to 500 pounds. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by weight limit, seat height and whether you need the arms to move out of the way.</p>'''
 
 PRODUCTS = [
     {
@@ -56,7 +56,7 @@ PRODUCTS = [
         'q': 'Drive Medical folding bedside commode 350 lb',
         'text': [
             'The Drive Folding Bedside Commode is a steel frame with a snap-on seat and lid and a 7.5-quart bucket with a cover and splash shield. Drive says it supports 350 pounds, and the legs adjust with push pins.',
-            "It is Amazon's number one bedside commode, with 37,079 reviews averaging 4.6, and it costs under $31.",
+            "It is Amazon's number one bedside commode, with 37,079 reviews averaging 4.6, and it is the lowest-priced of the five.",
         ],
         'sections': [
             ('Why we picked it', "<p>It has the most reviews of any commode we found by a wide margin, a maker page that gives its numbers, and the lowest price of the five. Drive's page lists the seat at 13.5 inches wide by 15 inches deep, the frame as welded powder-coated steel, and the weight at 13.5 pounds, light enough to carry between rooms. Drive gives it a limited lifetime warranty.</p>"),
@@ -65,7 +65,7 @@ PRODUCTS = [
         'best_for': 'Most people who need a night-time toilet beside the bed.',
         'skip_if': 'You transfer from a wheelchair or need an extra-wide seat.',
         'specs': {'Limit': '350 lb (Drive)', 'Seat': '13.5 W x 15 D in (Drive)', 'Bucket': '7.5 qt with cover and splash shield', 'Weight': '13.5 lb (Drive)', 'Warranty': 'Limited lifetime (Drive)', 'Model': '11148-1'},
-        'pros': ['About $31, 37,079 reviews at 4.6', 'Maker page with full specs'],
+        'pros': ['Lowest price, 37,079 reviews at 4.6', 'Maker page with full specs'],
         'cons': ['Fixed arms', 'Seat height range not listed by Drive'],
     },
     {
@@ -78,7 +78,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the only pick where the maker states the height range, 17 to 23 inches, so you can check it against your bed and your own height before you buy. Drive lists the seat at 13.75 by 16.25 inches and the weight at 13 pounds, and says the frame is welded steel made using recycled materials.</p>"),
-            ('What to know before you buy', "<p>The 3-in-1 uses come from the Amazon listing. Drive's own page does not mention them, so check how Drive says to use it over a toilet before you rely on that. It costs about $12 more than the plain Drive, and its arms are fixed.</p>"),
+            ('What to know before you buy', "<p>The 3-in-1 uses come from the Amazon listing. Drive's own page does not mention them, so check how Drive says to use it over a toilet before you rely on that. It costs a little more than the plain Drive, and its arms are fixed.</p>"),
         ],
         'best_for': 'Someone who wants a stated height range and might also use it over a toilet.',
         'skip_if': 'You need drop arms or a seat wider than about 14 inches.',
@@ -96,7 +96,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>The elongated seat is longer than the Drive seats, which some people find easier to sit on, and 19 inches between the arms is a little more room. It comes complete in one box.</p>"),
-            ('What to know before you buy', "<p>It costs about $66 and has 179 reviews, far fewer than the Drive. The listing says it is treated with Microban and states that this does not protect users from bacteria or viruses, so clean it as you would any commode. We could not open Medline's page, so every figure comes from the listing.</p>"),
+            ('What to know before you buy', "<p>It costs more than the Drive and has 179 reviews, far fewer than the Drive. The listing says it is treated with Microban and states that this does not protect users from bacteria or viruses, so clean it as you would any commode. We could not open Medline's page, so every figure comes from the listing.</p>"),
         ],
         'best_for': 'Someone who wants an elongated seat and a bit more room between the arms.',
         'skip_if': 'You want the most-reviewed model or drop arms.',
@@ -114,13 +114,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>If you move on and off sideways, an arm that lowers means you do not have to lift over it. The padded seat is softer than the plastic seats on the Drive models, which the listing says is meant for short-term use. The listing adds that you can take the bucket out and use it over a regular toilet.</p>"),
-            ('What to know before you buy', "<p>At 20 pounds it is the heaviest of the first four, and it costs about $81. Amazon showed only 4 left in stock, with more on the way, when we checked. We could not open Medline's own page, so every figure comes from the listing. Check that the arms lock back up before each use, as you would for any drop-arm model.</p>"),
+            ('What to know before you buy', "<p>At 20 pounds it is the heaviest of the first four, and it is priced above the Drive models. Amazon showed only 4 left in stock, with more on the way, when we checked. We could not open Medline's own page, so every figure comes from the listing. Check that the arms lock back up before each use, as you would for any drop-arm model.</p>"),
         ],
         'best_for': 'Sliding across from a wheelchair or the edge of a bed.',
         'skip_if': 'You never transfer sideways and want the lowest price.',
         'specs': {'Limit': '350 lb (listing)', 'Arms': 'Padded, drop-down', 'Height': '18 to 22 in (listing)', 'Size': '23 D x 23.5 W x 31 H in', 'Weight': '20 lb (listing)', 'Sold by': 'Amazon'},
         'pros': ['Arms drop for side transfers', 'Padded seat'],
-        'cons': ['About $81', 'Listing only, low stock when checked'],
+        'cons': ['Priced above the Drive models', 'Listing only, low stock when checked'],
     },
     {
         'id': 'dmi-drop-arm-extra-wide-commode', 'rank': 'Best for 500 pounds', 'name': 'DMI Drop Arm Extra-Wide Commode', 'img': 'dmi-drop-arm-extra-wide-commode.jpg',
@@ -132,13 +132,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the only pick over 350 pounds, and the seat is about 10 inches wider than the Drive's. Both arms drop, so a wide transfer is easier, and the listing says the feet are non-slip. The listing gives overall dimensions of 29.5 inches wide, 20.5 deep and 29.25 tall.</p>"),
-            ('What to know before you buy', "<p>It costs about $88, and the 5-liter bucket is smaller than the 7.5-quart buckets on the Drive models. At 29.5 inches wide it needs more floor space beside the bed, so measure the gap. The listing names HealthSmart International as the manufacturer, and we found no maker page, so every figure is from the listing.</p>"),
+            ('What to know before you buy', "<p>It is the most expensive of the five, and the 5-liter bucket is smaller than the 7.5-quart buckets on the Drive models. At 29.5 inches wide it needs more floor space beside the bed, so measure the gap. The listing names HealthSmart International as the manufacturer, and we found no maker page, so every figure is from the listing.</p>"),
         ],
         'best_for': 'A larger user who needs a wide seat and a 500-pound rating.',
         'skip_if': 'The room beside the bed is narrow.',
         'specs': {'Limit': '500 lb (listing)', 'Seat': '23.25 W x 18.5 D in (listing)', 'Height': '20 to 24 in (listing)', 'Size': '29.5 W x 20.5 D x 29.25 H in', 'Bucket': '5 L with lid', 'Model': '802-1204-0300'},
         'pros': ['500 lb rating', 'Wide seat and drop arms'],
-        'cons': ['About $88', 'Listing only, smaller bucket'],
+        'cons': ['Most expensive of the five', 'Listing only, smaller bucket'],
     },
 ]
 
@@ -188,9 +188,9 @@ BODY = '''<h2>What the CDC and MedlinePlus Say</h2>
 <p>Drive's page gives a seat height of 17 to 23 inches for the RTL11158KDR, and the listings give 18 to 22 inches for the Medline drop arm and 20 to 24 for the DMI. A common starting point is a seat level with the edge of the bed or a little above it, so you can slide across and stand without a drop. Set all four legs to the same hole and check that the push pins are locked.</p>
 
 <h2>Our Take</h2>
-<p>The Drive Medical Folding Bedside Commode at $30.59 is the best pick for most people. It is rated for 350 pounds, Drive's page gives its size and weight, and 37,079 reviews average 4.6 stars. The trade is a fixed pair of arms and a seat height that Drive does not state, so check the settings when you build it.</p>
-<p>The Drive RTL11158KDR at $42.98 is worth the extra $12 if you want the height range in writing, 17 to 23 inches, and a carry handle on the bucket. The Medline 3-in-1 at $65.99 adds an elongated seat and 19 inches between the arms, but it has only 179 reviews and no maker page we could read.</p>
-<p>If you move sideways, spend more. The Medline drop arm at $80.63 has padded arms that lower and a foam seat, and the DMI at $87.99 has a 23.25-inch seat and a 500-pound rating. Measure the space beside the bed before you buy the DMI, since it is 29.5 inches wide.</p>
+<p>The Drive Medical Folding Bedside Commode is the best pick for most people. It is rated for 350 pounds, Drive's page gives its size and weight, and 37,079 reviews average 4.6 stars. The trade is a fixed pair of arms and a seat height that Drive does not state, so check the settings when you build it.</p>
+<p>The Drive RTL11158KDR is worth the small extra cost if you want the height range in writing, 17 to 23 inches, and a carry handle on the bucket. The Medline 3-in-1 adds an elongated seat and 19 inches between the arms, but it has only 179 reviews and no maker page we could read.</p>
+<p>If you move sideways, spend more. The Medline drop arm has padded arms that lower and a foam seat, and the DMI has a 23.25-inch seat and a 500-pound rating. Measure the space beside the bed before you buy the DMI, since it is 29.5 inches wide.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Drive Medical Folding Bedside Commode is the best all-round bedside commode, with the Drive RTL11158KDR for a stated height range. Choose the Medline drop arm for transfers from a wheelchair, and the DMI for an extra-wide seat and 500 pounds. Put a lamp and a nightlight on the path as the CDC suggests, and see our guides to <a href="/best-raised-toilet-seats/">raised toilet seats</a> and <a href="/best-shower-chairs/">shower chairs</a>.</p>'''

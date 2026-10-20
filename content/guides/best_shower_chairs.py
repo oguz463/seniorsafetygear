@@ -47,7 +47,7 @@ PHOTO_CREDIT = 'Charlotte May (Pexels)'
 CARDS_HEADING = 'Best Shower Chairs'
 
 INTRO = '''<p>A shower chair lets you sit while you wash, so you are not standing on a wet floor with your eyes closed against the water. MedlinePlus, the U.S. National Library of Medicine's health site, advises sitting on a bath chair or bench when taking a shower. A wet tub is a place where balance is hard.</p>
-<p>The five picks below cost $30 to $52 and come in four types: a chair with a back and arms, a chair with a back, a backless stool and a tub transfer bench. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose first by whether you can step over the tub wall, then by weight limit and seat height.</p>'''
+<p>The five picks below come in four types: a chair with a back and arms, a chair with a back, a backless stool and a tub transfer bench. All were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose first by whether you can step over the tub wall, then by weight limit and seat height.</p>'''
 
 PRODUCTS = [
     {
@@ -113,13 +113,13 @@ PRODUCTS = [
             'The listing gives the seat as 13.5 inches deep and 16 inches wide, and the chair as 6.3 pounds.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It has the same 350-pound rating as the back-and-arms Medline for about $11 less, and it is easier to move. The arms give you something to push on when you stand, and with no back it takes less room in a small tub. The listing says the feet are slip-resistant.</p>"),
+            ('Why we picked it', "<p>It has the same 350-pound rating as the back-and-arms Medline for less money, and it is easier to move. The arms give you something to push on when you stand, and with no back it takes less room in a small tub. The listing says the feet are slip-resistant.</p>"),
             ('What to know before you buy', "<p>With no back, you have nothing to lean on if you tire in the shower, so it suits someone who sits steadily on their own. We could not open Medline's own page, so every figure comes from the listing. The seat is 16 inches wide, so it is a smaller seat than the Drive.</p>"),
         ],
         'best_for': 'A small tub where you want arms and no back.',
         'skip_if': 'You tire easily or need something to lean against.',
         'specs': {'Limit': '350 lb (listing)', 'Height': '16 to 21 in, 1 in steps (listing)', 'Seat': '16 W x 13.5 D in (listing)', 'Weight': '6.3 lb (listing)', 'Arms': 'Padded', 'Sold by': 'Amazon'},
-        'pros': ['350 lb rating for about $31', 'Arms to push on'],
+        'pros': ['350 lb rating at a low price', 'Arms to push on'],
         'cons': ['No backrest', 'Listing only, no maker page'],
     },
     {
@@ -137,7 +137,7 @@ PRODUCTS = [
         'best_for': 'A narrow tub or a small shower stall.',
         'skip_if': 'You need a back, arms or more than 300 pounds of support.',
         'specs': {'Limit': '400 lb max, 300 lb recommended (listing)', 'Seat': '16.3 W x 10.5 D in (listing)', 'Height': '14 to 19 in, 1 in steps (listing)', 'Weight': '3.6 lb (listing)', 'Extras': 'Cushion, showerhead clip', 'Sold by': 'CoreLinki'},
-        'pros': ['Light at 3.6 lb and about $30', 'Showerhead clip'],
+        'pros': ['Light at 3.6 lb and low priced', 'Showerhead clip'],
         'cons': ['No back or arms', 'Third-party seller, listing only'],
     },
 ]
@@ -186,9 +186,9 @@ BODY = '''<h2>What MedlinePlus and the CDC Say</h2>
 <p>The listed limits are 300 to 400 pounds, but two come with a catch. HOMLAND's listing gives 400 pounds as the frame's maximum and 300 as the recommended user weight, and Drive's page for the transfer bench says 400 where the Amazon listing says 350. When two figures conflict, use the lower one, and add the weight of anything else the chair carries.</p>
 
 <h2>Our Take</h2>
-<p>The Medline Shower Chair with Padded Armrests and Back at $41.98 is the best pick for most people who can step into a tub. It has a back, two padded arms and a 350-pound rating, and 35,627 reviews average 4.7 stars. We could not read Medline's own page, so confirm the seat height range on the box.</p>
-<p>The Drive Tub Transfer Bench at $51.61 is the right choice if stepping over the tub wall is the problem. It costs about $10 more, and the sources disagree on its weight limit, 400 pounds on Drive's page against 350 on the listing, so plan on 350. The Drive chair at $43.28 suits someone who wants the widest seat and has no use for arms, at the cost of a 300-pound limit.</p>
-<p>For a small tub, the two stools are the cheapest. The Medline backless with arms at $30.79 keeps the 350-pound rating and the arms. The HOMLAND at $29.99 is lighter and has a showerhead clip, but plan on its 300-pound recommended weight, and it comes from a third-party seller.</p>
+<p>The Medline Shower Chair with Padded Armrests and Back is the best pick for most people who can step into a tub. It has a back, two padded arms and a 350-pound rating, and 35,627 reviews average 4.7 stars. We could not read Medline's own page, so confirm the seat height range on the box.</p>
+<p>The Drive Tub Transfer Bench is the right choice if stepping over the tub wall is the problem. It costs a little more, and the sources disagree on its weight limit, 400 pounds on Drive's page against 350 on the listing, so plan on 350. The Drive chair suits someone who wants the widest seat and has no use for arms, at the cost of a 300-pound limit.</p>
+<p>For a small tub, the two stools are the cheapest. The Medline backless with arms keeps the 350-pound rating and the arms. The HOMLAND is lighter and has a showerhead clip, but plan on its 300-pound recommended weight, and it comes from a third-party seller.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Medline Shower Chair with Padded Armrests and Back is the best all-round shower chair, the Drive Tub Transfer Bench is the pick if you cannot step into the tub, and the Drive chair is the choice for a wide seat. The Medline backless and the HOMLAND suit a small shower. Whichever you buy, add two wall-mounted grab bars as MedlinePlus advises, and a non-slip mat for the tub floor. See also our guide to <a href="/best-raised-toilet-seats/">raised toilet seats</a>.</p>'''

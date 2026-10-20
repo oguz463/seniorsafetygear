@@ -49,7 +49,7 @@ PHOTO_CREDIT = 'Erik Mclean (Pexels)'
 CARDS_HEADING = 'Best Raised Toilet Seats'
 
 INTRO = '''<p>A raised toilet seat adds a few inches of height, so there is less distance to lower yourself and to push back up. People reach for one after hip, knee or back surgery, or when standing up from a low seat has become hard. The bathroom is a place where getting up and down is part of every visit.</p>
-<p>The five picks below run from $28 to $91 and from a plain riser to a bolt-on seat and models with handles. All of them were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by two measurements first, the height you need and the shape of your bowl, then by how you want it to attach.</p>'''
+<p>The five picks below run from a plain riser to a bolt-on seat and models with handles. All of them were in stock on Amazon for delivery to ZIP 10001 when we checked. Choose by two measurements first, the height you need and the shape of your bowl, then by how you want it to attach.</p>'''
 
 PRODUCTS = [
     {
@@ -62,13 +62,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>Because the seat bolts down, it is the pick least likely to shift when you sit or stand, and the listing says it will not wobble or loosen. Its 3-inch rise sits at the low end of the 2 to 3 inch range that the Joint Replacement Resource Centre gives for someone whose hips and knees are level when seated. It also has the highest tested load here and a 4.6 rating from 1,405 reviews.</p>"),
-            ('What to know before you buy', "<p>It costs about $91, the most of the five, and installing it means bolting it to the toilet, which is more work than dropping a riser in place. It adds only 3 inches, so it will not be enough for someone who needs 4 or 5. We could not open Bemis's own product page, so these details come from the Amazon listing. The listing calls it therapist-recommended, which is the seller's claim and not something we verified. Check that the bowl shape in the title matches your toilet.</p>"),
+            ('What to know before you buy', "<p>It is the most expensive of the five, and installing it means bolting it to the toilet, which is more work than dropping a riser in place. It adds only 3 inches, so it will not be enough for someone who needs 4 or 5. We could not open Bemis's own product page, so these details come from the Amazon listing. The listing calls it therapist-recommended, which is the seller's claim and not something we verified. Check that the bowl shape in the title matches your toilet.</p>"),
         ],
         'best_for': 'Someone who wants the steadiest fit and a 3-inch rise on an elongated bowl.',
         'skip_if': 'You need more than 3 inches, rent, or move the seat between toilets.',
         'specs': {'Rise': '3 in', 'Fit': 'Elongated (title)', 'Attaches': 'Bolts to the bowl', 'Tested to': '1,000 lb (listing)', 'Made in': 'USA (listing)', 'Sold by': 'Amazon'},
         'pros': ['Bolts to the bowl', '1,000 lb tested load'],
-        'cons': ['About $91', 'Only 3 inches of rise'],
+        'cons': ['Most expensive', 'Only 3 inches of rise'],
     },
     {
         'id': 'vive-raised-toilet-seat-with-handles', 'rank': 'Best with handles', 'name': 'Vive Raised Toilet Seat Riser with Handles', 'img': 'vive-raised-toilet-seat-with-handles.jpg',
@@ -97,13 +97,13 @@ PRODUCTS = [
             'It is made of molded plastic and wipes clean, and the listing says the toilet seat and lid are not included, so you keep using your own.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It is the cheapest way to get arms. At about $49 it costs $30 less than the Vive, and it has the most reviews of the arm models, 12,749 at 4.2 stars. The listing says the arms are padded and removable.</p>"),
+            ('Why we picked it', "<p>It is the cheapest way to get arms. It costs well under the Vive, and it has the most reviews of the arm models, 12,749 at 4.2 stars. The listing says the arms are padded and removable.</p>"),
             ('What to know before you buy', "<p>The listing rates it for 250 pounds, the lowest limit of the five. We could not open Carex's own page, so the figures come from the Amazon listing. The title says elongated, so a round bowl needs a different Carex model. Check the weight limit against the heaviest person who will use it.</p>"),
         ],
         'best_for': 'An elongated toilet when you want arms at the lowest price.',
         'skip_if': 'Anyone who will use it weighs over 250 pounds.',
         'specs': {'Rise': '3.5 in', 'Limit': '250 lb (listing)', 'Fit': 'Elongated (title)', 'Arms': 'Removable, padded', 'Model': 'FGB316C1', 'Sold by': 'Amazon'},
-        'pros': ['Arms for about $49', 'Most reviewed arm model'],
+        'pros': ['Arms at a lower price than the Vive', 'Most reviewed arm model'],
         'cons': ['250 lb limit', 'Listing only, no maker page'],
     },
     {
@@ -121,7 +121,7 @@ PRODUCTS = [
         'best_for': 'A visit, a rental or a second bathroom, on a round bowl.',
         'skip_if': 'You have an elongated toilet or want arms.',
         'specs': {'Rise': '4 in (title)', 'Limit': '400 lb (Drive Medical)', 'Fit': 'Round (listing)', 'Weight': '1.5 lb (listing)', 'Size': '15.98 x 15.35 x 6.3 in (listing)', 'Model': '770-610'},
-        'pros': ['Light and portable', '400 lb limit for about $28'],
+        'pros': ['Light and portable', '400 lb limit at a low price'],
         'cons': ['No arms', 'Not bolted down'],
     },
     {
@@ -129,7 +129,7 @@ PRODUCTS = [
         'alt': 'close view of a white round raised toilet seat riser sitting on a toilet bowl under an open lid', 'price': '$27.99',
         'q': 'HealthSmart 5 inch padded raised toilet seat riser round',
         'text': [
-            'The HealthSmart adds 5 inches to a standard round toilet, the most of the five, for about $28. The listing says there is no assembly: you lift your seat, set the riser in place and lower the seat.',
+            'The HealthSmart adds 5 inches to a standard round toilet, the most of the five, at a low price. The listing says there is no assembly: you lift your seat, set the riser in place and lower the seat.',
             'It has slip-resistant pads on the bottom, and the listing rates it for 300 pounds.',
         ],
         'sections': [
@@ -139,7 +139,7 @@ PRODUCTS = [
         'best_for': 'A round bowl where you need the most height for the least money.',
         'skip_if': 'You are short, or you have an elongated bowl.',
         'specs': {'Rise': '5 in', 'Limit': '300 lb (listing)', 'Fit': 'Round bowls (listing)', 'Pads': 'Slip-resistant', 'Assembly': 'None', 'Sold by': 'Amazon'},
-        'pros': ['5 inches of rise', 'About $28'],
+        'pros': ['5 inches of rise', 'Low price'],
         'cons': ['Round bowls only', 'Listing only, no maker page'],
     },
 ]
@@ -197,9 +197,9 @@ BODY = '''<h2>What the CDC Says About the Bathroom</h2>
 <p>Look at the bowl from above. A round bowl is shorter from front to back and almost circular, and an elongated bowl is longer and oval. The Joint Replacement Resource Centre says to note the shape before you buy, and the listings here name the shape: the Bemis, Vive and Carex are for elongated bowls, and the AquaSense and HealthSmart for round. Vive sells both shapes.</p>
 
 <h2>Our Take</h2>
-<p>The Bemis Assurance at $90.64 is the best pick if you can live with a 3-inch rise. It bolts to the bowl, the listing says it is tested to 1,000 pounds, and it has the best rating of the five at 4.6 from 1,405 reviews. The cost is the price and the bolting, and we could not read Bemis's own page, so check its height and bowl shape on the listing before you order.</p>
-<p>If you want something to push on, the choice is between the Vive at $79.99 and the Carex at $49.49. The extra $30 buys a 300-pound limit against 250, a maker page with full measurements and a lifetime guarantee. Both are for elongated bowls and both have removable arms. If everyone who will use it weighs well under 250 pounds, the Carex is the better value.</p>
-<p>The two plain risers suit round bowls. The AquaSense at $28.26 is the lightest and has the highest limit, 400 pounds on Drive's page, so it is the one to take to a visit. The HealthSmart at $27.99 adds 5 inches, which some people need, but that is too much for others. Measure first, and let the number choose between the 4-inch and the 5-inch.</p>
+<p>The Bemis Assurance is the best pick if you can live with a 3-inch rise. It bolts to the bowl, the listing says it is tested to 1,000 pounds, and it has the best rating of the five at 4.6 from 1,405 reviews. The cost is the price and the bolting, and we could not read Bemis's own page, so check its height and bowl shape on the listing before you order.</p>
+<p>If you want something to push on, the choice is between the Vive and the Carex. The extra cost buys a 300-pound limit against 250, a maker page with full measurements and a lifetime guarantee. Both are for elongated bowls and both have removable arms. If everyone who will use it weighs well under 250 pounds, the Carex is the better value.</p>
+<p>The two plain risers suit round bowls. The AquaSense is the lightest and has the highest limit, 400 pounds on Drive's page, so it is the one to take to a visit. The HealthSmart adds 5 inches, which some people need, but that is too much for others. Measure first, and let the number choose between the 4-inch and the 5-inch.</p>
 
 <h2>The Bottom Line</h2>
 <p>The Bemis Assurance is the best all-round raised toilet seat for an elongated bowl, with the Vive and Carex as the choices if you want arms. For a round bowl, the AquaSense is the portable pick and the HealthSmart is the tallest. Measure your toilet and your seated height before you buy, and add a grab bar next to the toilet if you can. See also our guides to <a href="/best-shower-chairs/">shower chairs</a>, <a href="/best-bedside-commodes/">bedside commodes</a> and <a href="/best-rollators/">rollators</a>.</p>'''

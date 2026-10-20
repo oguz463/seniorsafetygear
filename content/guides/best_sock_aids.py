@@ -42,7 +42,7 @@ PHOTO_CREDIT = 'SHVETS production (Pexels)'
 CARDS_HEADING = 'Best Sock Aids and Dressing Kits'
 
 INTRO = '''<p>A sock aid is a curved plastic shell with two long cords. You slide a sock over the shell, lower it to the floor, put your foot in and pull the cords, so you never have to bend to your foot. It is one of the cheapest daily living aids, and the one people search for most after "rollator". It sits in a family of dressing tools, from reachers to long shoe horns, that are sold alone or in kits.</p>
-<p>The five picks below cost $10 to $50 and run from a single sock aid to a seven-piece kit. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the listing. Choose by what you actually need: if the problem is socks, buy the sock aid, and if it is a hip or knee, a kit may save you several separate purchases.</p>'''
+<p>The five picks below run from a single sock aid to a seven-piece kit. All were in stock on Amazon for delivery to ZIP 10001 when we checked. We could not read any maker's own page, so every figure comes from the listing. Choose by what you actually need: if the problem is socks, buy the sock aid, and if it is a hip or knee, a kit may save you several separate purchases.</p>'''
 
 PRODUCTS = [
     {
@@ -54,13 +54,13 @@ PRODUCTS = [
             'The shell is soft, and the foam handles are meant for hands with a weak grip.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It does one job for about $10, and 42,528 reviews average 4.5 stars, by far the most of any product in this guide. If the only problem is putting on socks, you do not need a kit.</p>"),
-            ('What to know before you buy', "<p>The listing text we read gave no bullets or price, so the $9.97 comes from the search page and the sock types come from the title. The sister listing says its sock aid is not for compression socks, so check before you use it with compression stockings. It does not help with shoes or pants.</p>"),
+            ('Why we picked it', "<p>It does one job at a very low price, and 42,528 reviews average 4.5 stars, by far the most of any product in this guide. If the only problem is putting on socks, you do not need a kit.</p>"),
+            ('What to know before you buy', "<p>The listing text we read gave no bullets or price, so its price came from the search page and the sock types come from the title. The sister listing says its sock aid is not for compression socks, so check before you use it with compression stockings. It does not help with shoes or pants.</p>"),
         ],
         'best_for': 'Someone whose only problem is putting on socks.',
         'skip_if': 'You wear compression stockings or also need help with shoes and pants.',
         'specs': {'Handles': 'Foam', 'For': 'Regular socks (title)', 'Size': '9.5 x 5 x 3 in (listing)', 'Weight': '6.4 oz (listing)', 'Model': 'BD15252', 'Sold by': 'My RMS Store'},
-        'pros': ['About $10', '42,528 reviews at 4.5'],
+        'pros': ['Very low price', '42,528 reviews at 4.5'],
         'cons': ['Only a sock aid', 'Not for compression socks, per its kit listing'],
     },
     {
@@ -90,7 +90,7 @@ PRODUCTS = [
             'The listing says the reacher has a magnetic tip, a dressing post and a clip to attach it to a cane, walker or bed rail.',
         ],
         'sections': [
-            ('Why we picked it', "<p>It covers every item that University of Utah Health lists for joint replacement: a sock aid, a reacher, a long-handled shoe horn, a dressing stick and a long-handled bath sponge. At $39.99 with 8,125 reviews at 4.6 stars, it is the kit that matches the Utah list most closely.</p>"),
+            ('Why we picked it', "<p>It covers every item that University of Utah Health lists for joint replacement: a sock aid, a reacher, a long-handled shoe horn, a dressing stick and a long-handled bath sponge. With 8,125 reviews at 4.6 stars, it is the kit that matches the Utah list most closely.</p>"),
             ('What to know before you buy', "<p>The listing gives the shoe horn as 24 inches in one place and 18 in another, so expect the shorter figure. It has no leg lifter. Utah says the equipment is optional, usually not covered by insurance, and that your doctor or physical therapist can recommend what you need.</p>"),
         ],
         'best_for': 'Someone recovering from hip or knee surgery who wants the standard set.',
@@ -109,13 +109,13 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It has the best rating of the five, 4.7 stars from 7,209 reviews, and the most tools. The leg lifter helps with lifting a leg into bed or a car, and the short reacher is easier to use close in. The rotating jaws are described as giving better control.</p>"),
-            ('What to know before you buy', "<p>It costs $10 more than the 5-piece kit for two extra tools. Utah's list does not mention a leg lifter, so check with your therapist whether you need one. As with all the kits, the figures are from the listing.</p>"),
+            ('What to know before you buy', "<p>It costs a little more than the 5-piece kit for two extra tools. Utah's list does not mention a leg lifter, so check with your therapist whether you need one. As with all the kits, the figures are from the listing.</p>"),
         ],
         'best_for': 'Someone who wants every tool in one box, including a leg lifter.',
         'skip_if': 'You only need the basics or a lower price.',
         'specs': {'Reachers': '32 in and 19 in, rotating (listing)', 'Leg lifter': '42 in strap', 'Sock aid': 'Yes, foam handles', 'Dressing stick': '28 in', 'Weight': '2.2 lb (listing)', 'Sold by': 'My RMS Store'},
         'pros': ['4.7 stars, 7 tools', 'Two reachers and a leg lifter'],
-        'cons': ['$10 more than the 5-piece', 'Leg lifter not on the Utah list'],
+        'cons': ['Costs more than the 5-piece', 'Leg lifter not on the Utah list'],
     },
     {
         'id': 'phantawell-6-piece-hip-kit', 'rank': 'Lowest price per tool', 'name': 'Phantawell 6-Piece Hip Kit', 'img': 'phantawell-6-piece-hip-kit.jpg',
@@ -123,7 +123,7 @@ PRODUCTS = [
         'q': '6PC Hip Kit Hip Replacement Kit After Surgery Hip Kit for Seniors Total Hip Replacement Prime Grabber Sock Aid Shoehorn Dressing Stick Leg Strip Back Scratcher Bath Loofah',
         'text': [
             'The Phantawell kit has a 33-inch foldable reacher with a rotating jaw, a 35.5-inch combined shoehorn and dressing stick, a 45-inch sock aid, a 40-inch leg lifter, a back scratcher and a loofah.',
-            'It is $30, about $10 less than the RMS 5-piece kit, with 5,247 reviews at 4.6 stars.',
+            'It costs less than the RMS 5-piece kit, with 5,247 reviews at 4.6 stars.',
         ],
         'sections': [
             ('Why we picked it', "<p>It costs less per tool than the RMS kits and includes a leg lifter. The combined shoehorn and dressing stick saves a piece, and the foldable reacher has a rotating jaw. It has 5,247 reviews at 4.6 stars.</p>"),
@@ -132,7 +132,7 @@ PRODUCTS = [
         'best_for': 'A low-cost kit with a leg lifter.',
         'skip_if': 'You want a long-handled sponge or a longer track record.',
         'specs': {'Reacher': '33 in foldable, rotating jaw (listing)', 'Sock aid': '45 in, 35.5 in ropes', 'Shoehorn and stick': '35.5 in, one tool', 'Leg lifter': '40 in', 'Extras': 'Back scratcher, loofah', 'Sold by': 'Phantawell Direct US'},
-        'pros': ['About $30 with a leg lifter', 'Foldable reacher'],
+        'pros': ['Low price with a leg lifter', 'Foldable reacher'],
         'cons': ['No long-handled sponge', 'Third-party seller, listing only'],
     },
 ]
@@ -156,7 +156,7 @@ BODY = '''<h2>What University of Utah Health Says</h2>
 
 <h2>How to Choose a Sock Aid or Kit</h2>
 <h3>What do you need to do?</h3>
-<p>If only socks are a problem, a single sock aid costs about $10. If a hip or knee means you cannot bend at all, a kit covers socks, shoes, pants, the floor and the bath.</p>
+<p>If only socks are a problem, a single sock aid is the cheapest option. If a hip or knee means you cannot bend at all, a kit covers socks, shoes, pants, the floor and the bath.</p>
 <h3>Compression stockings</h3>
 <p>The RMS sock aid kit says it is not for compression socks or stockings. Check a tool's listing before using it with compression stockings, which are tighter and harder to slide on.</p>
 <h3>Foot width</h3>
@@ -172,7 +172,7 @@ BODY = '''<h2>What University of Utah Health Says</h2>
 <h3>Will insurance pay for one?</h3>
 <p>University of Utah Health says adaptive equipment after joint replacement is not typically covered by insurance, so you would buy it yourself. Rules differ by plan, so ask your insurer or your surgeon's office if you want to check. Some people buy the tools before surgery so they are ready on the day they come home, but only if their surgeon or therapist advises it.</p>
 <h3>Do I need the whole kit?</h3>
-<p>Only if you need most of the tools. Utah calls the equipment optional and says your doctor and physical therapist can recommend what suits you. If only socks are a problem, a single sock aid costs about $10. If a hip or knee means you cannot bend at all, a kit covers socks, shoes, pants, the floor and the bath in one purchase.</p>
+<p>Only if you need most of the tools. Utah calls the equipment optional and says your doctor and physical therapist can recommend what suits you. If only socks are a problem, a single sock aid is the cheapest option. If a hip or knee means you cannot bend at all, a kit covers socks, shoes, pants, the floor and the bath in one purchase.</p>
 <h3>Can I use a sock aid with compression socks?</h3>
 <p>The RMS sock aid kit says it is not for compression socks or compression stockings. They are tighter and need a different tool, so check the listing of any sock aid before you use it with them. A pharmacist, a nurse or a physical therapist can recommend a donning aid made for compression stockings and show you how to use it.</p>
 <h3>What size foot does a sock aid fit?</h3>
@@ -181,8 +181,8 @@ BODY = '''<h2>What University of Utah Health Says</h2>
 <p>No. A sock aid only helps with socks. University of Utah Health lists a long-handled shoe horn as the tool that lets you put on shoes while sitting or standing, and the kits in this guide include one. The RMS 5-piece kit has a 24-inch plastic shoe horn, and the Phantawell kit combines a shoehorn and dressing stick in one 35.5-inch tool.</p>
 
 <h2>Our Take</h2>
-<p>If socks are the only problem, the RMS Deluxe Sock Aid at $9.97 is the one to buy, with 42,528 reviews at 4.5 stars. The RMS Sock Aid Kit at $19.99 adds a remover for taking socks off, but not for compression stockings.</p>
-<p>For a hip or knee, the RMS 5-Piece Kit at $39.99 matches University of Utah Health's list tool for tool, with 8,125 reviews at 4.6. The RMS Premium 7-Piece at $49.99 adds a second reacher and a leg lifter and has the best rating, 4.7. The Phantawell 6-piece at $29.99 is cheaper and has a leg lifter, but it drops the long-handled sponge and comes from a third-party seller.</p>
+<p>If socks are the only problem, the RMS Deluxe Sock Aid is the one to buy, with 42,528 reviews at 4.5 stars. The RMS Sock Aid Kit adds a remover for taking socks off, but not for compression stockings.</p>
+<p>For a hip or knee, the RMS 5-Piece Kit matches University of Utah Health's list tool for tool, with 8,125 reviews at 4.6. The RMS Premium 7-Piece adds a second reacher and a leg lifter and has the best rating, 4.7. The Phantawell 6-piece is cheaper and has a leg lifter, but it drops the long-handled sponge and comes from a third-party seller.</p>
 
 <h2>The Bottom Line</h2>
 <p>The RMS Deluxe Sock Aid is the best single tool, the RMS 5-Piece Kit the best all-round kit and the RMS Premium 7-Piece the most complete. Choose the Phantawell for a lower price with a leg lifter. Ask your surgeon or physical therapist what you need before you buy, and check any sock aid against compression stockings. See also our guides to <a href="/best-rollators/">rollators</a> and <a href="/best-bedside-commodes/">bedside commodes</a>.</p>'''
