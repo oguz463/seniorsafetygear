@@ -18,7 +18,7 @@ HOME_DESCRIPTION = 'Research-based buying guides for rollators, shower chairs, b
 HOME_INTRO = '''<section class="hero">
 <p class="eyebrow">Mobility and safety at home, researched</p>
 <h1>Choose mobility and bathroom safety equipment that fits the person and the home</h1>
-<p>We compare rollators, shower chairs, raised toilet seats, canes and more on the facts that decide whether they work: the maker's weight limit and dimensions, how it has to be fitted and used, what the CDC and FDA say, and the price on the day we checked.</p>
+<p>We compare rollators, shower chairs, raised toilet seats, canes and more on the facts that decide whether they work: the maker's weight limit and dimensions, how it has to be fitted and used, and what the CDC and FDA say.</p>
 </section>'''
 
 HOME_TRUST = '''<section class="trust">

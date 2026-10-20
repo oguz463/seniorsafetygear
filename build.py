@@ -156,7 +156,7 @@ def page(path, title, description, body, schema=None, canonical=None, image=None
 {ld}
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="logo" href="/" aria-label="SeniorSafetyGear home"><svg class="mark" width="34" height="34" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#1d5f8a"/><path d="M20 7l11 4v8c0 7-4.6 11.6-11 14-6.4-2.4-11-7-11-14v-8z" fill="#fff"/><path d="M14.5 20.5l4 4 7.5-8.5" stroke="#1d5f8a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="word">SeniorSafety<span>Gear</span>Land</span></a><button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button><nav id="primary-navigation" aria-label="Main navigation">{nav}</nav></div></header>
+<header class="top"><div class="wrap"><a class="logo" href="/" aria-label="SeniorSafetyGear home"><svg class="mark" width="34" height="34" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#1d5f8a"/><path d="M20 7l11 4v8c0 7-4.6 11.6-11 14-6.4-2.4-11-7-11-14v-8z" fill="#fff"/><path d="M14.5 20.5l4 4 7.5-8.5" stroke="#1d5f8a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="word">SeniorSafety<span>Gear</span></span></a><button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button><nav id="primary-navigation" aria-label="Main navigation">{nav}</nav></div></header>
 <main class="wrap{' has-toc' if has_toc else ''}">
 {body}
 </main>
@@ -470,8 +470,8 @@ def main():
     sitemap_entries = [
         ('/', content_updated),
         ('/guides/', max(lastmod(g) for g in guides)),
-        ('/articles/', max(lastmod(a) for a in articles)),
-        ('/tools/', max(lastmod(t) for t in tools)),
+        ('/articles/', max((lastmod(a) for a in articles), default=lastmod(site))),
+        ('/tools/', max((lastmod(t) for t in tools), default=lastmod(site))),
         *[(f'/{g.SLUG}/', lastmod(g)) for g in guides],
         *[(f'/articles/{a.SLUG}/', lastmod(a)) for a in articles],
         *[(f'/tools/{t.SLUG}/', lastmod(t)) for t in tools],
