@@ -157,7 +157,7 @@ COMPARE = {
 
 BODY = '''<h2>What the CDC Says About the Bathroom</h2>
 <p>The CDC says more than 1 in 4 older adults falls each year, that fewer than half tell their doctor, and that about 37% of people who fall report an injury that needed medical treatment or limited their activity for at least a day. A single fall doubles the chance of another.</p>
-<p>The CDC's "Check for Safety" home checklist covers the bathroom in two lines. If the tub or shower floor is slippery, it suggests a non-slip rubber mat or self-stick strips. If you need support getting in and out of the tub or up from the toilet, it suggests grab bars next to and inside the tub and next to the toilet. It does not mention raised seats.</p>
+<p>The CDC's "Check for Safety" home checklist covers the bathroom in two lines. If the tub or shower floor is slippery, it suggests a non-slip rubber mat or self-stick strips. If you need support getting in and out of the tub or up from the toilet, it suggests grab bars next to and inside the tub and next to the toilet. It does not mention raised seats. MedlinePlus, in its "Bathroom safety for adults" page (reviewed April 2026), says raising the toilet seat height can help prevent falls.</p>
 <p class="note"><strong>A raised seat shortens the distance, and a grab bar gives you something to hold.</strong> The picks with handles help with pushing up, but they are not fixed to the wall. If standing from the toilet is hard, ask a doctor, physical therapist or occupational therapist to look at the whole bathroom, and use the CDC checklist to find the other hazards.</p>
 
 <h2>How to Measure for a Raised Toilet Seat</h2>
@@ -198,11 +198,12 @@ BODY = '''<h2>What the CDC Says About the Bathroom</h2>
 <p>The two plain risers suit round bowls. The AquaSense at $28.26 is the lightest and has the highest limit, 400 pounds on Drive's page, so it is the one to take to a visit. The HealthSmart at $27.99 adds 5 inches, which some people need, but that is too much for others. Measure first, and let the number choose between the 4-inch and the 5-inch.</p>
 
 <h2>The Bottom Line</h2>
-<p>The Bemis Assurance is the best all-round raised toilet seat for an elongated bowl, with the Vive and Carex as the choices if you want arms. For a round bowl, the AquaSense is the portable pick and the HealthSmart is the tallest. Measure your toilet and your seated height before you buy, and add a grab bar next to the toilet if you can. See also our guides to shower chairs and bedside commodes as they are added.</p>'''
+<p>The Bemis Assurance is the best all-round raised toilet seat for an elongated bowl, with the Vive and Carex as the choices if you want arms. For a round bowl, the AquaSense is the portable pick and the HealthSmart is the tallest. Measure your toilet and your seated height before you buy, and add a grab bar next to the toilet if you can. See also our guides to <a href="/best-shower-chairs/">shower chairs</a>, <a href="/best-bedside-commodes/">bedside commodes</a> and <a href="/best-rollators/">rollators</a>.</p>'''
 
 SOURCES = [
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('CDC: Check for Safety, A Home Fall Prevention Checklist for Older Adults (2017)', 'https://www.cdc.gov/steadi/pdf/STEADI-Brochure-CheckForSafety-508.pdf'),
+    ('MedlinePlus: Bathroom safety for adults (reviewed 2026-04-09)', 'https://medlineplus.gov/ency/patientinstructions/000021.htm'),
     ('Joint Replacement Resource Centre (Winnipeg Regional Health Authority): How to Measure for a Raised Toilet Seat', 'https://wrha.mb.ca/files/joint-replacement-how-to-measure-rts.pdf'),
     ('Vive Health: Toilet Seat Riser with Arms', 'https://www.vivehealth.com/products/raised-toilet-seat-with-handles'),
     ('Drive Medical: AquaSense Economy Raised Toilet Seat (770-610)', 'https://shop.drivemedical.com/us/en/p/770-610'),
