@@ -3,7 +3,7 @@
 import datetime
 
 BASE_URL = 'https://www.seniorsafetygear.com'
-AMAZON_TAG = 'REPLACE-20'  # TODO: set this site's Amazon Associates tag before the first push
+AMAZON_TAG = 'seniorsafetygear-20'
 AUTHOR = 'Oğuz Tokatlı'
 AUTHOR_URL = BASE_URL + '/about/#author'
 AUTHOR_SAME_AS = ['https://www.linkedin.com/in/oguz-tokatli/', 'https://github.com/oguz463']
