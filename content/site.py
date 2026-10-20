@@ -15,17 +15,14 @@ NAV = [('Guides', '/guides/'), ('Articles', '/articles/'), ('Tools', '/tools/'),
 
 HOME_TITLE = 'SeniorSafetyGear: Mobility and Bathroom Safety Buying Guides Built on Maker Specs and Safety Guidance'
 HOME_DESCRIPTION = 'Research-based buying guides for rollators, shower chairs, bedside commodes, canes and more, compared on weight limits, dimensions and public safety guidance.'
-HOME_INTRO = '''<section class="hero">
-<p class="eyebrow">Mobility and safety at home, researched</p>
-<h1>Choose mobility and bathroom safety equipment that fits the person and the home</h1>
-<p>We compare rollators, shower chairs, raised toilet seats, canes and more on the facts that decide whether they work: the maker's weight limit and dimensions, how it has to be fitted and used, and what the CDC and FDA say.</p>
-</section>'''
-
-HOME_TRUST = '''<section class="trust">
-<div><strong>Safety guidance first</strong><span>Each guide starts from what the CDC, FDA and CPSC say about that kind of equipment.</span></div>
-<div><strong>Maker specs, checked</strong><span>Weight limits and sizes come from the maker's own pages, and we flag where listings disagree.</span></div>
-<div><strong>Named sources</strong><span>Every guide lists the pages it relies on, from the agency page to the maker's manual.</span></div>
-</section>'''
+HOME_EYEBROW = 'Mobility and bathroom safety, researched'
+HOME_H1 = 'Equipment that keeps you safe and moving, chosen on the facts'
+HOME_LEAD = 'We compare rollators, shower chairs, raised toilet seats, canes and more on the numbers that decide whether they work: the weight limit, the dimensions, the fit, and what the CDC, MedlinePlus and the CPSC say.'
+HOME_STEPS = [
+    ('Guidance first', 'Every guide starts with what the CDC, MedlinePlus, OrthoInfo or the CPSC say about that kind of equipment.'),
+    ('The maker\'s own numbers', 'Limits and sizes come from maker pages where we could read them, and we flag where a listing disagrees.'),
+    ('Named sources', 'Each guide lists the pages it relies on, and says plainly which figures rest only on an Amazon listing.'),
+]
 
 PAGES = {
     'about': (

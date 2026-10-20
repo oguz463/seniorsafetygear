@@ -130,7 +130,7 @@ def amazon(query):
     return f'https://www.amazon.com/s?k={quote_plus(query)}&tag={site.AMAZON_TAG}'
 
 
-def page(path, title, description, body, schema=None, canonical=None, image=None, has_toc=False):
+def page(path, title, description, body, schema=None, canonical=None, image=None, has_toc=False, home=False):
     url = site.BASE_URL + path
     body = title_case_html(body)
     ld = f'<script type="application/ld+json">{json.dumps(schema, ensure_ascii=False)}</script>' if schema else ''
@@ -156,15 +156,20 @@ def page(path, title, description, body, schema=None, canonical=None, image=None
 {ld}
 </head>
 <body>
-<header class="top"><div class="wrap"><a class="logo" href="/" aria-label="SeniorSafetyGear home"><svg class="mark" width="34" height="34" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#1d5f8a"/><path d="M20 7l11 4v8c0 7-4.6 11.6-11 14-6.4-2.4-11-7-11-14v-8z" fill="#fff"/><path d="M14.5 20.5l4 4 7.5-8.5" stroke="#1d5f8a" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="word">SeniorSafety<span>Gear</span></span></a><button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button><nav id="primary-navigation" aria-label="Main navigation">{nav}</nav></div></header>
-<main class="wrap{' has-toc' if has_toc else ''}">
+<a class="skip" href="#main">Skip to content</a>
+<div class="strip"><div class="wrap"><span>Independent research for older adults and their families</span><a href="/disclosure/">We earn from qualifying Amazon purchases</a></div></div>
+<header class="top"><div class="wrap"><a class="logo" href="/" aria-label="SeniorSafetyGear home"><svg class="mark" width="40" height="40" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#fff"/><path d="M20 7l11 4v8c0 7-4.6 11.6-11 14-6.4-2.4-11-7-11-14v-8z" fill="#12355c"/><path d="M14.5 20.5l4 4 7.5-8.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="word">SeniorSafety<span>Gear</span></span></a><button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button><nav id="primary-navigation" aria-label="Main navigation">{nav}</nav></div></header>
+<main id="main" class="{'home' if home else 'wrap' + (' has-toc' if has_toc else '')}">
 {body}
 </main>
-<footer class="foot"><div class="wrap">
-<p>{e(site.DISCLOSURE)}</p>
-<p><a href="/about/">About</a> · <a href="/how-we-research/">How we research</a> · <a href="/contact/">Contact</a> · <a href="/privacy/">Privacy</a> · <a href="/disclosure/">Affiliate disclosure</a></p>
-<p>© {datetime.date.today().year} SeniorSafetyGear</p>
-</div></footer>
+<footer class="foot">
+<div class="wrap foot-grid">
+<div><p class="foot-logo">SeniorSafetyGear</p><p>Buying guides for mobility and bathroom safety equipment, built on public safety guidance and the makers' own specs.</p><p class="small">{e(site.DISCLOSURE)}</p></div>
+<div><p class="foot-head">Guides</p><ul>{foot_guides()}</ul></div>
+<div><p class="foot-head">The site</p><ul><li><a href="/how-we-research/">How we research</a></li><li><a href="/about/">About</a></li><li><a href="/articles/">Articles</a></li><li><a href="/tools/">Tools</a></li><li><a href="/contact/">Contact</a></li><li><a href="/privacy/">Privacy</a></li><li><a href="/disclosure/">Affiliate disclosure</a></li></ul></div>
+</div>
+<div class="wrap fine"><p>© {datetime.date.today().year} SeniorSafetyGear. Not medical advice: ask a doctor or therapist about your own needs.</p></div>
+</footer>
 <script>
 const menuToggle = document.querySelector('.nav-toggle');
 const mainNavigation = document.querySelector('#primary-navigation');
@@ -212,6 +217,10 @@ if (tocDialog && tocToggle) {{
     target.write_text(out, encoding='utf-8')
 
 
+def foot_guides():
+    return ''.join(f'<li><a href="/guides/#{cat_slug(c)}">{e(c)}</a></li>' for c, _ in guides_by_category())
+
+
 def hero(name, alt):
     return (f'<figure class="hero-photo"><img src="/img/hero/{name}.jpg" srcset="/img/hero/{name}-800.jpg 800w, /img/hero/{name}.jpg 1600w" '
             f'sizes="(max-width: 860px) 100vw, 828px" alt="{e(alt)}" width="1600" height="1067" fetchpriority="high"></figure>')
@@ -249,7 +258,7 @@ def guide_body(g):
                     for p in g.PRODUCTS)
     cards = []
     for i, p in enumerate(g.PRODUCTS, 1):
-        specs = ''.join(f'<tr><th>{e(k)}</th><td>{e(v)}</td></tr>' for k, v in p['specs'].items())
+        specs = ''.join(f'<div><dt>{e(k)}</dt><dd>{e(v)}</dd></div>' for k, v in [('Price', p['price'])] + list(p['specs'].items()))
         pros = ''.join(f'<li>{e(x)}</li>' for x in p['pros'])
         cons = ''.join(f'<li>{e(x)}</li>' for x in p['cons'])
         text = ''.join(f'<p>{x}</p>' for x in p['text'])
@@ -258,14 +267,20 @@ def guide_body(g):
             text += (f'<p class="fit"><strong>Best for:</strong> {p.get("best_for", "")}<br>'
                      f'<strong>Skip it if:</strong> {p.get("skip_if", "")}</p>')
         cards.append(f'''<section class="card" id="{p["id"]}">
-<p class="rank">#{i} · {e(p["rank"])}</p>
+<div class="card-media"><span class="badge">#{i}</span><img src="/img/{p["img"]}" alt="{e(p["alt"])}" width="400" height="400" loading="lazy"><a class="btn" href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a></div>
+<div class="card-main">
+<p class="rank">{e(p["rank"])}</p>
 <h3>{e(title_case(p["name"]))}</h3>
-<div class="card-top"><img src="/img/{p["img"]}" alt="{e(p["alt"])}" width="400" height="400" loading="lazy">
-<table class="specs">{specs}</table></div>
+<dl class="specs">{specs}</dl>
 {text}
-<div class="pc"><div><h4>Good for</h4><ul>{pros}</ul></div><div><h4>Watch out for</h4><ul>{cons}</ul></div></div>
-<p><a class="btn" href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a></p>
+<div class="pc"><div class="pro"><h4>Good for</h4><ul>{pros}</ul></div><div class="con"><h4>Watch out for</h4><ul>{cons}</ul></div></div>
+</div>
 </section>''')
+    top = g.PRODUCTS[0]
+    verdict = (f'<aside class="verdict"><img src="/img/{top["img"]}" alt="{e(top["alt"])}" width="400" height="400">'
+               f'<div><p class="verdict-label">Our top pick</p><p class="verdict-name"><a href="#{top["id"]}">{e(title_case(top["name"]))}</a></p>'
+               f'<p>{top.get("best_for", "")}</p><p class="verdict-actions"><a class="btn" href="{e(amazon(top["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a> '
+               f'<a class="link" href="#{top["id"]}">Read why</a></p></div></aside>')
     sources = ''.join(f'<li><a href="{e(u)}" rel="noopener" target="_blank">{e(label)}</a></li>' for label, u in g.SOURCES)
     body, heads = with_ids(g.BODY)
     extra = [('compare', f'Compare the {len(g.PRODUCTS)} picks')] if getattr(g, 'COMPARE', None) else []
@@ -282,6 +297,7 @@ def guide_body(g):
     <div class="guide-content">
     {hero(g.PHOTO, g.PHOTO_ALT)}
 {g.INTRO}
+{verdict}
 <table class="picks"><thead><tr><th>Best for</th><th>Pick</th><th>Price</th></tr></thead><tbody>{picks}</tbody></table>
 <h2 id="picks">{e(g.CARDS_HEADING)}</h2>
 {''.join(cards)}
@@ -301,7 +317,7 @@ def article_body(a):
     body, heads = with_ids(a.BODY)
     toc = ''.join(f'<li><a href="#{i}">{e(title_case(t))}</a></li>' for i, t in heads)
     related = ''.join(guide_tile(g) for g in guides if g.SLUG in a.RELATED)
-    related = f'<h2>Shopping for One?</h2><div class="tiles related">{related}</div>' if related else ''
+    related = f'<h2>Shopping for One?</h2><div class="rows related">{related}</div>' if related else ''
     return f'''<article class="guide article">
 <p class="crumbs"><a href="/">Home</a> › <a href="/articles/">Articles</a> › {e(a.TOPIC)}</p>
 <h1>{e(a.TITLE)}</h1>
@@ -419,23 +435,48 @@ def guides_by_category():
 def guides_page_body():
     groups = guides_by_category()
     nav = ''.join(f'<a href="#{cat_slug(c)}">{e(c)} <span>{len(gs)}</span></a>' for c, gs in groups)
-    sections = ''.join(f'<h2 id="{cat_slug(c)}">{e(c)}</h2><div class="tiles">{"".join(guide_tile(g) for g in gs)}</div>' for c, gs in groups)
+    sections = ''.join(f'<h2 id="{cat_slug(c)}">{e(c)}</h2><div class="rows">{"".join(guide_tile(g) for g in gs)}</div>' for c, gs in groups)
     return (f'<h1>Buying guides</h1><p>Research-based guides to mobility aids and bathroom and bedroom safety products for older adults, built on maker specs and public safety guidance.</p>'
             f'<nav class="cat-nav" aria-label="Guide categories">{nav}</nav>{sections}')
 
 
 def guide_tile(g):
-    return (f'<a class="tile" href="/{g.SLUG}/"><img src="/img/hero/{g.PHOTO}-800.jpg" alt="{e(g.PHOTO_ALT)}" width="800" height="533" loading="lazy">'
-            f'<span><em>{e(g.CATEGORY)}</em><strong>{e(title_case(g.TITLE))}</strong>{e(g.DESCRIPTION)}</span></a>')
+    return (f'<a class="row-card" href="/{g.SLUG}/"><img src="/img/hero/{g.PHOTO}-800.jpg" alt="{e(g.PHOTO_ALT)}" width="800" height="533" loading="lazy">'
+            f'<span class="row-text"><em>{e(g.CATEGORY)}</em><strong>{e(title_case(g.TITLE))}</strong><span>{e(g.DESCRIPTION)}</span></span></a>')
 
 
 def article_tile(a):
-    return (f'<a class="tile" href="/articles/{a.SLUG}/"><img src="/img/hero/{a.PHOTO}-800.jpg" alt="{e(a.PHOTO_ALT)}" width="800" height="533" loading="lazy">'
-            f'<span><em>{e(a.TOPIC)}</em><strong>{e(title_case(a.TITLE))}</strong>{e(a.DESCRIPTION)}</span></a>')
+    return (f'<a class="row-card" href="/articles/{a.SLUG}/"><img src="/img/hero/{a.PHOTO}-800.jpg" alt="{e(a.PHOTO_ALT)}" width="800" height="533" loading="lazy">'
+            f'<span class="row-text"><em>{e(a.TOPIC)}</em><strong>{e(title_case(a.TITLE))}</strong><span>{e(a.DESCRIPTION)}</span></span></a>')
 
 
 def tool_tile(t):
     return f'<a class="tool-tile" href="/tools/{t.SLUG}/"><strong>{e(title_case(t.NAME))}</strong><span>{e(t.DESCRIPTION)}</span></a>'
+
+CATEGORY_ICONS = {'Walkers & Rollators': '<circle cx="8" cy="30" r="4"/><circle cx="32" cy="30" r="4"/><path d="M8 26V12h24v14M8 18h24"/>', 'Canes': '<path d="M14 36L26 8a6 6 0 1 1 10 4"/>', 'Bath Safety': '<path d="M10 8h12a6 6 0 0 1 6 6v2M6 20h28v4a8 8 0 0 1-8 8H14a8 8 0 0 1-8-8zM12 34l-2 3M28 34l2 3"/>', 'Toilet & Bedroom': '<path d="M4 30V10M4 24h32v6M36 24v-6a4 4 0 0 0-4-4H16v10"/><circle cx="10" cy="19" r="3"/>', 'Lift & Mobility': '<circle cx="20" cy="26" r="9"/><circle cx="20" cy="26" r="2"/><path d="M20 17V8h8M29 8l4 4"/>', 'Daily Living': '<path d="M12 36V16a3 3 0 0 1 6 0v8M18 14V9a3 3 0 0 1 6 0v8M24 14a3 3 0 0 1 6 0v10a12 12 0 0 1-12 12h-2a6 6 0 0 1-5-3L6 26"/>'}
+FEATURED = ['best-rollators', 'best-shower-chairs', 'best-raised-toilet-seats', 'best-canes', 'best-bedside-commodes', 'best-lift-chairs']
+
+
+def home_body():
+    cats = ''.join(
+        f'<a class="cat" href="/guides/#{cat_slug(c)}"><svg viewBox="0 0 40 40" width="44" height="44" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">{CATEGORY_ICONS.get(c, "")}</svg>'
+        f'<strong>{e(c)}</strong><span>{len(gs)} guide{"s" if len(gs) != 1 else ""}</span></a>' for c, gs in guides_by_category())
+    feat = [g for slug in FEATURED for g in guides if g.SLUG == slug]
+    ranked = ''.join(
+        f'<li><a href="/{g.SLUG}/"><span class="num">{i}</span><span class="rank-text"><strong>{e(title_case(g.TITLE))}</strong><span>{e(g.DESCRIPTION)}</span></span><span class="go" aria-hidden="true">→</span></a></li>'
+        for i, g in enumerate(feat, 1))
+    steps = ''.join(f'<div><span class="step-n">{i}</span><strong>{e(t)}</strong><span>{e(d)}</span></div>' for i, (t, d) in enumerate(site.HOME_STEPS, 1))
+    tl = ''.join(tool_tile(t) for t in tools)
+    arts = ''.join(article_tile(a) for a in articles[:3])
+    return f'''<section class="hero-band"><div class="wrap hero-grid">
+<div class="hero-copy"><p class="eyebrow">{e(site.HOME_EYEBROW)}</p><h1>{e(site.HOME_H1)}</h1><p class="lead">{e(site.HOME_LEAD)}</p>
+<p class="hero-links"><a class="btn" href="/guides/">Browse all {len(guides)} guides</a><a class="btn btn-light" href="/tools/">Free calculators</a></p></div>
+<nav class="cats" aria-label="Find a guide by need"><p class="cats-title">Find what you need</p><div class="cat-grid">{cats}</div></nav>
+</div></section>
+<section class="band"><div class="wrap"><h2>Most searched guides</h2><ol class="rank-list">{ranked}</ol><p class="more"><a href="/guides/">See all {len(guides)} guides →</a></p></div></section>
+<section class="band alt"><div class="wrap"><h2>How we research</h2><div class="steps-3">{steps}</div><p class="more"><a href="/how-we-research/">Read our full process →</a></p></div></section>
+<section class="band"><div class="wrap"><h2>Free calculators</h2><div class="tool-tiles">{tl}</div></div></section>
+<section class="band alt"><div class="wrap"><h2>Latest articles</h2><div class="rows">{arts}</div><p class="more"><a href="/articles/">More articles ({len(articles)}) →</a></p></div></section>'''
 
 
 def main():
@@ -453,17 +494,11 @@ def main():
     page('/guides/', 'Senior Safety and Mobility Buying Guides | SeniorSafetyGear', 'Every SeniorSafetyGear buying guide, by category: walkers and rollators, bath safety, toilet and bedroom aids, canes and mobility equipment.',
          guides_page_body())
     page('/articles/', 'Senior Safety Articles and Buying Advice | SeniorSafetyGear', 'Articles on choosing and using mobility and bathroom safety equipment, built on CDC, FDA and CPSC guidance and named sources.',
-         f'<h1>Articles</h1><p>How to choose, fit and use mobility and bathroom safety equipment, each built on CDC, FDA and CPSC guidance and named sources.</p><div class="tiles">{"".join(article_tile(a) for a in articles)}</div>{site.ARTICLES_NOTES}')
+         f'<h1>Articles</h1><p>How to choose, fit and use mobility and bathroom safety equipment, each built on CDC, FDA and CPSC guidance and named sources.</p><div class="rows">{"".join(article_tile(a) for a in articles)}</div>{site.ARTICLES_NOTES}')
     page('/tools/', 'Senior Safety Tools and Calculators | SeniorSafetyGear', 'Free fit calculators and size charts for walkers, canes and bathroom equipment.',
          f'<h1>Tools</h1><p>Quick calculators and size charts, each built from a named source.</p><div class="tool-tiles">{"".join(tool_tile(t) for t in tools)}</div>{site.TOOLS_NOTES}')
-    page('/', site.HOME_TITLE, site.HOME_DESCRIPTION,
-         f'{site.HOME_INTRO}<h2>Latest buying guides</h2><div class="tiles">{"".join(guide_tile(g) for g in guides[:6])}</div>'
-         f'<p class="more"><a class="btn btn-ghost" href="/guides/">More buying guides ({len(guides)}) →</a></p>'
-         f'<h2>Latest articles</h2><div class="tiles">{"".join(article_tile(a) for a in articles[:3])}</div>'
-         f'<p class="more"><a class="btn btn-ghost" href="/articles/">More articles ({len(articles)}) →</a></p>'
-         f'<h2>Tools</h2><div class="tool-tiles">{"".join(tool_tile(t) for t in tools)}</div>'
-         f'<p class="more"><a class="btn btn-ghost" href="/tools/">All tools ({len(tools)}) →</a></p>{site.HOME_TRUST}',
-         {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'SeniorSafetyGear', 'url': site.BASE_URL + '/'})
+    page('/', site.HOME_TITLE, site.HOME_DESCRIPTION, home_body(),
+         {'@context': 'https://schema.org', '@type': 'WebSite', 'name': 'SeniorSafetyGear', 'url': site.BASE_URL + '/'}, home=True)
     for slug, (title, description, body) in site.PAGES.items():
         page(f'/{slug}/', title, description, f'<article class="guide"><h1>{e(title.split(" | ")[0])}</h1>{body}</article>')
     content_updated = max(lastmod(item) for item in [site] + guides + articles + tools)
