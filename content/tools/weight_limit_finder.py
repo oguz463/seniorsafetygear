@@ -20,7 +20,7 @@ DESCRIPTION = 'Enter your weight and what you carry to see which rollators, show
 UPDATED = datetime.date(2026, 10, 20)
 RELATED = ['best-rollators', 'best-shower-chairs', 'best-bedside-commodes', 'best-mobility-scooters', 'best-transport-wheelchairs']
 PICK_GUIDES = ['best-rollators', 'best-shower-chairs', 'best-bedside-commodes', 'best-mobility-scooters', 'best-transport-wheelchairs',
-               'best-raised-toilet-seats', 'best-canes', 'best-wheelchair-ramps', 'best-bed-assist-rails']
+               'best-raised-toilet-seats', 'best-toilet-safety-frames', 'best-canes', 'best-wheelchair-ramps', 'best-bed-assist-rails']
 
 LIMITS = {
     'rollator': ['Rollators', '/best-rollators/', [[350, 'best-rollators/drive-rollator-7-5-inch-wheels'], [300, 'best-rollators/drive-aluminum-rollator'], [350, 'best-rollators/medline-steel-rollator'], [350, 'best-rollators/vocic-z21-all-terrain-rollator']]],
@@ -30,6 +30,7 @@ LIMITS = {
     'transport': ['Transport wheelchairs', '/best-transport-wheelchairs/', [[300, 'best-transport-wheelchairs/medline-transport-chair-12-inch-wheels'], [300, 'best-transport-wheelchairs/drive-fly-lite-transport-chair'], [300, 'best-transport-wheelchairs/medline-ultra-lightweight-transport-chair'], [300, 'best-transport-wheelchairs/drive-atc19-transport-chair'], [250, 'best-transport-wheelchairs/drive-economy-transport-chair']]],
     'toilet': ['Raised toilet seats', '/best-raised-toilet-seats/', [[1000, 'best-raised-toilet-seats/bemis-assurance-3-inch'], [300, 'best-raised-toilet-seats/vive-raised-toilet-seat-with-handles'], [250, 'best-raised-toilet-seats/carex-raised-toilet-seat-with-arms'], [400, 'best-raised-toilet-seats/aquasense-4-inch-riser'], [300, 'best-raised-toilet-seats/healthsmart-5-inch-padded-riser']]],
     'cane': ['Canes', '/best-canes/', [[350, 'best-canes/hurrycane-freedom-edition'], [300, 'best-canes/kinggear-self-standing-quad-cane'], [250, 'best-canes/dmi-adjustable-walking-cane'], [300, 'best-canes/medline-aluminum-offset-cane']]],
+    'frame': ['Toilet safety frames', '/best-toilet-safety-frames/', [[250, 'best-toilet-safety-frames/medline-toilet-safety-rail'], [300, 'best-toilet-safety-frames/carex-toilet-safety-frame'], [300, 'best-toilet-safety-frames/vaunn-folding-toilet-safety-frame'], [350, 'best-toilet-safety-frames/homland-aluminum-toilet-safety-rail'], [450, 'best-toilet-safety-frames/vive-flip-up-toilet-safety-rail']]],
     'ramp': ['Portable ramps', '/best-wheelchair-ramps/', [[800, 'best-wheelchair-ramps/vnn-3ft-portable-ramp'], [800, 'best-wheelchair-ramps/fachnuo-2ft-portable-ramp'], [800, 'best-wheelchair-ramps/vevor-3ft-portable-ramp'], [800, 'best-wheelchair-ramps/vnn-6ft-portable-ramp'], [606, 'best-wheelchair-ramps/whalemotor-8ft-portable-ramp']]],
     'bedrail': ['Bed assist rails', '/best-bed-assist-rails/', [[300, 'best-bed-assist-rails/stander-wonder-pivot-bed-rail'], [300, 'best-bed-assist-rails/lunderg-bed-assist-rail-with-light'], [380, 'best-bed-assist-rails/kingpavonini-bed-assist-rail']]],
 }
