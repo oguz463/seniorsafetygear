@@ -159,7 +159,7 @@ def page(path, title, description, body, schema=None, canonical=None, image=None
 </head>
 <body>
 <a class="skip" href="#main">Skip to content</a>
-<div class="strip"><div class="wrap"><span>Independent research for older adults and their families</span><a href="/disclosure/">We earn from qualifying Amazon purchases</a></div></div>
+<aside class="strip" aria-label="Site notice"><div class="wrap"><span>Independent research for older adults and their families</span><a href="/disclosure/">We earn from qualifying Amazon purchases</a></div></aside>
 <header class="top"><div class="wrap"><a class="logo" href="/" aria-label="SeniorSafetyGear home"><svg class="mark" width="40" height="40" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 40 40"><rect width="40" height="40" rx="10" fill="#fff"/><path d="M20 7l11 4v8c0 7-4.6 11.6-11 14-6.4-2.4-11-7-11-14v-8z" fill="#12355c"/><path d="M14.5 20.5l4 4 7.5-8.5" stroke="#fff" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" fill="none"/></svg><span class="word">SeniorSafety<span>Gear</span></span></a><button class="nav-toggle" type="button" aria-controls="primary-navigation" aria-expanded="false"><span class="menu-icon" aria-hidden="true"><span></span><span></span><span></span></span><span>Menu</span></button><nav id="primary-navigation" aria-label="Main navigation">{nav}</nav></div></header>
 <main id="main" class="{'home' if home else 'wrap' + (' has-toc' if has_toc else '')}">
 {body}
@@ -256,7 +256,7 @@ def compare_table(g):
 
 def guide_body(g):
     picks = ''.join(f'<tr><td>{e(p["rank"])}</td><td><a href="#{p["id"]}">{e(title_case(p["name"]))}</a></td>'
-                    f'<td><a href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price</a></td></tr>'
+                    f'<td><a href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(p["name"]))} (opens in a new tab)">Check price</a></td></tr>'
                     for p in g.PRODUCTS)
     cards = []
     for i, p in enumerate(g.PRODUCTS, 1):
@@ -269,7 +269,7 @@ def guide_body(g):
             text += (f'<p class="fit"><strong>Best for:</strong> {p.get("best_for", "")}<br>'
                      f'<strong>Skip it if:</strong> {p.get("skip_if", "")}</p>')
         cards.append(f'''<section class="card" id="{p["id"]}">
-<div class="card-media"><span class="badge">#{i}</span><img src="/img/{p["img"]}" alt="{e(p["alt"])}" width="400" height="400" loading="lazy"><a class="btn" href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a></div>
+<div class="card-media"><span class="badge">#{i}</span><img src="/img/{p["img"]}" alt="{e(p["alt"])}" width="400" height="400" loading="lazy"><a class="btn" href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(p["name"]))} (opens in a new tab)">Check price on Amazon</a></div>
 <div class="card-main">
 <p class="rank">{e(p["rank"])}</p>
 <h3>{e(title_case(p["name"]))}</h3>
@@ -281,8 +281,8 @@ def guide_body(g):
     top = g.PRODUCTS[0]
     verdict = (f'<aside class="verdict"><img src="/img/{top["img"]}" alt="{e(top["alt"])}" width="400" height="400">'
                f'<div><p class="verdict-label">Our top pick</p><p class="verdict-name"><a href="#{top["id"]}">{e(title_case(top["name"]))}</a></p>'
-               f'<p>{top.get("best_for", "")}</p><p class="verdict-actions"><a class="btn" href="{e(amazon(top["q"]))}" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a> '
-               f'<a class="link" href="#{top["id"]}">Read why</a></p></div></aside>')
+               f'<p>{top.get("best_for", "")}</p><p class="verdict-actions"><a class="btn" href="{e(amazon(top["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(top["name"]))} (opens in a new tab)">Check price on Amazon</a> '
+               f'<a class="link" href="#{top["id"]}" aria-label="Read why {e(title_case(top["name"]))} is our top pick">Read why</a></p></div></aside>')
     sources = ''.join(f'<li><a href="{e(u)}" rel="noopener" target="_blank">{e(label)}</a></li>' for label, u in g.SOURCES)
     body, heads = with_ids(g.BODY)
     extra = [('compare', f'Compare the {len(g.PRODUCTS)} picks')] if getattr(g, 'COMPARE', None) else []
@@ -387,7 +387,7 @@ def with_ids(body):
 PICKS_JS = """function renderPicks(keys, head) {
   var cards = keys.map(function (k) { return PICKS[k]; }).filter(Boolean).map(function (p) {
     return '<div class="pick"><img src="/img/' + p.img + '" alt="' + p.alt + '" width="400" height="400" loading="lazy"><em>' + p.rank + '</em><strong>' + p.name + '</strong>'
-      + '<a class="btn" href="' + p.url + '" rel="nofollow sponsored noopener" target="_blank">Check price on Amazon</a><a class="rev" href="/' + p.guide + '/#' + p.id + '">Read our notes</a></div>';
+      + '<a class="btn" href="' + p.url + '" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for ' + p.name.replace(/"/g, '&quot;') + ' (opens in a new tab)">Check price on Amazon</a><a class="rev" href="/' + p.guide + '/#' + p.id + '" aria-label="Read our notes on ' + p.name.replace(/"/g, '&quot;') + '">Read our notes</a></div>';
   });
   return cards.length ? '<span class="picks-head">' + head + '</span><div class="picks-grid">' + cards.join('') + '</div><p class="small">""" + html.escape(site.DISCLOSURE) + """</p>' : '';
 }"""
@@ -413,7 +413,7 @@ def tool_body(t):
 <h1>{e(t.TITLE)}</h1>
 <p class="byline">By <a href="/about/#author">{e(site.AUTHOR)}</a> · Updated {t.UPDATED:%B %-d, %Y}</p>
 {t.INTRO}
-<div class="widget">{t.WIDGET}</div>
+<div class="widget">{t.WIDGET}<noscript><p class="note">This calculator needs JavaScript. Turn it on for this page, or use the specs tables in our <a href="/guides/">buying guides</a>.</p></noscript></div>
 {('<script>var PICKS = ' + json.dumps(tool_picks(t)) + ';' + PICKS_JS + '</script>') if getattr(t, 'PICK_GUIDES', None) else ''}
 <script>{t.SCRIPT}</script>
 {t.BODY}
