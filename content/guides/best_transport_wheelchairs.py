@@ -196,8 +196,4 @@ SOURCES = [
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('Drive Medical: Fly-Lite Aluminum Transport Chair DFL19-BLK', 'https://shop.drivemedical.com/us/en/p/dfl19-blk'),
     ('Drive Medical: Trans Chair Econ 17 in TR37E-SV', 'https://shop.drivemedical.com/us/en/p/tr37e-sv'),
-    ('Amazon: Medline Transport Wheelchair with Handbrakes and 12-Inch Wheels (listing)', 'https://www.amazon.com/dp/B0088N3BWA'),
-    ('Amazon: Medline Ultra Lightweight Transport Wheelchair (listing)', 'https://www.amazon.com/dp/B001MBCS6K'),
-    ('Amazon: Drive Medical ATC19-BL Transport Wheelchair (listing)', 'https://www.amazon.com/dp/B0013Z1Z00'),
-    ('Amazon: Drive Medical Fly-Lite Transport Wheelchair (listing)', 'https://www.amazon.com/dp/B002VWK2FI'),
 ]

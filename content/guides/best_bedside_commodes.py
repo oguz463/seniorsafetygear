@@ -201,7 +201,4 @@ SOURCES = [
     ('CDC: Check for Safety, A Home Fall Prevention Checklist for Older Adults (2017)', 'https://www.cdc.gov/steadi/pdf/STEADI-Brochure-CheckForSafety-508.pdf'),
     ('Drive Medical: Folding Steel Commode 11148-1', 'https://shop.drivemedical.com/us/en/p/11148-1'),
     ('Drive Medical: Folding Steel Commode RTL11158KDR', 'https://shop.drivemedical.com/us/en/p/rtl11158kdr'),
-    ('Amazon: Medline 3-in-1 Folding Commode with Elongated Seat (listing)', 'https://www.amazon.com/dp/B09YMZ1DR5'),
-    ('Amazon: Medline Drop Arm Commode Chair (listing)', 'https://www.amazon.com/dp/B08KSLM1L3'),
-    ('Amazon: DMI Drop Arm Portable Toilet Commode (listing)', 'https://www.amazon.com/dp/B0CQDGM46B'),
 ]

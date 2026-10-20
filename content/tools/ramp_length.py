@@ -76,7 +76,4 @@ BODY = '''<h2>How the Calculation Works</h2>
 
 SOURCES = [
     ('U.S. Access Board: 2010 ADA Standards for Accessible Design, section 405 Ramps', 'https://www.access-board.gov/ada/'),
-    ('Amazon: VNN 3FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0BQVSCXY7'),
-    ('Amazon: VNN 6FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0BQW1YBD4'),
-    ('Amazon: WHALEMOTOR 8FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0C2YPZXTK'),
 ]

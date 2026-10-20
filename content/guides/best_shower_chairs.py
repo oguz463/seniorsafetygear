@@ -199,7 +199,4 @@ SOURCES = [
     ('CDC: Check for Safety, A Home Fall Prevention Checklist for Older Adults (2017)', 'https://www.cdc.gov/steadi/pdf/STEADI-Brochure-CheckForSafety-508.pdf'),
     ('Drive Medical: Transfer Tub Bench 12011KD-1', 'https://shop.drivemedical.com/us/en/p/12011kd-1'),
     ('Drive Medical: Bath Bench with Back RTL12202KDR', 'https://shop.drivemedical.com/us/en/p/rtl12202kdr'),
-    ('Amazon: Medline Shower Chair with Padded Armrests and Back (listing)', 'https://www.amazon.com/dp/B01MSISJKG'),
-    ('Amazon: Medline Backless Shower Chair with Arms (listing)', 'https://www.amazon.com/dp/B09FQFJ57X'),
-    ('Amazon: HOMLAND Shower Chair for Inside Shower (listing)', 'https://www.amazon.com/dp/B0DBLR63W9'),
 ]

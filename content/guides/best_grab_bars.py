@@ -197,8 +197,4 @@ SOURCES = [
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('U.S. Access Board: 2010 ADA Standards for Accessible Design, section 609 Grab Bars', 'https://www.access-board.gov/ada/'),
     ('Moen: Home Care 24 in Concealed Screw Grab Bar 8724', 'https://www.moen.com/products/8724'),
-    ('Amazon: Moen 8912 Home Care 12-in Grab Bar (listing)', 'https://www.amazon.com/dp/B00084IBAE'),
-    ('Amazon: Amazon Basics 36 Inch Grab Bar (listing)', 'https://www.amazon.com/dp/B079L9X9L4'),
-    ('Amazon: Amazon Basics 18 Inch Grab Bar (listing)', 'https://www.amazon.com/dp/B079L6LY1V'),
-    ('Amazon: Grab Bars for Shower 2 Pack 16 in (listing)', 'https://www.amazon.com/dp/B09PH4MBGZ'),
 ]

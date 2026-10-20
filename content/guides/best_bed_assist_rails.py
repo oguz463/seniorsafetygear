@@ -196,9 +196,4 @@ SOURCES = [
     ('U.S. CPSC: Adult Portable Bed Rail FAQs', 'https://www.cpsc.gov/FAQ/Adult-Portable-Bed-Rail-FAQs'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('CDC: Check for Safety, A Home Fall Prevention Checklist for Older Adults (2017)', 'https://www.cdc.gov/steadi/pdf/STEADI-Brochure-CheckForSafety-508.pdf'),
-    ('Amazon: Stander Wonder Pivot Bed Rail (listing)', 'https://www.amazon.com/dp/B0GLDCDRT4'),
-    ('Amazon: Medline Adjustable Bed Assist Bar (listing)', 'https://www.amazon.com/dp/B006P1RL9G'),
-    ('Amazon: Lunderg Bed Assist Rail with Motion Light (listing)', 'https://www.amazon.com/dp/B09R4N8JBW'),
-    ('Amazon: KingPavonini Bed Rails BM03-1 (listing)', 'https://www.amazon.com/dp/B0BX42MZJ7'),
-    ('Amazon: Medical King Bed Assist Rail (listing)', 'https://www.amazon.com/dp/B083C6CF4R'),
 ]

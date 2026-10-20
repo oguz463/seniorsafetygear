@@ -198,7 +198,4 @@ SOURCES = [
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('Drive Medical: 4 Wheel Rollator with 7.5 in Casters 10257BL-1', 'https://shop.drivemedical.com/us/en/p/10257bl-1'),
     ('Drive Medical: Aluminum Rollator R726BL', 'https://shop.drivemedical.com/us/en/p/r726bl'),
-    ('Amazon: Medline Steel Rollator Walker with Seat (listing)', 'https://www.amazon.com/dp/B079PG3BR3'),
-    ('Amazon: VOCIC Z21 Rollator Walker (listing)', 'https://www.amazon.com/dp/B0FFGVN4LP'),
-    ('Amazon: HOMLAND Foldable Rollator Walker with Extra-Wide Seat (listing)', 'https://www.amazon.com/dp/B0DD3MTH3J'),
 ]

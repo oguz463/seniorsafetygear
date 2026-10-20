@@ -211,7 +211,4 @@ SOURCES = [
     ('Joint Replacement Resource Centre (Winnipeg Regional Health Authority): How to Measure for a Raised Toilet Seat', 'https://wrha.mb.ca/files/joint-replacement-how-to-measure-rts.pdf'),
     ('Vive Health: Toilet Seat Riser with Arms', 'https://www.vivehealth.com/products/raised-toilet-seat-with-handles'),
     ('Drive Medical: AquaSense Economy Raised Toilet Seat (770-610)', 'https://shop.drivemedical.com/us/en/p/770-610'),
-    ('Amazon: Bemis Assurance 3" Raised Toilet Seat (listing)', 'https://www.amazon.com/dp/B07VCVXZ6B'),
-    ('Amazon: Carex 3.5 Inch Raised Toilet Seat with Arms (listing)', 'https://www.amazon.com/dp/B005J4E8IC'),
-    ('Amazon: HealthSmart 5" Padded Raised Toilet Seat Riser (listing)', 'https://www.amazon.com/dp/B08P4WM3B6'),
 ]

@@ -195,9 +195,4 @@ SOURCES = [
     ('21 CFR 890.3800: Motorized three-wheeled vehicle (Legal Information Institute)', 'https://www.law.cornell.edu/cfr/text/21/890.3800'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('Medicare.gov: Durable medical equipment (DME) coverage', 'https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage'),
-    ('Amazon: Vive 3 Wheel Mobility Scooter (listing)', 'https://www.amazon.com/dp/B07LCRZP26'),
-    ('Amazon: Rascal Venture 3-Wheel Portable Mobility Scooter (listing)', 'https://www.amazon.com/dp/B009S7JMZK'),
-    ('Amazon: SuperHandy Passport Mobility Scooter (listing)', 'https://www.amazon.com/dp/B096LD9PC1'),
-    ('Amazon: Hoverfly T3 Mobility Scooter (listing)', 'https://www.amazon.com/dp/B0GBWRRBQ9'),
-    ('Amazon: Iris 3 Lightweight Mobility Scooter (listing)', 'https://www.amazon.com/dp/B0H6WW67BN'),
 ]

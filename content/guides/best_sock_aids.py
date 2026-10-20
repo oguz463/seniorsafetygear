@@ -190,9 +190,4 @@ BODY = '''<h2>What University of Utah Health Says</h2>
 SOURCES = [
     ('University of Utah Health: Adaptive Equipment Following Joint Replacement', 'https://healthcare.utah.edu/orthopaedics/specialties/joint-replacement/patient-guide/adaptive-equipment'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
-    ('Amazon: RMS Deluxe Sock Aid (listing)', 'https://www.amazon.com/dp/B00U9TWCXU'),
-    ('Amazon: RMS Sock Aid Kit (listing)', 'https://www.amazon.com/dp/B075NQVDC6'),
-    ('Amazon: RMS 5-Piece Hip and Knee Kit (listing)', 'https://www.amazon.com/dp/B017ME37E2'),
-    ('Amazon: RMS Premium 7-Piece Hip and Knee Kit (listing)', 'https://www.amazon.com/dp/B07BFDRG1T'),
-    ('Amazon: Phantawell 6PC Hip Kit (listing)', 'https://www.amazon.com/dp/B09ZTT8BF7'),
 ]

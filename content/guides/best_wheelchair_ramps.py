@@ -193,9 +193,4 @@ BODY = '''<h2>The 1:12 Rule from the ADA Standards</h2>
 SOURCES = [
     ('U.S. Access Board: 2010 ADA Standards for Accessible Design, section 405 Ramps', 'https://www.access-board.gov/ada/'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
-    ('Amazon: VNN 3FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0BQVSCXY7'),
-    ('Amazon: FACHNUO 2FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B09PYBP9YF'),
-    ('Amazon: VEVOR 3FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0GYKMSK92'),
-    ('Amazon: VNN 6FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0BQW1YBD4'),
-    ('Amazon: WHALEMOTOR 8FT Portable Wheelchair Ramp (listing)', 'https://www.amazon.com/dp/B0C2YPZXTK'),
 ]

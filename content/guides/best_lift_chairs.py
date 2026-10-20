@@ -189,9 +189,4 @@ BODY = '''<h2>What the CDC Says and What We Could Not Confirm</h2>
 SOURCES = [
     ('Medicare.gov: Durable medical equipment (DME) coverage', 'https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
-    ('Amazon: MCombo Power Lift Recliner 7287 Medium (listing)', 'https://www.amazon.com/dp/B07MGZTLDB'),
-    ('Amazon: MCombo Power Lift Recliner 7283 Large (listing)', 'https://www.amazon.com/dp/B0FF4M8FN3'),
-    ('Amazon: MCombo Power Lift Recliner 7040 Heat and Massage (listing)', 'https://www.amazon.com/dp/B07Q5XRMLD'),
-    ('Amazon: CANMOV Large Power Lift Recliner (listing)', 'https://www.amazon.com/dp/B0C5MPQ96Q'),
-    ('Amazon: Flamaker Power Lift Recliner (listing)', 'https://www.amazon.com/dp/B0BHR189B6'),
 ]

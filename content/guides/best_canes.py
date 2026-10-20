@@ -193,8 +193,4 @@ SOURCES = [
     ('OrthoInfo (AAOS): How To Use Crutches, Canes, and Walkers', 'https://www.orthoinfo.org/recovery/how-to-use-crutches-canes-and-walkers'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
     ('Drive Medical at Home: HurryCane Freedom Edition', 'https://drivemedicalathome.com/products/hurrycane-freedom-edition'),
-    ('Amazon: KINGGEAR Self Standing Walking Cane (listing)', 'https://www.amazon.com/dp/B078SFHFPJ'),
-    ('Amazon: DMI Walking Cane (listing)', 'https://www.amazon.com/dp/B000CSWBWU'),
-    ('Amazon: Medline Aluminum Offset Walking Cane (listing)', 'https://www.amazon.com/dp/B0CCG17HGN'),
-    ('Amazon: HONEYBULL Foldable Free Standing Cane (listing)', 'https://www.amazon.com/dp/B07WPWBWFG'),
 ]
