@@ -16,7 +16,8 @@ TITLE = 'A Safer Bedroom for Night-Time Bathroom Trips: Six Changes'
 SEO_TITLE = 'Safer Bedroom for Night Bathroom Trips: 6 Changes'
 DESCRIPTION = 'Six changes from the CDC, MedlinePlus and the CPSC that make the walk from bed to bathroom safer at night: lighting, rugs, a commode and a bed rail.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a night-route worked example and answers on falls, entrapment zones and whether you need a rail.')]
 PHOTO = 'bedroom-night-trips'
 PHOTO_ALT = 'lit lamp with a pleated shade glowing beside a bed in a dark bedroom'
 PHOTO_CREDIT = 'Juan Pablo Serrano (Pexels)'
@@ -50,7 +51,24 @@ BODY = '''<p>Getting up at night means standing while tired, in a dark room, wit
 <p>We found no agency guidance on how high a commode should be or which side of the bed it belongs on. Our commode guide and height finder give the makers' ranges and suggest a seat level with the bed edge, which is our fitting advice. A doctor or occupational therapist can watch how you get out of bed and tell you what suits you.</p>
 
 <h2>Start With the Cheapest Changes</h2>
-<p>A lamp, a nightlight and a clear floor cost almost nothing and need no assembly. Do those first, then decide whether a commode or a rail would help. If you fall or almost fall at night, tell a doctor, since the CDC notes that most people who fall do not.</p>'''
+<p>A lamp, a nightlight and a clear floor cost almost nothing and need no assembly. Do those first, then decide whether a commode or a rail would help. If you fall or almost fall at night, tell a doctor, since the CDC notes that most people who fall do not.</p>
+
+<h2>A Night-Route Check: A Worked Example</h2>
+<p>Walk the route from your bed to the bathroom with the lights off, and write down what you meet. Use the CDC's "Check for Safety" checklist as a guide.</p>
+<ol class="steps">
+<li><strong>At the bed.</strong> Can you reach a light without leaning? If not, move a lamp closer, as the CDC suggests.</li>
+<li><strong>On the floor.</strong> Is there a throw rug? The CDC suggests removing it or fixing it with double-sided tape or a non-slip backing. Are there cords across the path? Coil or tape them against the wall.</li>
+<li><strong>In the hallway.</strong> Is the path dark? Add a nightlight. The CDC notes some switch on by themselves after dark.</li>
+<li><strong>At the toilet.</strong> If the walk is long or the seat is low, see our guides to <a href="/best-bedside-commodes/">bedside commodes</a> and <a href="/best-raised-toilet-seats/">raised toilet seats</a>.</li>
+</ol>
+
+<h2>Night-Time Safety Questions</h2>
+<h3>How common are falls in older adults?</h3>
+<p>The CDC says more than 1 in 4 older adults falls each year, and fewer than half tell their doctor. If you fall or nearly fall at night, tell your doctor.</p>
+<h3>What is an entrapment zone on a bed rail?</h3>
+<p>CPSC uses the term for an area, gap or opening that can capture a body part. Its mandatory standard, 16 CFR part 1270, covers adult portable bed rails made after August 21, 2023, and our <a href="/best-bed-assist-rails/">bed assist rail guide</a> says which listings name it.</p>
+<h3>Do I need a bed rail at all?</h3>
+<p>Not always. A lamp, a nightlight and a clear path cost almost nothing, and a rail adds a hazard that those do not. An occupational therapist can say whether a rail suits how you get out of bed.</p>'''
 
 SOURCES = [
     ('CDC: Check for Safety, A Home Fall Prevention Checklist for Older Adults (2017)', 'https://www.cdc.gov/steadi/pdf/STEADI-Brochure-CheckForSafety-508.pdf'),

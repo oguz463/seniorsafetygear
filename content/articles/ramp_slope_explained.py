@@ -16,7 +16,8 @@ TITLE = 'How Steep Is Too Steep for a Home Ramp? The ADA 1:12 Rule Explained'
 SEO_TITLE = 'Home Wheelchair Ramp Slope: The ADA 1:12 Rule Explained'
 DESCRIPTION = 'What a 1:12 slope means in inches, the steeper slopes the ADA allows for small rises, the 30-inch limit per run and the handrail and landing rules.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table from step height to ramp length and answers on slope, landings and home use.')]
 PHOTO = 'ramp-slope'
 PHOTO_ALT = 'wheelchair-accessible white van with its side doors open, traffic cones on the road and a driver standing nearby'
 PHOTO_CREDIT = 'DΛVΞ GΛRCIΛ (Pexels)'
@@ -60,7 +61,28 @@ BODY = '''<p>A ramp is a trade between how high you must climb and how far you m
 <p class="note"><strong>Check your chair too.</strong> A ramp that is steeper than you can push is not a solution, even if the listing says it will take the load. A physical therapist or occupational therapist can say how steep a slope you or a helper can manage.</p>
 
 <h2>Which Ramp for Which Step</h2>
-<p>For a 2 or 3 inch threshold, a 2 or 3 foot portable ramp matches the rule. For a 6-inch porch step, you need about 6 feet, and for 8 inches about 8 feet. Above 6 inches, the ADA also asks for handrails, which portable ramps do not have. Our <a href="/best-wheelchair-ramps/">wheelchair ramp guide</a> compares five ramps from 2 to 8 feet.</p>'''
+<p>For a 2 or 3 inch threshold, a 2 or 3 foot portable ramp matches the rule. For a 6-inch porch step, you need about 6 feet, and for 8 inches about 8 feet. Above 6 inches, the ADA also asks for handrails, which portable ramps do not have. Our <a href="/best-wheelchair-ramps/">wheelchair ramp guide</a> compares five ramps from 2 to 8 feet.</p>
+
+<h2>Worked Examples: From Step Height to Ramp Length</h2>
+<p>At a slope of 1:12 the ramp length is the rise times 12. The ADA allows a rise of up to 30 inches in a single run, so longer steps need landings and more than one run.</p>
+<table class="art-table"><thead><tr><th>Rise</th><th>Ramp length at 1:12</th><th>What else applies</th></tr></thead><tbody>
+<tr><td>4 inches</td><td>48 inches (4 feet)</td><td>No handrail needed, since the rise is 6 inches or less</td></tr>
+<tr><td>10 inches</td><td>120 inches (10 feet)</td><td>Handrails, since the rise is over 6 inches</td></tr>
+<tr><td>18 inches</td><td>216 inches (18 feet)</td><td>Handrails, edge protection and a 60-inch landing at each end</td></tr>
+<tr><td>30 inches</td><td>360 inches (30 feet)</td><td>The longest single run the ADA allows</td></tr>
+<tr><td>40 inches</td><td>Two runs: 30 feet and 10 feet</td><td>A 60 by 60 inch landing where the ramp turns</td></tr>
+</tbody></table>
+<p>The 40-inch row shows how it works: the first run takes the maximum 30 inches of rise over 30 feet, a landing follows, and the second run covers the last 10 inches over 10 feet. The table is our own arithmetic from the ADA numbers, and it assumes you can fit the run.</p>
+
+<h2>Ramp Questions</h2>
+<h3>Does the ADA apply to my home?</h3>
+<p>No. The ADA Standards govern public and commercial buildings. They are still the clearest published rule on slope, and they are a sensible target for a home ramp.</p>
+<h3>Can a 3-foot ramp handle a 6-inch step?</h3>
+<p>Not at the ADA's slope. A 6-inch rise needs 72 inches, or 6 feet. A 3-foot ramp over a 6-inch step would be 1:6, steeper than the ADA allows.</p>
+<h3>What about the steeper slopes the ADA allows?</h3>
+<p>Only in existing sites with limited space, and only for small rises: up to 1:10 for a rise of 6 inches or less, and up to 1:8 for a rise of 3 inches or less. A 3-inch rise at 1:8 is 24 inches of ramp, against 36 inches at 1:12.</p>
+<h3>Who can check the slope for my chair?</h3>
+<p>A physical or occupational therapist can say how steep a slope you or a helper can manage, which can be gentler than the ADA limit.</p>'''
 
 SOURCES = [
     ('U.S. Access Board: 2010 ADA Standards for Accessible Design, section 405 Ramps', 'https://www.access-board.gov/ada/'),

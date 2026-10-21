@@ -16,7 +16,8 @@ TITLE = 'Getting Dressed After Hip or Knee Surgery: Five Tools and What They Do'
 SEO_TITLE = 'Dressing Aids After Hip or Knee Surgery: 5 Tools Explained'
 DESCRIPTION = 'The five dressing tools University of Utah Health lists for joint replacement, what each does and how to decide which you need before you buy a kit.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added three worked shopper examples and answers on timing, insurance, compression stockings and reacher length.')]
 PHOTO = 'dressing-after-surgery'
 PHOTO_ALT = 'caregiver in blue shoe covers kneeling beside a seated person to help with their footwear on a carpeted floor'
 PHOTO_CREDIT = 'Jsme MILA (Pexels)'
@@ -57,7 +58,25 @@ BODY = '''<p>After a hip or knee replacement, bending to your feet can be diffic
 <p class="note"><strong>We give no movement precautions.</strong> We did not read a surgeon's or hospital's dressing instructions, so this article explains the tools and not how to use them after your particular surgery. Follow what your surgeon and therapist tell you.</p>
 
 <h2>Where to Look Next</h2>
-<p>Our <a href="/best-sock-aids/">sock aid and dressing kit guide</a> compares five products, from a single sock aid to a seven-piece kit, with what is in each box.</p>'''
+<p>Our <a href="/best-sock-aids/">sock aid and dressing kit guide</a> compares five products, from a single sock aid to a seven-piece kit, with what is in each box.</p>
+
+<h2>Three Shoppers, Three Choices</h2>
+<p>The right purchase depends on which part of dressing is hard. Here are three situations and what the listings in our <a href="/best-sock-aids/">sock aid guide</a> offer for each.</p>
+<ul>
+<li><strong>Only socks are a problem.</strong> A single sock aid does the job. The RMS Deluxe Sock Aid is a shell with cords and foam handles for regular socks, and its listing gives a weight of 6.4 ounces.</li>
+<li><strong>Bending to your feet is off limits for a while.</strong> A kit that matches University of Utah Health's list covers all five tools at once. The RMS five-piece kit lists a 32-inch reacher, a sock aid with 38-inch handles, a 28-inch dressing stick, a 22-inch sponge and a shoe horn.</li>
+<li><strong>You also want help lifting a leg.</strong> The RMS seven-piece kit and the Phantawell kit add a leg lifter strap. Utah's page does not mention one, so ask your therapist first.</li>
+</ul>
+
+<h2>Dressing Aid Questions</h2>
+<h3>Do I need to buy everything before surgery?</h3>
+<p>Utah's page calls the equipment optional and says your doctor and physical therapist can recommend what suits you. It does not say when to buy. Ask your surgeon's team which tools they want you to have at home and when to have them ready.</p>
+<h3>Will insurance pay for these tools?</h3>
+<p>University of Utah Health says adaptive equipment of this kind is not typically covered by insurance, so plan to buy it yourself. Our <a href="/articles/does-medicare-pay-for-mobility-equipment/">Medicare article</a> covers what Medicare.gov says about other equipment.</p>
+<h3>Can I use a sock aid with compression stockings?</h3>
+<p>Not necessarily. The RMS sock aid kit listing says it is not for compression socks or stockings, and it suits feet 5 inches wide or less. Ask a pharmacist, nurse or therapist about a tool made for compression stockings.</p>
+<h3>How long should the reacher be?</h3>
+<p>The kits in our guide list reachers from 19 to 33 inches. A longer reacher means less bending, and a shorter one is easier to control close in. The RMS seven-piece kit includes one of each.</p>'''
 
 SOURCES = [
     ('University of Utah Health: Adaptive Equipment Following Joint Replacement', 'https://healthcare.utah.edu/orthopaedics/specialties/joint-replacement/patient-guide/adaptive-equipment'),

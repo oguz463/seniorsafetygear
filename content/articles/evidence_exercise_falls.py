@@ -19,7 +19,8 @@ TITLE = 'What Kind of Exercise Prevents Falls? What the Cochrane Review Found'
 SEO_TITLE = 'Exercise to Prevent Falls: What the Cochrane Review Found'
 DESCRIPTION = 'A 2019 Cochrane review of 108 trials found exercise cuts the rate of falls by 23%. Which types worked, which are uncertain and what the evidence does not show.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked example of the figures, a guide to which programs to ask about and answers on home exercise, walking and safety.')]
 PHOTO = 'exercise-and-falls'
 PHOTO_ALT = 'older man and woman standing in a park with their arms stretched out in front of them doing slow balance exercises'
 PHOTO_CREDIT = 'Vlada Karpovich (Pexels)'
@@ -60,7 +61,25 @@ BODY = '''<p>Most of what you can buy for a safer home, from grab bars to rollat
 <p class="note"><strong>The USPSTF agrees on exercise.</strong> We read news coverage of the U.S. Preventive Services Task Force's June 2024 recommendation, not the statement itself. As reported, it advises clinicians to offer exercise programs to adults aged 65 and over who are at increased risk of falling, at grade B.</p>
 
 <h2>What to Do With This</h2>
-<p>Ask your doctor or a physical therapist about a balance and strength program before you spend on equipment, and use equipment for the tasks where you need it. A cane or rollator can make a walk safer while you build strength, and our <a href="/articles/cane-walker-or-rollator/">cane, walker or rollator article</a> helps you choose. For the home itself, see what the same research group found in <a href="/articles/do-home-safety-changes-prevent-falls/">the evidence on home safety changes</a>.</p>'''
+<p>Ask your doctor or a physical therapist about a balance and strength program before you spend on equipment, and use equipment for the tasks where you need it. A cane or rollator can make a walk safer while you build strength, and our <a href="/articles/cane-walker-or-rollator/">cane, walker or rollator article</a> helps you choose. For the home itself, see what the same research group found in <a href="/articles/do-home-safety-changes-prevent-falls/">the evidence on home safety changes</a>.</p>
+
+<h2>Reading the Numbers: A Worked Example</h2>
+<p>The review gives its figures per 1,000 people followed for a year. Out of 1,000 people, about 850 falls would be expected without exercise, and with exercise about 195 fewer. Out of 1,000 people, about 480 would fall at least once, and with exercise about 72 fewer fall. So a 23% cut in the rate of falls does not mean 23% of people stop falling: the number of fallers fell by 15%.</p>
+
+<h2>Which Program to Ask About</h2>
+<ul>
+<li><strong>Balance and functional exercise.</strong> This is the group with the strongest evidence, a 24% lower rate of falls with high certainty. Ask a physical therapist about a program built around standing balance and everyday movements.</li>
+<li><strong>Several types together.</strong> Programs that add resistance exercise to balance work probably cut the rate by 34%, with moderate certainty.</li>
+<li><strong>Tai Chi.</strong> It may cut the rate by 19%, with low certainty, and it cut the number of fallers by 20% with high certainty.</li>
+</ul>
+
+<h2>Exercise and Falls Questions</h2>
+<h3>Can I do the exercises at home?</h3>
+<p>The 2019 review did not test home against group classes separately in what we read. The 2012 Cochrane review found that multiple-component home-based exercise reduced the rate of falls (rate ratio 0.68, from 7 trials with 951 people), as did group exercise (0.71, from 16 trials with 3,622 people).</p>
+<h3>Does walking prevent falls?</h3>
+<p>The review was uncertain. It could not say whether walking programs, dance or resistance training alone change the rate of falls.</p>
+<h3>Is it safe?</h3>
+<p>Adverse events were mostly non-serious and in the muscles and joints. Only one trial monitored them closely in both groups, so ask your doctor before starting, especially if you have a health condition.</p>'''
 
 SOURCES = [
     ('Sherrington C, et al.: Exercise for preventing falls in older people living in the community. Cochrane Database Syst Rev 2019', 'https://pubmed.ncbi.nlm.nih.gov/30703272/'),

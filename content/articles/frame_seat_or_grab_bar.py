@@ -15,7 +15,8 @@ TITLE = 'Toilet Safety Frame, Raised Seat or Grab Bar: Which Do You Need?'
 SEO_TITLE = 'Toilet Frame, Raised Seat or Grab Bar: Which Do You Need?'
 DESCRIPTION = 'What a toilet safety frame, a raised seat and a wall grab bar each do, what MedlinePlus and the CDC say about them, and how to tell which problem you have.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added three household examples and answers on commodes, combining a frame with a raised seat and getting advice.')]
 PHOTO = 'frame-seat-or-bar'
 PHOTO_ALT = 'light bathroom with a marble wall, a wooden vanity, a heated towel rail and a small plant'
 PHOTO_CREDIT = 'Max Vakhtbovych (Pexels)'
@@ -59,7 +60,23 @@ BODY = '''<p>Three products help with the same moment, standing up from the toil
 <p>The ADA Standards put a horizontal grab bar 33 to 36 inches above the floor and test it for 250 pounds of force, and they apply to public and commercial buildings, not private homes. MedlinePlus says towel racks can't support your weight, and to fix bars vertically or horizontally and not diagonally. Whatever you choose, the weight rating on a frame is the seller's figure, and the bar is only as strong as what it is fixed to.</p>
 
 <h2>Do Not Decide Alone</h2>
-<p>If standing is hard enough that you worry about falling, ask a doctor or occupational therapist to watch you do it. They can say whether you need height, a handhold or a different aid. Our <a href="/tools/toilet-safety-frame-fit-checker/">frame fit checker</a> and <a href="/tools/raised-toilet-seat-height-calculator/">raised seat calculator</a> help with the sizing once you know what you need.</p>'''
+<p>If standing is hard enough that you worry about falling, ask a doctor or occupational therapist to watch you do it. They can say whether you need height, a handhold or a different aid. Our <a href="/tools/toilet-safety-frame-fit-checker/">frame fit checker</a> and <a href="/tools/raised-toilet-seat-height-calculator/">raised seat calculator</a> help with the sizing once you know what you need.</p>
+
+<h2>Three Households: A Worked Example</h2>
+<ul>
+<li><strong>The seat is low and standing takes a heave.</strong> Start with a raised seat. The picks in our <a href="/best-raised-toilet-seats/">raised toilet seat guide</a> rise 3 to 5 inches: the Bemis Assurance is 3 inches and bolts to the bowl, the Vive and Carex seats are 3.5 inches with removable arms, the AquaSense is 4 inches and the HealthSmart is 5 inches.</li>
+<li><strong>Legs are strong, balance is not, and you cannot drill.</strong> A free-standing frame needs no fixing. The Vaunn frame in our <a href="/best-toilet-safety-frames/">toilet safety frame guide</a> lists a height of 26 to 34 inches and a width of 19 to 24 inches, and it folds to 23 by 16.5 by 4 inches.</li>
+<li><strong>The wall has a stud where you need it.</strong> A bar is the cheapest handhold. Fix it to a stud at the ADA's 33 to 36 inches for a horizontal bar, as our <a href="/articles/where-to-put-grab-bars/">grab bar placement article</a> explains.</li>
+</ul>
+<p>Some households need two of these. Some raised seats come with arms, and the Medline frame listing says it adjusts to fit raised seats.</p>
+
+<h2>Frame, Seat or Bar Questions</h2>
+<h3>Is a commode the same as a raised seat?</h3>
+<p>No. MedlinePlus lists them as two separate ways to raise the toilet seat height: a raised toilet seat, or a commode chair used in place of a toilet. See our <a href="/best-bedside-commodes/">bedside commode guide</a> if the toilet is far from the bed.</p>
+<h3>Can I use a frame over a raised seat?</h3>
+<p>Possibly. The Medline listing says its frame adjusts to standard or raised seats, but bolted frames have fit conditions. Our <a href="/tools/toilet-safety-frame-fit-checker/">frame fit checker</a> lists them, and a raised seat can change the gap to the tank.</p>
+<h3>Who can tell me which one I need?</h3>
+<p>An occupational therapist can watch how you stand up from the toilet and say whether you need height, a handhold or both. We found no guideline that ranks these aids, so the comparison above is our own reading.</p>'''
 
 SOURCES = [
     ('MedlinePlus: Bathroom safety for adults (reviewed 2026-04-09)', 'https://medlineplus.gov/ency/patientinstructions/000021.htm'),

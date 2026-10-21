@@ -16,7 +16,8 @@ TITLE = 'Where to Put Grab Bars: Placement, Height and Mounting'
 SEO_TITLE = 'Where to Put Grab Bars: Placement, Height and Mounting'
 DESCRIPTION = 'Where MedlinePlus and the CDC say grab bars belong, the heights and sizes in the ADA Standards, and what the wall behind the bar must hold.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a tub-and-toilet worked example and answers on renting, mounting, bar length and strength.')]
 PHOTO = 'grab-bar-placement'
 PHOTO_ALT = 'white tiled bathtub alcove with a metal grab bar fixed to the wall and a shower curtain rod above'
 PHOTO_CREDIT = 'Peter Vang (Pexels)'
@@ -54,7 +55,26 @@ BODY = '''<p>A grab bar is only useful if it is where your hand goes and fixed t
 </ul>
 
 <h2>Choosing a Bar</h2>
-<p>Our <a href="/best-grab-bars/">grab bar guide</a> compares five stainless steel bars from 12 to 36 inches, with their diameters and the mounting condition for each rating. For the rest of the bathroom, see the <a href="/articles/bathroom-fall-prevention-checklist/">bathroom fall prevention checklist</a>.</p>'''
+<p>Our <a href="/best-grab-bars/">grab bar guide</a> compares five stainless steel bars from 12 to 36 inches, with their diameters and the mounting condition for each rating. For the rest of the bathroom, see the <a href="/articles/bathroom-fall-prevention-checklist/">bathroom fall prevention checklist</a>.</p>
+
+<h2>A Tub-and-Toilet Bathroom: A Worked Example</h2>
+<p>Take a standard bathroom with a tub-shower and a toilet on the same wall. Following MedlinePlus, the CDC and the ADA numbers, a plan looks like this.</p>
+<ol class="steps">
+<li><strong>Tub edge.</strong> A bar fixed to the wall where you step in, to hold while you lift a leg over. MedlinePlus says to fix bars vertically or horizontally and not diagonally.</li>
+<li><strong>Inside the tub.</strong> A second bar to push on when you stand up from sitting. This is the second bar MedlinePlus recommends for the tub area.</li>
+<li><strong>Beside the toilet.</strong> The CDC's checklist asks about support at the toilet. A horizontal bar here, at 33 to 36 inches above the floor if you follow the ADA, gives your hand a place to push.</li>
+<li><strong>Behind each bar,</strong> a stud or the maker's anchor. Find the studs before you buy.</li>
+</ol>
+
+<h2>Grab Bar Questions</h2>
+<h3>What if I rent and cannot drill?</h3>
+<p>A free-standing toilet frame needs no fixing. See our <a href="/best-toilet-safety-frames/">toilet safety frame guide</a>. For the tub, a shower chair or transfer bench helps with sitting; see our <a href="/best-shower-chairs/">shower chair guide</a>.</p>
+<h3>Can I fix a bar to tile alone?</h3>
+<p>No. MedlinePlus warns that towel racks can't support your weight, and Moen ties its 500-pound rating to a stud or other secure mounting. Tile and drywall alone are not secure.</p>
+<h3>How long should the bar be?</h3>
+<p>The five bars in our <a href="/best-grab-bars/">grab bar guide</a> run from 12 to 36 inches. A longer bar gives more places to grab, and a shorter one suits a tight spot such as the tub edge. The ADA sets the diameter at 1-1/4 to 2 inches.</p>
+<h3>How strong does a bar have to be?</h3>
+<p>The ADA Standards test a bar, its fasteners and the wall behind it for 250 pounds of force. That rule covers public buildings, but it shows that the wall counts as much as the bar.</p>'''
 
 SOURCES = [
     ('MedlinePlus: Bathroom safety for adults (reviewed 2026-04-09)', 'https://medlineplus.gov/ency/patientinstructions/000021.htm'),

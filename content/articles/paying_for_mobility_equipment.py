@@ -16,7 +16,8 @@ TITLE = 'Does Medicare Pay for Mobility Equipment? What Medicare.gov Says'
 SEO_TITLE = 'Does Medicare Pay for Mobility Equipment? Medicare.gov Rules'
 DESCRIPTION = 'What Medicare.gov says about durable medical equipment: the 20% share, enrolled suppliers and a provider\'s order, and what it does not say about lift chairs.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added what Medicare.gov and CMS say about wheelchairs, scooters and walkers, a question checklist and coverage answers.')]
 PHOTO = 'paying-for-mobility'
 PHOTO_ALT = 'older couple sitting on a sofa reviewing a paper document with a laptop on the table'
 PHOTO_CREDIT = 'Kampus Production (Pexels)'
@@ -58,9 +59,38 @@ BODY = '''<p>Mobility equipment can cost hundreds of dollars, and the first ques
 </ol>
 
 <h2>Where to Look Next</h2>
-<p>If you are comparing products, see our guides to <a href="/best-mobility-scooters/">mobility scooters</a> and <a href="/best-lift-chairs/">lift chairs</a>. They compare size, weight and features, and say plainly that they rest on Amazon listings and that Medicare.gov does not mention lift chairs.</p>'''
+<p>If you are comparing products, see our guides to <a href="/best-mobility-scooters/">mobility scooters</a> and <a href="/best-lift-chairs/">lift chairs</a>. They compare size, weight and features, and say plainly that they rest on Amazon listings and that Medicare.gov does not mention lift chairs.</p>
+
+<h2>Wheelchairs, Scooters and Walkers: What Medicare.gov and CMS Say</h2>
+<p>Medicare.gov has a separate page for wheelchairs and scooters, and the Centers for Medicare &amp; Medicaid Services (CMS) publishes the national coverage policy behind it. Here is what both say.</p>
+<ul>
+<li><strong>Power wheelchairs and scooters.</strong> Medicare.gov says Part B covers them only when they are medically necessary, and that you must have a face-to-face examination and a written prescription from a treating provider first.</li>
+<li><strong>Prior authorization.</strong> Certain power wheelchairs may need approval before Medicare covers them. Your supplier usually sends the request and the documents for you, and Medicare can deny it if you don't medically require the chair or if it gets too little information.</li>
+<li><strong>Rent or buy.</strong> Depending on the item, you may rent it, buy it or choose. Some items become yours after a set number of rental payments.</li>
+<li><strong>Your cost.</strong> After the Part B deductible you pay 20% of the Medicare-approved amount if your supplier accepts assignment. Medicare.gov says to ask a supplier whether it participates in Medicare or accepts assignment before you get the equipment.</li>
+</ul>
+<p>The CMS national coverage determination for mobility assistive equipment, effective May 5, 2005, lists canes, crutches, walkers, manual wheelchairs, power wheelchairs and scooters under that heading. It says the equipment is reasonable and necessary for a person whose mobility deficit impairs everyday activities such as toileting, feeding, dressing, grooming and bathing in their customary places at home. Its decision steps include whether another condition limits those activities, whether the person or a caregiver can operate the equipment safely, and an assessment of whether a properly fitted cane or walker would solve the problem.</p>
+
+<h2>Questions to Ask Before You Buy: A Worked Example</h2>
+<ol class="steps">
+<li><strong>Ask your doctor</strong> whether the equipment can be ordered for use in your home, and whether you need the face-to-face visit first.</li>
+<li><strong>Ask the supplier</strong> if it is enrolled in Medicare and accepts assignment.</li>
+<li><strong>Ask about prior authorization</strong> if it is a power wheelchair, and who will send the paperwork.</li>
+<li><strong>Ask about renting</strong> and what happens to the item after the payments.</li>
+<li><strong>Get the cost in writing,</strong> including the 20% share and anything not covered.</li>
+</ol>
+
+<h2>Coverage Questions</h2>
+<h3>Does "in the home" mean I cannot use the equipment outside?</h3>
+<p>The CMS policy ties coverage to your mobility within the home. We did not find a statement about use outside the home on the pages we read, so ask your supplier or Medicare.</p>
+<h3>Is a walker covered?</h3>
+<p>The CMS policy names walkers among mobility assistive equipment, and its decision steps ask whether a fitted cane or walker would meet your needs. Whether a particular model is covered is a question for your supplier and your plan.</p>
+<h3>What if I use a Medicare Advantage plan?</h3>
+<p>The pages we read describe original Medicare Part B. A Medicare Advantage plan may have its own rules, so check with your plan before you buy.</p>'''
 
 SOURCES = [
+    ('Medicare.gov: Wheelchairs & scooters', 'https://www.medicare.gov/coverage/wheelchairs-scooters'),
+    ('CMS: National Coverage Determination 280.3, Mobility Assistive Equipment', 'https://www.cms.gov/medicare-coverage-database/view/ncd.aspx?ncdid=219'),
     ('Medicare.gov: Durable medical equipment (DME) coverage', 'https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage'),
     ('University of Utah Health: Adaptive Equipment Following Joint Replacement', 'https://healthcare.utah.edu/orthopaedics/specialties/joint-replacement/patient-guide/adaptive-equipment'),
 ]

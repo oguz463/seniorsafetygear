@@ -20,7 +20,8 @@ TITLE = 'Do Home Safety Changes Prevent Falls? What the Trials Found'
 SEO_TITLE = 'Do Home Safety Changes Prevent Falls? What Trials Found'
 DESCRIPTION = 'A Cochrane review of 159 trials found home safety assessments and changes reduced falls, most for people at higher risk and when an occupational therapist did them.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a section on how strong the evidence is, a worked plan and answers on education, cost and recency.')]
 PHOTO = 'home-safety-research'
 PHOTO_ALT = 'senior in black trousers standing beside a walker on a patterned rug while a caregiver in blue shoe covers helps'
 PHOTO_CREDIT = 'Jsme MILA (Pexels)'
@@ -55,7 +56,26 @@ BODY = '''<p>If you are about to buy a grab bar, a shower chair or a raised toil
 </ul>
 
 <h2>What to Do With This</h2>
-<p>The finding that an occupational therapist's visit may work better than a checklist is the practical point. Ask your doctor about a home safety assessment by an occupational therapist, especially if you have already fallen or have poor vision. Then buy equipment to fit the problems they find. Our <a href="/articles/bathroom-fall-prevention-checklist/">bathroom checklist</a> and the CDC's "Check for Safety" list are useful before the visit. Our guides on <a href="/best-grab-bars/">grab bars</a>, <a href="/best-shower-chairs/">shower chairs</a> and <a href="/best-raised-toilet-seats/">raised toilet seats</a> cover the products. For the exercise evidence, see <a href="/articles/what-exercise-prevents-falls-cochrane-review/">what the Cochrane exercise review found</a>.</p>'''
+<p>The finding that an occupational therapist's visit may work better than a checklist is the practical point. Ask your doctor about a home safety assessment by an occupational therapist, especially if you have already fallen or have poor vision. Then buy equipment to fit the problems they find. Our <a href="/articles/bathroom-fall-prevention-checklist/">bathroom checklist</a> and the CDC's "Check for Safety" list are useful before the visit. Our guides on <a href="/best-grab-bars/">grab bars</a>, <a href="/best-shower-chairs/">shower chairs</a> and <a href="/best-raised-toilet-seats/">raised toilet seats</a> cover the products. For the exercise evidence, see <a href="/articles/what-exercise-prevents-falls-cochrane-review/">what the Cochrane exercise review found</a>.</p>
+
+<h2>How Strong Is the Evidence?</h2>
+<p>The home safety result rests on fewer trials than the review's headline numbers. The finding on the rate of falls comes from 6 trials with 4,208 people, and the finding on the risk of falling from 7 trials with 4,051. The 95% confidence interval for the rate (0.68 to 0.97) is wide and close to 1, so the true benefit could be small. The review also reports that many of its 159 trials had gaps: only 38% (60 of 159) were at low risk of bias for allocation concealment. Treat the result as encouraging, not settled.</p>
+
+<h2>Putting It Into a Plan: A Worked Example</h2>
+<ol class="steps">
+<li><strong>Start with the CDC's "Check for Safety" checklist</strong> and note every hazard it finds, such as rugs, cords, poor lighting and no grab bars.</li>
+<li><strong>Ask your doctor about a home assessment by an occupational therapist,</strong> especially if you have fallen or have poor vision, since the review found the biggest effect in those groups.</li>
+<li><strong>Fix the hazards you can,</strong> and buy equipment for the tasks the therapist points out.</li>
+<li><strong>Add balance and strength exercise,</strong> which the exercise review found cuts falls (see <a href="/articles/what-exercise-prevents-falls-cochrane-review/">what exercise prevents falls</a>).</li>
+</ol>
+
+<h2>Home Safety Questions</h2>
+<h3>Does reading about fall prevention work on its own?</h3>
+<p>Not by itself. Trials of education alone did not significantly reduce falls: the risk of falling had a risk ratio of 0.88, with an interval of 0.75 to 1.03, across 4 trials and 2,555 people.</p>
+<h3>Did the programs save money?</h3>
+<p>One of the 13 trials with a full economic evaluation found savings for home safety assessment and modification in people who had already fallen. The others covered different interventions.</p>
+<h3>Is this review current?</h3>
+<p>It was published in 2012, and its search ended in early 2012. Newer reviews exist and we did not read them.</p>'''
 
 SOURCES = [
     ('Gillespie LD, et al.: Interventions for preventing falls in older people living in the community. Cochrane Database Syst Rev 2012', 'https://pubmed.ncbi.nlm.nih.gov/22972103/'),
