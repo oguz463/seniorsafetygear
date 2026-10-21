@@ -6,7 +6,7 @@ floors: remove throw rugs or use double-sided tape or a non-slip backing, pick u
 MedlinePlus "Bathroom safety for adults" (review date 2026-04-09: raising the toilet seat height can help prevent falls, with an
 elevated seat or a commode chair). CPSC "Adult Portable Bed Rails" business guidance (16 CFR part 1270, products made after
 2023-08-21, entrapment zones are areas, gaps or openings that can capture a body part). CDC "Facts About Older Adult Falls" (more
-than 1 in 4 older adults falls each year, fewer than half tell their doctor). Hero photo: Pexels 6010886 by Tima Miroshnichenko.
+than 1 in 4 older adults falls each year, fewer than half tell their doctor). Hero photo: Pexels 1612726 by Juan Pablo Serrano.
 """
 import datetime
 
@@ -17,9 +17,9 @@ SEO_TITLE = 'Safer Bedroom for Night Bathroom Trips: 6 Changes'
 DESCRIPTION = 'Six changes from the CDC, MedlinePlus and the CPSC that make the walk from bed to bathroom safer at night: lighting, rugs, a commode and a bed rail.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'bedside-commodes'
-PHOTO_ALT = 'lit table lamp, a glass of water and two blister packs of pills on a marble nightstand'
-PHOTO_CREDIT = 'Tima Miroshnichenko (Pexels)'
+PHOTO = 'bedroom-night-trips'
+PHOTO_ALT = 'lit lamp with a pleated shade glowing beside a bed in a dark bedroom'
+PHOTO_CREDIT = 'Juan Pablo Serrano (Pexels)'
 RELATED = ['best-bedside-commodes', 'best-bed-assist-rails']
 
 TAKEAWAYS = [

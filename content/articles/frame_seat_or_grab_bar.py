@@ -5,7 +5,7 @@ prevent falls, by adding an elevated toilet seat or using a commode chair; towel
 vertically or horizontally, not diagonally). CDC "Check for Safety" 2017 checklist (grab bars next to the toilet). U.S. Access
 Board 2010 ADA Standards 609 (horizontal bars 33 to 36 in above the floor, 250 lb of force; public and commercial buildings).
 Product facts are from the Amazon listings in our guides, checked 2026-10-20. No guideline that ranks these three aids was found,
-so the comparison below is our own reading of what each one does. Hero photo: Erik Mclean (Pexels), reused from the raised seat guide.
+so the comparison below is our own reading of what each one does. Hero photo: Pexels 6636254 by Max Vakhtbovych.
 """
 import datetime
 
@@ -16,9 +16,9 @@ SEO_TITLE = 'Toilet Frame, Raised Seat or Grab Bar: Which Do You Need?'
 DESCRIPTION = 'What a toilet safety frame, a raised seat and a wall grab bar each do, what MedlinePlus and the CDC say about them, and how to tell which problem you have.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'raised-toilet-seats'
-PHOTO_ALT = 'white toilet with a closed seat against a wall in an older bathroom with a patterned floor'
-PHOTO_CREDIT = 'Erik Mclean (Pexels)'
+PHOTO = 'frame-seat-or-bar'
+PHOTO_ALT = 'light bathroom with a marble wall, a wooden vanity, a heated towel rail and a small plant'
+PHOTO_CREDIT = 'Max Vakhtbovych (Pexels)'
 RELATED = ['best-toilet-safety-frames', 'best-raised-toilet-seats', 'best-grab-bars']
 
 TAKEAWAYS = [

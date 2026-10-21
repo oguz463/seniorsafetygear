@@ -7,7 +7,7 @@ legs on even ground, never climb stairs or use an escalator with a walker, do no
 and replace worn rubber tips; the page covers walkers in general). CDC "Facts About Older Adult Falls" (reviewed 2026-09-08: more
 than 1 in 4 older adults falls each year, fewer than half tell their doctor, a single fall doubles the chance of falling again).
 Product figures are from the cane and rollator guides (Drive pages and Amazon listings, checked 2026-10-20). No clinical source
-that ranks aids by condition was read, so the advice is to ask a therapist. Hero photo: Pexels 35445595 by Muhammed Hanefi.
+that ranks aids by condition was read, so the advice is to ask a therapist. Hero photo: Pexels 33101005 by Wheeleo Walker.
 """
 import datetime
 
@@ -18,9 +18,9 @@ SEO_TITLE = 'Cane vs Walker vs Rollator: How to Choose a Walking Aid'
 DESCRIPTION = 'What a cane, a standard walker and a rollator each do, how OrthoInfo says to fit them, and the stairs and standing rules that apply to all three.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'canes'
-PHOTO_ALT = 'older man in a dark coat and cap walking away with a cane along a red path in a tree-lined park'
-PHOTO_CREDIT = 'Muhammed Hanefi (Pexels)'
+PHOTO = 'cane-walker-rollator'
+PHOTO_ALT = 'person walking down a bright hallway with a rollator toward an open door'
+PHOTO_CREDIT = 'Wheeleo Walker (Pexels)'
 RELATED = ['best-canes', 'best-rollators']
 
 TAKEAWAYS = [

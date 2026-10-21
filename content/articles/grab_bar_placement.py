@@ -6,7 +6,7 @@ your weight). CDC "Check for Safety" 2017 checklist (grab bars next to and insid
 2010 ADA Standards, section 609 Grab Bars (609.2 round bars 1-1/4 to 2 in outside diameter; 609.3 1-1/2 in between wall and bar; 609.4
 horizontal bars 33 to 36 in above the finish floor; 609.6 must not rotate; 609.8 250 lb force at any point on the bar, fastener,
 mounting device or supporting structure; the ADA Standards govern public and commercial buildings). Moen and Amazon Basics listings
-(500 lb ratings tied to a stud or secure mounting). Hero photo: Pexels 25311960 by Jan van der Wolf.
+(500 lb ratings tied to a stud or secure mounting). Hero photo: Pexels 36816993 by Peter Vang.
 """
 import datetime
 
@@ -17,9 +17,9 @@ SEO_TITLE = 'Where to Put Grab Bars: Placement, Height and Mounting'
 DESCRIPTION = 'Where MedlinePlus and the CDC say grab bars belong, the heights and sizes in the ADA Standards, and what the wall behind the bar must hold.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'grab-bars'
-PHOTO_ALT = 'metal handrail fixed to a pale tiled wall at an angle with a wall bracket and a shadow below it'
-PHOTO_CREDIT = 'Jan van der Wolf (Pexels)'
+PHOTO = 'grab-bar-placement'
+PHOTO_ALT = 'white tiled bathtub alcove with a metal grab bar fixed to the wall and a shower curtain rod above'
+PHOTO_CREDIT = 'Peter Vang (Pexels)'
 RELATED = ['best-grab-bars']
 
 TAKEAWAYS = [

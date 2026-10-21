@@ -9,7 +9,7 @@ occupational therapist; economic evaluation: home safety assessment and modifica
 savings in one of 13 trials with economic evaluations; education alone did not significantly reduce falls (risk of falling RR 0.88,
 0.75 to 1.03; 4 trials, 2,555); multifactorial programs reduced rate of falls (RaR 0.76) but not risk of falling (RR 0.93);
 vitamin D overall did not reduce falls; an intervention to treat vision problems increased falls (RaR 1.57). The review does not
-name grab bars, shower chairs or other products. CDC "Facts About Older Adult Falls" (reviewed 2026-09-08). Hero photo: Charlotte
+name grab bars, shower chairs or other products. CDC "Facts About Older Adult Falls" (reviewed 2026-09-08). Hero photo: Pexels 29372719 by Jsme MILA.
 May (Pexels), reused.
 """
 import datetime
@@ -21,9 +21,9 @@ SEO_TITLE = 'Do Home Safety Changes Prevent Falls? What Trials Found'
 DESCRIPTION = 'A Cochrane review of 159 trials found home safety assessments and changes reduced falls, most for people at higher risk and when an occupational therapist did them.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'shower-chairs'
-PHOTO_ALT = 'older white bathtub with a metal faucet against a tiled wall and a blue shower curtain'
-PHOTO_CREDIT = 'Charlotte May (Pexels)'
+PHOTO = 'home-safety-research'
+PHOTO_ALT = 'senior in black trousers standing beside a walker on a patterned rug while a caregiver in blue shoe covers helps'
+PHOTO_CREDIT = 'Jsme MILA (Pexels)'
 RELATED = ['best-grab-bars', 'best-shower-chairs']
 
 TAKEAWAYS = [

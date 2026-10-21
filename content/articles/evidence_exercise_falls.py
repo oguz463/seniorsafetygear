@@ -9,7 +9,7 @@ multiple types RaR 0.66 (0.50 to 0.88; 11 studies, 1,374, moderate); Tai Chi RaR
 certainty) and fallers RR 0.80 (0.70 to 0.91; high); resistance-only, dance and walking uncertain; fall-related fractures RR 0.73
 (0.56 to 0.95, low certainty); adverse events mostly non-serious musculoskeletal. USPSTF 2024 (JAMA, June 4 2024) was read only
 through news coverage (Healio, MDedge), not the statement itself, so it is described as reported and not quoted: grade B for exercise
-interventions in community-dwelling adults 65 and older at increased risk of falls. Hero photo: Usame Dzinovic (Pexels), reused.
+interventions in community-dwelling adults 65 and older at increased risk of falls. Hero photo: Pexels 8940488 by Vlada Karpovich.
 """
 import datetime
 
@@ -20,9 +20,9 @@ SEO_TITLE = 'Exercise to Prevent Falls: What the Cochrane Review Found'
 DESCRIPTION = 'A 2019 Cochrane review of 108 trials found exercise cuts the rate of falls by 23%. Which types worked, which are uncertain and what the evidence does not show.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'rollators'
-PHOTO_ALT = 'two older adults walking away along a gravel path in a park with autumn trees and a bench'
-PHOTO_CREDIT = 'Usame Dzinovic (Pexels)'
+PHOTO = 'exercise-and-falls'
+PHOTO_ALT = 'older man and woman standing in a park with their arms stretched out in front of them doing slow balance exercises'
+PHOTO_CREDIT = 'Vlada Karpovich (Pexels)'
 RELATED = ['best-rollators', 'best-canes']
 
 TAKEAWAYS = [

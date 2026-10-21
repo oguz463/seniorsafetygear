@@ -5,7 +5,7 @@ steeper than 1:12; Table 405.2 allows slopes up to 1:8 in existing sites where s
 slopes steeper than 1:12 up to 1:10 and 3 in for steeper than 1:10 up to 1:8, and prohibits slopes steeper than 1:8; 405.3 cross
 slope not steeper than 1:48; 405.5 clear width 36 in; 405.6 rise 30 in maximum per run; 405.7 landings 60 in long, 60 by 60 in
 where the ramp turns; 405.8 handrails on runs with a rise over 6 in; 405.9 edge protection on each side; the ADA Standards govern
-public and commercial buildings, not private homes). Listed step heights are from the Amazon listings in the ramp guide. Hero photo:
+public and commercial buildings, not private homes). Listed step heights are from the Amazon listings in the ramp guide. Hero photo: Pexels 35831406 by DΛVΞ GΛRCIΛ.
 Pexels 37043590 by Eugene Lee.
 """
 import datetime
@@ -17,9 +17,9 @@ SEO_TITLE = 'Home Wheelchair Ramp Slope: The ADA 1:12 Rule Explained'
 DESCRIPTION = 'What a 1:12 slope means in inches, the steeper slopes the ADA allows for small rises, the 30-inch limit per run and the handrail and landing rules.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'wheelchair-ramps'
-PHOTO_ALT = 'red brick archway at a building entrance with a gray ramp, black metal railings and a wheelchair symbol on the ground'
-PHOTO_CREDIT = 'Eugene Lee (Pexels)'
+PHOTO = 'ramp-slope'
+PHOTO_ALT = 'wheelchair-accessible white van with its side doors open, traffic cones on the road and a driver standing nearby'
+PHOTO_CREDIT = 'DΛVΞ GΛRCIΛ (Pexels)'
 RELATED = ['best-wheelchair-ramps']
 
 TAKEAWAYS = [

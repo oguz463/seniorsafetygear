@@ -7,7 +7,7 @@ backrest, suction cup kits sold separately; the Amazon listing says 350 lb and 1
 RTL12202KDR (300 lb, seat 19.25 x 11.5 in, 7 lb, legs adjust in 1 in steps, slip reduction tips). Amazon listings for the
 Medline chairs, from the shower chair guide. CDC "Facts About Older Adult Falls" (reviewed 2026-09-08: more than 1 in 4 older
 adults falls each year). No clinical source on choosing between the two was read; the choice rests on the product designs and
-a recommendation to ask a therapist. Hero photo: Pexels 5824808 by Charlotte May.
+a recommendation to ask a therapist. Hero photo: Pexels 36777898 by Curtis Adams.
 """
 import datetime
 
@@ -18,9 +18,9 @@ SEO_TITLE = 'Shower Chair vs Tub Transfer Bench: How to Choose'
 DESCRIPTION = 'A shower chair sits inside the tub and a transfer bench spans the tub wall. How each works, the numbers on two Drive Medical models and when to ask a therapist.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'shower-chairs'
-PHOTO_ALT = 'older white bathtub with a metal faucet against a tiled wall and a blue shower curtain'
-PHOTO_CREDIT = 'Charlotte May (Pexels)'
+PHOTO = 'shower-chair-or-bench'
+PHOTO_ALT = 'white marble walk-in shower with a glass door, a built-in bench and a rolled towel'
+PHOTO_CREDIT = 'Curtis Adams (Pexels)'
 RELATED = ['best-shower-chairs']
 
 TAKEAWAYS = [

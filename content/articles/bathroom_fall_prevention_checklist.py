@@ -8,7 +8,7 @@ a commode chair; water heater no more than 120 F). CDC "Check for Safety" 2017 c
 self-stick strips in a slippery tub; grab bars next to and inside the tub and next to the toilet; bedrooms: lamp close to the bed,
 nightlight on the path to the bathroom). CDC "Facts About Older Adult Falls" (reviewed 2026-09-08: more than 1 in 4 older
 adults falls each year, fewer than half tell their doctor, a single fall doubles the chance of falling again, about 37% report
-an injury needing medical treatment or restricted activity). Hero photo: Pexels 5824808 by Charlotte May.
+an injury needing medical treatment or restricted activity). Hero photo: Pexels 7227647 by Max Vakhtbovych.
 """
 import datetime
 
@@ -19,9 +19,9 @@ SEO_TITLE = 'Bathroom Fall Prevention Checklist for Seniors: 7 Checks'
 DESCRIPTION = 'Seven bathroom checks from MedlinePlus and the CDC: non-slip mats, grab bars, a shower chair, a higher toilet seat, a night path and water temperature.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'shower-chairs'
-PHOTO_ALT = 'older white bathtub with a metal faucet against a tiled wall and a blue shower curtain'
-PHOTO_CREDIT = 'Charlotte May (Pexels)'
+PHOTO = 'bathroom-checklist'
+PHOTO_ALT = 'bright modern bathroom with a glass shower, a wall-hung toilet and a white vanity with flowers'
+PHOTO_CREDIT = 'Max Vakhtbovych (Pexels)'
 RELATED = ['best-grab-bars', 'best-shower-chairs', 'best-raised-toilet-seats']
 
 TAKEAWAYS = [

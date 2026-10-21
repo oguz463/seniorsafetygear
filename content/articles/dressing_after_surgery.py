@@ -6,7 +6,7 @@ equipment "is not typically covered by insurance"; sock aid helps you safely put
 and helps you get dressed; long-handled shoe horn lets you put on shoes while sitting or standing; dressing stick helps with pants,
 skirts and zippers; long-handled bath sponge reaches hard-to-reach areas; the page gives no steps and does not mention a leg lifter).
 Product details are from the sock aid guide (Amazon listings, checked 2026-10-20). No surgeon's or hospital's dressing instructions
-were read, so no movement precautions are given. Hero photo: Pexels 9050061 by SHVETS production.
+were read, so no movement precautions are given. Hero photo: Pexels 29372721 by Jsme MILA.
 """
 import datetime
 
@@ -17,9 +17,9 @@ SEO_TITLE = 'Dressing Aids After Hip or Knee Surgery: 5 Tools Explained'
 DESCRIPTION = 'The five dressing tools University of Utah Health lists for joint replacement, what each does and how to decide which you need before you buy a kit.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'sock-aids'
-PHOTO_ALT = 'close view of a person sitting on a bed wearing white socks, one with rainbow stripes at the top'
-PHOTO_CREDIT = 'SHVETS production (Pexels)'
+PHOTO = 'dressing-after-surgery'
+PHOTO_ALT = 'caregiver in blue shoe covers kneeling beside a seated person to help with their footwear on a carpeted floor'
+PHOTO_CREDIT = 'Jsme MILA (Pexels)'
 RELATED = ['best-sock-aids']
 
 TAKEAWAYS = [

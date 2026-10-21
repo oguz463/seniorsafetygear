@@ -18,7 +18,7 @@ base depth of at least 3 in, uses existing seat screws, two people recommended f
 Handles B0DXNBZQ7C 4.6 (176), listing: 450 lb, standard and elongated flat-tank toilets with a fixed bolted seat, needs at least
 2 in between the seat bolt holes and the tank, not for curved or irregular tanks, smart or bidet toilets or quick-release hinges,
 flip-up armrests, tool-free.
-Hero photo: reuses the raised toilet seat photo (Erik Mclean, Pexels).
+Hero photo: Pexels 13871327 by Matheus Bertelli.
 Not reached: any maker page and any test of these frames. Every product figure is from the Amazon listing.
 """
 import datetime
@@ -30,9 +30,9 @@ SEO_TITLE = 'Best Toilet Safety Frames 2026: Five Rails Compared'
 DESCRIPTION = 'Five toilet safety frames from Medline, Carex, Vaunn, HOMLAND and Vive compared on capacity, adjustable height and width, and whether they stand on the floor or bolt to the toilet.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'raised-toilet-seats'
-PHOTO_ALT = 'white toilet with a closed seat against a wall in an older bathroom with a patterned floor'
-PHOTO_CREDIT = 'Erik Mclean (Pexels)'
+PHOTO = 'toilet-safety-frames'
+PHOTO_ALT = 'bright accessible bathroom with a glass shower cubicle, a sink and a grab rail on the wall'
+PHOTO_CREDIT = 'Matheus Bertelli (Pexels)'
 CARDS_HEADING = 'Best Toilet Safety Frames'
 
 INTRO = '''<p>A toilet safety frame is a pair of padded armrests on legs that stands around the toilet or fixes to it, so you can push down on both sides to sit and to stand. It is often confused with a raised seat, which lifts you higher, and with a grab bar, which is fixed to the wall. The frame goes where neither fits: a rental, a bathroom with no stud in the right place or a shared bathroom where nothing can be drilled.</p>

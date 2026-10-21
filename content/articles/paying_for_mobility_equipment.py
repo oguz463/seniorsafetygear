@@ -6,7 +6,7 @@ Medicare will only pay for DME items from suppliers enrolled in Medicare; Part B
 provider orders it for use in your home; the page does not mention lift chairs or seat lifts, and its list of covered DME "isn't
 limited to" the items named). University of Utah Health "Adaptive Equipment Following Joint Replacement" (adaptive equipment such as
 sock aids "is not typically covered by insurance"). No Medicare page on scooters, wheelchairs or walkers was read, and secondary
-sites on lift chair coverage were not used. Hero photo: Pexels 18681259 by Momo.
+sites on lift chair coverage were not used. Hero photo: Pexels 8439679 by Kampus Production.
 """
 import datetime
 
@@ -17,9 +17,9 @@ SEO_TITLE = 'Does Medicare Pay for Mobility Equipment? Medicare.gov Rules'
 DESCRIPTION = 'What Medicare.gov says about durable medical equipment: the 20% share, enrolled suppliers and a provider\'s order, and what it does not say about lift chairs.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
-PHOTO = 'mobility-scooters'
-PHOTO_ALT = 'person riding a four-wheel mobility scooter away along a gravel path with a flag on the back and tail lights on'
-PHOTO_CREDIT = 'Momo (Pexels)'
+PHOTO = 'paying-for-mobility'
+PHOTO_ALT = 'older couple sitting on a sofa reviewing a paper document with a laptop on the table'
+PHOTO_CREDIT = 'Kampus Production (Pexels)'
 RELATED = ['best-mobility-scooters', 'best-lift-chairs']
 
 TAKEAWAYS = [
