@@ -15,7 +15,8 @@ NAME = 'Cane and Walker Height Checker'
 TITLE = 'Cane and Walker Height Checker: Set the Handle to Your Wrist Crease'
 SEO_TITLE = 'Cane and Walker Height Checker: Wrist Crease Rule'
 DESCRIPTION = 'Enter the height of your wrist crease to see the cane or rollator handle height OrthoInfo advises and which canes and rollators in our guides reach it.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of wrist crease heights against the canes and rollators in our guides.')]
 RELATED = ['best-canes', 'best-rollators']
 PICK_GUIDES = ['best-canes', 'best-rollators']
 
@@ -72,7 +73,17 @@ BODY = '''<h2>How to Measure Your Wrist Crease Height</h2>
 <h3>Does the same rule work for a rollator?</h3>
 <p>OrthoInfo's page covers walkers in general and does not name rollators, but the wrist crease check applies to any handle you lean on.</p>
 <h3>What if my number is outside every range?</h3>
-<p>Look at the cane and rollator guides for taller or shorter products, or ask the maker. Do not use a handle that is set far from your wrist crease.</p>'''
+<p>Look at the cane and rollator guides for taller or shorter products, or ask the maker. Do not use a handle that is set far from your wrist crease.</p>
+
+<h2>Worked Examples</h2>
+<p>These three wrist crease heights show how the ranges in our guides line up. The ranges are the makers' and listings' figures for each product's height adjustment.</p>
+<table class="art-table"><thead><tr><th>Wrist crease</th><th>Canes that reach it</th><th>Rollators that reach it</th></tr></thead><tbody><tr><td>30 in</td><td>DMI adjustable cane, Medline offset cane, HONEYBULL folding cane</td><td>Drive rollator, 7.5 in wheels</td></tr><tr><td>34 in</td><td>HurryCane Freedom Edition, KINGGEAR quad cane, DMI adjustable cane, Medline offset cane, HONEYBULL folding cane</td><td>Drive rollator, 7.5 in wheels, Drive aluminum rollator, Medline steel rollator, HOMLAND extra-wide rollator</td></tr><tr><td>38 in</td><td>DMI adjustable cane, Medline offset cane</td><td>HOMLAND extra-wide rollator</td></tr></tbody></table>
+<p>At 34 inches all nine fit, so choose on other points such as weight limit and how it folds. At 30 or 38 inches the list narrows, and you should confirm the adjustment before you buy.</p>
+<h2>More Height Questions</h2>
+<h3>Why the wrist crease?</h3>
+<p>OrthoInfo, from the American Academy of Orthopaedic Surgeons, says that standing up straight, the top of a cane or walker should reach the crease in your wrist, so your elbow bends slightly when you hold the grip.</p>
+<h3>If two products fit, which one should I pick?</h3>
+<p>Choose the one whose range has room on both sides of your number. A product set at the very end of its range has no adjustment left if your needs change.</p>'''
 
 SOURCES = [
     ('OrthoInfo (AAOS): How To Use Crutches, Canes, and Walkers', 'https://www.orthoinfo.org/recovery/how-to-use-crutches-canes-and-walkers'),

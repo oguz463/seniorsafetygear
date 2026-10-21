@@ -16,7 +16,8 @@ NAME = 'Car Loading Weight Checker'
 TITLE = 'Car Loading Weight Checker: Can You Lift It Into the Trunk?'
 SEO_TITLE = 'Car Loading Weight Checker: Rollators, Chairs and Scooters'
 DESCRIPTION = 'Enter the most you can lift to see which rollators, transport wheelchairs and scooter pieces in our guides weigh that much or less.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of lifting limits against the listed weights.')]
 RELATED = ['best-rollators', 'best-transport-wheelchairs', 'best-mobility-scooters']
 PICK_GUIDES = ['best-rollators', 'best-transport-wheelchairs', 'best-mobility-scooters']
 
@@ -62,7 +63,17 @@ BODY = '''<h2>What the Weights Mean</h2>
 <h3>What if every product is too heavy?</h3>
 <p>Look at the lighter classes. The lightest rollator in our guide is 13 pounds, the lightest transport chair 15 pounds and the lightest scooter piece 27 pounds. A cane weighs about a pound, so it may do the job if you need only a little support.</p>
 <h3>Does the folded size matter too?</h3>
-<p>Yes. A trunk has a width and a depth. Our guides give folded sizes where the maker or listing gives them, such as 33 by 9 by 28 inches for the Fly-Lite with its riggings.</p>'''
+<p>Yes. A trunk has a width and a depth. Our guides give folded sizes where the maker or listing gives them, such as 33 by 9 by 28 inches for the Fly-Lite with its riggings.</p>
+
+<h2>Worked Examples</h2>
+<p>Three limits and what the listed weights allow. The weights come from the makers' pages and Amazon listings in our buying guides.</p>
+<table class="art-table"><thead><tr><th>Product type</th><th>Your lifting limit</th><th>Products at or under it</th></tr></thead><tbody><tr><td>Rollators</td><td>20 lb</td><td>Drive Medical Aluminum Rollator Walker, Medline Steel Rollator Walker with Seat, Drive Medical Rollator Walker with 7.5 Inch Wheels</td></tr><tr><td>Transport chairs</td><td>20 lb</td><td>Medline Ultra Lightweight Transport Wheelchair, Drive Medical Fly-Lite Transport Chair</td></tr><tr><td>Scooter pieces</td><td>28 lb</td><td>SuperHandy Passport Foldable Scooter</td></tr></tbody></table>
+<p>A rollator or chair is one lift, but a scooter is not: the finder compares your limit with the heaviest single piece, since a scooter comes apart into several.</p>
+<h2>More Loading Questions</h2>
+<h3>Are these tested weights?</h3>
+<p>No. They are product-listing and maker figures, and they can differ by accessories such as footrests or seat cushions. Our guides note which figure is used for each product.</p>
+<h3>Who can tell me what I can safely lift?</h3>
+<p>A doctor or physical therapist can advise on lifting, and a helper or a lift or ramp may be the better answer if the weight is near your limit.</p>'''
 
 SOURCES = [
     ('Drive Medical: Aluminum Rollator R726BL', 'https://shop.drivemedical.com/us/en/p/r726bl'),

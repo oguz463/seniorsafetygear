@@ -15,7 +15,8 @@ NAME = 'Bedside Commode Height Finder'
 TITLE = 'Bedside Commode Height Finder: Match the Seat to Your Bed'
 SEO_TITLE = 'Bedside Commode Height Finder: Match a Commode to Your Bed'
 DESCRIPTION = 'Enter your bed height to see which bedside commodes in our guide have a seat-height range that reaches it.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of bed heights against the commodes with a listed range.')]
 RELATED = ['best-bedside-commodes', 'best-bed-assist-rails']
 PICK_GUIDES = ['best-bedside-commodes']
 
@@ -61,7 +62,16 @@ BODY = '''<h2>How to Measure Your Bed</h2>
 <h3>What if my bed is higher than every commode's range?</h3>
 <p>The highest range in our guide is 24 inches, on the DMI. Ask a therapist about a lower bed or a different transfer, or look at commodes with a higher range.</p>
 <h3>Do drop arms change the height I need?</h3>
-<p>Not the seat height, but they let you slide across without lifting over an arm. The Medline drop arm and the DMI have them.</p>'''
+<p>Not the seat height, but they let you slide across without lifting over an arm. The Medline drop arm and the DMI have them.</p>
+
+<h2>Worked Examples</h2>
+<table class="art-table"><thead><tr><th>Bed height</th><th>Fits</th></tr></thead><tbody><tr><td>19 in</td><td>Drive Folding Steel Commode RTL11158KDR, Medline Drop Arm Commode</td></tr><tr><td>21 in</td><td>Drive Folding Steel Commode RTL11158KDR, Medline Drop Arm Commode, DMI Drop Arm Extra-Wide Commode</td></tr><tr><td>24 in</td><td>DMI Drop Arm Extra-Wide Commode</td></tr></tbody></table>
+<p>A 21-inch bed is within the range of all three commodes. At 19 inches the DMI is too high at its lowest setting, and at 24 inches only the DMI reaches. Set all four legs to the same hole and check the push pins are locked.</p>
+<h2>More Commode Questions</h2>
+<h3>Why match the bed height?</h3>
+<p>Setting the seat level with the bed edge or slightly above is our fitting advice, so you slide across and stand without a drop. We found no agency rule for commode seat height.</p>
+<h3>What if the bed moves?</h3>
+<p>Place the bed against a wall or lock its wheels before you use a commode beside it. A commode next to a bed that slides is a hazard.</p>'''
 
 SOURCES = [
     ('Drive Medical: Folding Steel Commode RTL11158KDR', 'https://shop.drivemedical.com/us/en/p/rtl11158kdr'),

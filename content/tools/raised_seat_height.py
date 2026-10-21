@@ -17,7 +17,8 @@ NAME = 'Raised Toilet Seat Height Calculator'
 TITLE = 'Raised Toilet Seat Height Calculator: How Many Inches Do You Need?'
 SEO_TITLE = 'Raised Toilet Seat Height Calculator: Find Your Rise in Inches'
 DESCRIPTION = 'Enter your toilet height and your ideal seated height to see how many inches a raised toilet seat should add, and which seats in our guide come closest.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked example table based on the Joint Replacement Resource Centre measuring method.')]
 RELATED = ['best-raised-toilet-seats', 'best-bedside-commodes', 'best-grab-bars']
 PICK_GUIDES = ['best-raised-toilet-seats']
 
@@ -70,7 +71,21 @@ BODY = '''<h2>How to Take the Two Measurements</h2>
 <h3>What height do the seats in your guide add?</h3>
 <p>The Bemis Assurance adds 3 inches, the Vive and Carex 3.5, the AquaSense 4 and the HealthSmart 5, according to the makers' pages and listings.</p>
 <h3>What if I need more than 5 inches?</h3>
-<p>A bedside commode used over the toilet is higher. See our <a href="/best-bedside-commodes/">bedside commode guide</a>, and ask a therapist.</p>'''
+<p>A bedside commode used over the toilet is higher. See our <a href="/best-bedside-commodes/">bedside commode guide</a>, and ask a therapist.</p>
+
+<h2>Worked Examples</h2>
+<p>The method from the Joint Replacement Resource Centre is to find a seat height where your feet are flat and your hips sit about 2 inches above your knees, then subtract the toilet's height.</p>
+<table class="art-table"><thead><tr><th>Comfortable seat height</th><th>Toilet height</th><th>Raised seat needed</th></tr></thead><tbody>
+<tr><td>17 in</td><td>15 in</td><td>2 in</td></tr>
+<tr><td>19 in</td><td>15 in</td><td>4 in</td></tr>
+<tr><td>21 in</td><td>15 in</td><td>6 in</td></tr>
+</tbody></table>
+<p>The seats in our guide rise 3 to 5 inches. The 19-inch case needs 4 inches, which the AquaSense matches. The 17-inch case needs a 2-inch rise, below the lowest seat in the guide. The same source says that if your hips and knees are level, a 2 to 3 inch seat may work. The 21-inch case needs more than 5 inches, which is why a bedside commode or a different aid may suit better.</p>
+<h2>More Seat Questions</h2>
+<h3>Does footwear change the number?</h3>
+<p>The source suggests allowing for the height of the footwear you wear when you measure.</p>
+<h3>Round or elongated?</h3>
+<p>Check your bowl and note whether it is round or elongated, since our guide lists the shape of each seat.</p>'''
 
 SOURCES = [
     ('Joint Replacement Resource Centre (Winnipeg Regional Health Authority): How to Measure for a Raised Toilet Seat', 'https://wrha.mb.ca/files/joint-replacement-how-to-measure-rts.pdf'),

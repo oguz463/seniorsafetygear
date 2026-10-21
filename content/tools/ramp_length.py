@@ -15,7 +15,8 @@ NAME = 'Wheelchair Ramp Length Calculator'
 TITLE = 'Wheelchair Ramp Length Calculator: How Long a Ramp for Your Step?'
 SEO_TITLE = 'Wheelchair Ramp Length Calculator: 1:12 Slope by Step Height'
 DESCRIPTION = 'Enter the height of your step in inches to see the ramp length the ADA 1:12 slope needs, and which portable ramps in our guide are long enough.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of step heights against the portable ramps in our guide.')]
 RELATED = ['best-wheelchair-ramps', 'best-transport-wheelchairs', 'best-mobility-scooters']
 PICK_GUIDES = ['best-wheelchair-ramps']
 
@@ -74,7 +75,14 @@ BODY = '''<h2>How the Calculation Works</h2>
 <h3>Can I use a shorter ramp?</h3>
 <p>The ADA allows steeper slopes only for small rises in existing sites, and prohibits anything steeper than 1:8. A steeper ramp is harder to push up and easier to tip on.</p>
 <h3>Do I need a handrail?</h3>
-<p>The ADA asks for handrails on ramp runs with a rise over 6 inches. The portable ramps in our guide have side baffles, not handrails.</p>'''
+<p>The ADA asks for handrails on ramp runs with a rise over 6 inches. The portable ramps in our guide have side baffles, not handrails.</p>
+
+<h2>Worked Examples</h2>
+<table class="art-table"><thead><tr><th>Step height</th><th>Length at 1:12</th><th>Portable ramps in our guide that are long enough</th></tr></thead><tbody><tr><td>2 in</td><td>24 in (2 ft)</td><td>FACHNUO 2FT, VNN 3FT, VEVOR 3FT, VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>3 in</td><td>36 in (3 ft)</td><td>VNN 3FT, VEVOR 3FT, VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>4 in</td><td>48 in (4 ft)</td><td>VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>6 in</td><td>72 in (6 ft)</td><td>VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>8 in</td><td>96 in (8 ft)</td><td>WHALEMOTOR 8FT</td></tr></tbody></table>
+<p>The 12-inches-per-inch rule is the ADA's, and portable ramp listings often claim steeper slopes. Our article on <a href="/articles/how-steep-is-too-steep-for-a-home-ramp/">ramp slope</a> explains the ADA numbers and how longer rises need landings.</p>
+<h2>More Ramp Questions</h2>
+<h3>Does the ADA apply to a home ramp?</h3>
+<p>No, the ADA Standards govern public and commercial buildings, but they are a clear target for a home.</p>'''
 
 SOURCES = [
     ('U.S. Access Board: 2010 ADA Standards for Accessible Design, section 405 Ramps', 'https://www.access-board.gov/ada/'),

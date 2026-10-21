@@ -17,7 +17,8 @@ NAME = 'Weight Limit Finder'
 TITLE = 'Weight Limit Finder: Which Mobility Products Hold Your Weight?'
 SEO_TITLE = 'Weight Limit Finder: Walkers, Shower Seats, Commodes and More'
 DESCRIPTION = 'Enter your weight and what you carry to see which rollators, shower chairs, commodes, scooters, transport chairs, canes, ramps and raised seats in our guides list a high enough limit.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of weights needed against the limits in our guides.')]
 RELATED = ['best-rollators', 'best-shower-chairs', 'best-bedside-commodes', 'best-mobility-scooters', 'best-transport-wheelchairs']
 PICK_GUIDES = ['best-rollators', 'best-shower-chairs', 'best-bedside-commodes', 'best-mobility-scooters', 'best-transport-wheelchairs',
                'best-raised-toilet-seats', 'best-toilet-safety-frames', 'best-canes', 'best-wheelchair-ramps', 'best-bed-assist-rails']
@@ -74,7 +75,14 @@ BODY = '''<h2>How to Use the Result</h2>
 <h3>Why are some products missing from the results?</h3>
 <p>Their listings give no weight limit in the text we read. Our guides flag these, for example the HOMLAND rollator, the HONEYBULL cane and the Hoverfly scooter. Check the product page before buying.</p>
 <h3>Does a higher limit mean a better product?</h3>
-<p>No. A limit only tells you the most the product is rated for. Size, fit and the features in our guides decide the pick among those that qualify.</p>'''
+<p>No. A limit only tells you the most the product is rated for. Size, fit and the features in our guides decide the pick among those that qualify.</p>
+
+<h2>Worked Examples</h2>
+<table class="art-table"><thead><tr><th>Product type</th><th>Weight you need</th><th>Picks with a limit at or above it</th></tr></thead><tbody><tr><td>Rollators</td><td>300 lb</td><td>Drive Medical Rollator Walker with 7.5 Inch Wheels, Drive Medical Aluminum Rollator Walker, Medline Steel Rollator Walker with Seat, VOCIC Z21 All-Terrain Rollator</td></tr><tr><td>Mobility scooters</td><td>280 lb</td><td>Rascal Venture 3-Wheel Portable Scooter</td></tr><tr><td>Shower chairs and benches</td><td>350 lb</td><td>Medline Shower Chair with Padded Armrests and Back, Drive Medical Tub Transfer Bench, Medline Backless Shower Chair with Arms</td></tr><tr><td>Toilet safety frames</td><td>300 lb</td><td>Carex Toilet Safety Frame, Vaunn Medical Foldable Toilet Safety Rail, HOMLAND Aluminum Toilet Safety Rails, Vive Toilet Safety Rail with Flip-Up Handles</td></tr></tbody></table>
+<p>Add what you carry to your body weight before you enter a number. A rollator carrying shopping or a scooter carrying a bag uses part of the limit.</p>
+<h2>More Limit Questions</h2>
+<h3>How much margin should I leave?</h3>
+<p>No agency sets a safe margin above a product's limit, so the finder only compares the limit with the number you enter. Choose a limit comfortably above it.</p>'''
 
 SOURCES = [
     ('Drive Medical: 4 Wheel Rollator with 7.5 in Casters 10257BL-1', 'https://shop.drivemedical.com/us/en/p/10257bl-1'),

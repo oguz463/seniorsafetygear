@@ -16,7 +16,8 @@ NAME = 'Toilet Safety Frame Fit Checker'
 TITLE = 'Toilet Safety Frame Fit Checker: Will It Fit Your Toilet?'
 SEO_TITLE = 'Toilet Safety Frame Fit Checker: Which Frames Fit?'
 DESCRIPTION = 'Enter your toilet\'s width, bolt spacing, tank gap and seat type to see which toilet safety frames in our guide the listings say will fit.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of three toilets against the frames in our guide.')]
 RELATED = ['best-toilet-safety-frames', 'best-raised-toilet-seats']
 PICK_GUIDES = ['best-toilet-safety-frames']
 
@@ -69,7 +70,18 @@ BODY = '''<h2>What to Measure</h2>
 <h3>What if my toilet has a quick-release seat?</h3>
 <p>The Vive listing excludes seats with quick-release hinges, and the HOMLAND frame uses the seat screws. A free-standing frame needs no fitting, so start with the Vaunn if the width suits.</p>
 <h3>Does a raised seat change the fit?</h3>
-<p>It can. A raised seat changes the seat height and may change the gap to the tank, so measure again with the raised seat on. See our <a href="/tools/raised-toilet-seat-height-calculator/">raised toilet seat calculator</a>.</p>'''
+<p>It can. A raised seat changes the seat height and may change the gap to the tank, so measure again with the raised seat on. See our <a href="/tools/raised-toilet-seat-height-calculator/">raised toilet seat calculator</a>.</p>
+
+<h2>Worked Examples</h2>
+<table class="art-table"><thead><tr><th>Your toilet</th><th>Frames to check</th></tr></thead><tbody>
+<tr><td>15 in wide, 5.5 in bolt spacing, 2.5 in gap to the tank, flat tank with a fixed seat</td><td>All five: Vaunn, Carex, HOMLAND, Vive and Medline</td></tr>
+<tr><td>20 in wide, 1 in gap, other bolt spacing</td><td>Vaunn and Medline</td></tr>
+<tr><td>26 in wide, curved tank or bidet seat</td><td>Medline only, with its width to confirm with the seller</td></tr>
+</tbody></table>
+<p>The third row shows why measuring first helps: a wide seat or an unusual tank leaves only a free-standing frame with no stated width.</p>
+<h2>More Fit Questions</h2>
+<h3>How was the width rule chosen?</h3>
+<p>The checker treats a frame as wide enough when the top of its width range is at least the outside width of your seat. That is our own reading of the listings, not a maker rule.</p>'''
 
 SOURCES = [
     ('MedlinePlus: Bathroom safety for adults (reviewed 2026-04-09)', 'https://medlineplus.gov/ency/patientinstructions/000021.htm'),

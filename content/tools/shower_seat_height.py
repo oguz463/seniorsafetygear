@@ -15,7 +15,8 @@ NAME = 'Shower Seat Height Finder'
 TITLE = 'Shower Seat Height Finder: Which Chair Adjusts to Your Leg?'
 SEO_TITLE = 'Shower Seat Height Finder: Match a Chair to Your Leg Length'
 DESCRIPTION = 'Enter the height from the floor to the back of your knee to see which shower chairs and benches in our guide adjust to that seat height.'
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 21)
+UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of seat heights against the shower seats with a listed range.')]
 RELATED = ['best-shower-chairs', 'best-grab-bars']
 PICK_GUIDES = ['best-shower-chairs']
 
@@ -64,7 +65,16 @@ BODY = '''<h2>How to Measure</h2>
 <h3>Should the seat be higher if standing is hard?</h3>
 <p>A higher seat shortens the distance you push up, but your feet should still reach the floor. A therapist can set the height that suits your legs and any surgery precautions.</p>
 <h3>Does a transfer bench use the same measurement?</h3>
-<p>A transfer bench sits across the tub wall, so its height also has to clear the tub edge. Drive's page lists 17.5 to 22.5 inches. See our <a href="/articles/shower-chair-or-transfer-bench/">shower chair or transfer bench article</a>.</p>'''
+<p>A transfer bench sits across the tub wall, so its height also has to clear the tub edge. Drive's page lists 17.5 to 22.5 inches. See our <a href="/articles/shower-chair-or-transfer-bench/">shower chair or transfer bench article</a>.</p>
+
+<h2>Worked Examples</h2>
+<table class="art-table"><thead><tr><th>Seat height</th><th>Fits</th></tr></thead><tbody><tr><td>15 in</td><td>HOMLAND stool</td></tr><tr><td>18 in</td><td>HOMLAND stool, Medline backless chair with arms, Drive transfer bench</td></tr><tr><td>20 in</td><td>Medline backless chair with arms, Drive transfer bench</td></tr><tr><td>22 in</td><td>Drive transfer bench</td></tr></tbody></table>
+<p>At 18 inches all three listed seats can be set to your number. At the ends of the scale the choice narrows to one product, so confirm the adjustment steps in the listing.</p>
+<h2>More Shower Seat Questions</h2>
+<h3>Where does the guidance come from?</h3>
+<p>MedlinePlus advises sitting on a bath chair or bench when you take a shower. The height check, feet flat on the tub floor with knees about level with hips, is our fitting advice and not a published standard.</p>
+<h3>Why are some seats missing?</h3>
+<p>The Medline chair with arms and back and the Drive bath bench with back adjust in 1-inch steps, but their pages give no full range in the text we read, so they are left out.</p>'''
 
 SOURCES = [
     ('MedlinePlus: Bathroom safety for adults (reviewed 2026-04-09)', 'https://medlineplus.gov/ency/patientinstructions/000021.htm'),
