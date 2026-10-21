@@ -41,6 +41,7 @@ SEO_TITLE = 'Best Shower Chairs 2026: Seats, Stools and Transfer Benches'
 DESCRIPTION = 'Five shower chairs, stools and a tub transfer bench from Medline, Drive Medical and HOMLAND compared on weight limit, seat size and height, with what MedlinePlus and the CDC say.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
+UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'shower-chairs'
 PHOTO_ALT = 'older white bathtub with a metal faucet against a tiled wall and a blue shower curtain'
 PHOTO_CREDIT = 'Charlotte May (Pexels)'

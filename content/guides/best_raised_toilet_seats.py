@@ -43,6 +43,7 @@ SEO_TITLE = 'Best Raised Toilet Seats 2026: Risers and Seats with Handles'
 DESCRIPTION = 'Five raised toilet seats from AquaSense, HealthSmart, Carex, Vive and Bemis compared on height, weight limit, bowl shape and fit, with how to measure and what the CDC says.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
+UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'raised-toilet-seats'
 PHOTO_ALT = 'white toilet with a closed seat against a wall in an older bathroom with a patterned floor'
 PHOTO_CREDIT = 'Erik Mclean (Pexels)'

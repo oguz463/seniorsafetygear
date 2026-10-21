@@ -37,6 +37,7 @@ SEO_TITLE = 'Best Walking Canes 2026: Offset, Quad and Folding Picks'
 DESCRIPTION = 'Five walking canes from HurryCane, KINGGEAR, DMI, Medline and HONEYBULL compared on height range, weight limit, base and folding, with how to fit one and what OrthoInfo says.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
+UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'canes'
 PHOTO_ALT = 'older man in a dark coat and cap walking away with a cane along a red path in a tree-lined park'
 PHOTO_CREDIT = 'Muhammed Hanefi (Pexels)'

@@ -278,3 +278,8 @@ ol.steps li::before { content: counter(s); position: absolute; left: 14px; top: 
   .strip .wrap span { display: none; }
   .foot-grid { grid-template-columns: 1fr; }
 }
+
+.updates { margin-top: 36px; }
+.updates ul { list-style: none; margin: 0; padding: 0 0 0 16px; border-left: 4px solid var(--line); }
+.updates li { margin: 0 0 10px; font-size: .95rem; }
+.updates time { font-weight: 800; }

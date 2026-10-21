@@ -39,6 +39,7 @@ SEO_TITLE = 'Best Grab Bars 2026: Shower and Bathroom Picks Compared'
 DESCRIPTION = 'Five stainless steel grab bars from Moen, Amazon Basics and Gotega compared on length, diameter and mounting, with where to put them and the ADA numbers for size and strength.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
+UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'grab-bars'
 PHOTO_ALT = 'metal handrail fixed to a pale tiled wall at an angle with a wall bracket and a shadow below it'
 PHOTO_CREDIT = 'Jan van der Wolf (Pexels)'

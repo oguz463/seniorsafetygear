@@ -254,6 +254,18 @@ def compare_table(g):
             f'<tbody>{rows}</tbody></table></div>')
 
 
+def updates_html(m):
+    """Bottom-of-page list of what changed on a page. Content modules may define UPDATES = [(datetime.date, 'note')]; the publish date is always listed."""
+    rows = [f'<li><time datetime="{d:%Y-%m-%d}">{d:%B %-d, %Y}</time>: {e(note)}</li>'
+            for d, note in sorted(getattr(m, 'UPDATES', []), key=lambda x: x[0], reverse=True)]
+    first = getattr(m, 'PUBLISHED', None)
+    if first:
+        rows.append(f'<li><time datetime="{first:%Y-%m-%d}">{first:%B %-d, %Y}</time>: Published.</li>')
+    elif not rows:
+        rows.append(f'<li><time datetime="{m.UPDATED:%Y-%m-%d}">{m.UPDATED:%B %-d, %Y}</time>: Last updated.</li>')
+    return f'<section class="updates" aria-labelledby="updates-h"><h2 id="updates-h">Updates to This Page</h2><ul>{"".join(rows)}</ul></section>'
+
+
 def guide_body(g):
     picks = ''.join(f'<tr><td>{e(p["rank"])}</td><td><a href="#{p["id"]}">{e(title_case(p["name"]))}</a></td>'
                     f'<td><a href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(p["name"]))} (opens in a new tab)">Check price</a></td></tr>'
@@ -307,6 +319,7 @@ def guide_body(g):
 {body}
 {related_articles(g.SLUG)}
 <h2>Sources</h2><ul class="sources">{sources}</ul>
+{updates_html(g)}
 </div>
 </div>
 {mobile_toc('Table of Contents', toc)}
@@ -334,6 +347,7 @@ def article_body(a):
 {body}
 {related}
 <h2>Sources</h2><ul class="sources">{sources}</ul>
+{updates_html(a)}
 </div>
 </div>
 {mobile_toc('Table of Contents', toc)}
@@ -419,6 +433,7 @@ def tool_body(t):
 {t.BODY}
 {related}
 <h2>Sources</h2><ul class="sources">{sources}</ul>
+{updates_html(t)}
 </article>'''
 
 

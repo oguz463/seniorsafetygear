@@ -41,6 +41,7 @@ SEO_TITLE = 'Best Rollator Walkers 2026: Seat, Wheels and Weight Compared'
 DESCRIPTION = 'Five rollator walkers from Drive Medical, Medline, VOCIC and HOMLAND compared on weight limit, wheel size, seat and handle height, with how to fit one and what OrthoInfo says.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
+UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'rollators'
 PHOTO_ALT = 'two older adults walking away along a gravel path in a park with autumn trees and a bench'
 PHOTO_CREDIT = 'Usame Dzinovic (Pexels)'
