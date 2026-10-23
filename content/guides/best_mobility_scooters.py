@@ -37,7 +37,8 @@ TITLE = 'Best Mobility Scooters: Five Folding and Portable 3-Wheel Scooters Comp
 SEO_TITLE = 'Best Mobility Scooters 2026: Portable 3-Wheel Scooters Compared'
 DESCRIPTION = 'Five portable three-wheel mobility scooters from SuperHandy, Vive, Rascal, Hoverfly and Iris compared on range, weight limit, weight of the heaviest piece and fold, with what the FDA rule says.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 10, 23)
+UPDATES = [(datetime.date(2026, 10, 23), 'Added a side-by-side comparison table of the five scooters.')]
 PHOTO = 'mobility-scooters'
 PHOTO_ALT = 'person riding a four-wheel mobility scooter away along a gravel path with a flag on the back and tail lights on'
 PHOTO_CREDIT = 'Momo (Pexels)'
@@ -154,6 +155,17 @@ BODY = '''<h2>What the Federal Rule and the CDC Say</h2>
 <p>A powered scooter is a regulated medical device. Under 21 CFR 890.3800, a motorized three-wheeled vehicle is a "gasoline-fueled or battery-powered device intended for medical purposes", used for outside transportation by disabled persons, and the rule classifies it as Class II. That is the class the Rascal listing names. The page we read does not say whether the device is exempt from premarket notification, and we could not read the FDA's own page on scooters, so we make no claim about any specific scooter's clearance.</p>
 <p>The CDC says more than 1 in 4 older adults falls each year, that fewer than half tell their doctor, and that a single fall doubles the chance of another. A scooter can help you travel without a long walk, but you still have to get on and off it, and you or a helper has to lift its heaviest piece into a car.</p>
 <p class="note"><strong>Lift the heaviest piece before you buy.</strong> The listings give weights of 27 to 29.5 pounds for the heaviest piece on the three that state it, and 30 pounds for the Iris 3 with the seat and batteries removed. Try that weight, and ask a doctor or occupational therapist whether a scooter suits you.</p>
+
+<h2>Mobility Scooter Comparison: The Five Side by Side</h2>
+<p>Every figure is from the Amazon listing, checked on 2026-10-20. A dash means the listing text we read does not give it. The heaviest piece is what someone must lift into a car.</p>
+<table class="art-table"><thead><tr><th>Scooter</th><th>Weight limit</th><th>Range</th><th>Top speed</th><th>Heaviest piece</th><th>Tires</th></tr></thead><tbody>
+<tr><td>Vive 3 Wheel</td><td>265 lb</td><td>Up to 12.4 miles</td><td>3.7 mph</td><td>29 lb (rear section)</td><td>8 in flat-free</td></tr>
+<tr><td>Rascal Venture</td><td>300 lb</td><td>Up to 10 miles</td><td>Up to 4 mph</td><td>29.5 lb</td><td>&ndash;</td></tr>
+<tr><td>SuperHandy Passport</td><td>275 lb</td><td>Up to 13 miles (two batteries)</td><td>3.7 mph</td><td>27 lb (frame)</td><td>6.75 in solid</td></tr>
+<tr><td>Hoverfly T3</td><td>&ndash;</td><td>Up to 13 miles</td><td>3.7 mph (1.9 reverse)</td><td>&ndash; (61 lb in total)</td><td>8 in shock-absorbing solid</td></tr>
+<tr><td>Iris 3</td><td>265 lb including cargo</td><td>20 miles (8Ah) or 32 (12Ah)</td><td>&ndash;</td><td>30 lb (seat and batteries off)</td><td>&ndash;</td></tr>
+</tbody></table>
+<p>The Iris 3 is the lightest to lift and goes farthest, the Rascal takes the most weight, and the Vive and Hoverfly have the largest tires. Real range is shorter on hills, and no listing gives its test conditions.</p>
 
 <h2>How to Choose a Mobility Scooter</h2>
 <h3>Weight of the heaviest piece</h3>
