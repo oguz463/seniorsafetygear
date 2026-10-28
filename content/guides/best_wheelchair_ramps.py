@@ -32,8 +32,8 @@ import datetime
 SLUG = 'best-wheelchair-ramps'
 CATEGORY = 'Lift & Mobility'
 TITLE = 'Best Portable Wheelchair Ramps: Five Folding Aluminum Ramps Compared'
-SEO_TITLE = 'Best Wheelchair Ramps 2026: Portable Aluminum Ramps by Step Height'
-DESCRIPTION = 'Five portable aluminum wheelchair ramps from 2 to 8 feet compared on step height, length, weight and width, with the 1:12 slope rule from the ADA Standards and how to pick the length.'
+SEO_TITLE = 'Best Wheelchair Ramps 2026: Portable Ramps by Step Height'
+DESCRIPTION = 'Five portable aluminum wheelchair ramps from 2 to 8 feet compared on step height, length and weight, with the ADA\'s 1:12 slope rule and how to pick the length.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 20)
 PHOTO = 'wheelchair-ramps'

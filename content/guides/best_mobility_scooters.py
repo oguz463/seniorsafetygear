@@ -34,8 +34,8 @@ import datetime
 SLUG = 'best-mobility-scooters'
 CATEGORY = 'Lift & Mobility'
 TITLE = 'Best Mobility Scooters: Five Folding and Portable 3-Wheel Scooters Compared'
-SEO_TITLE = 'Best Mobility Scooters 2026: Portable 3-Wheel Scooters Compared'
-DESCRIPTION = 'Five portable three-wheel mobility scooters from SuperHandy, Vive, Rascal, Hoverfly and Iris compared on range, weight limit, weight of the heaviest piece and fold, with what the FDA rule says.'
+SEO_TITLE = 'Best Mobility Scooters 2026: Portable 3-Wheel Compared'
+DESCRIPTION = 'Five portable three-wheel scooters from SuperHandy, Vive, Rascal, Hoverfly and Iris compared on range, weight limit and heaviest piece, plus the FDA rule.'
 PUBLISHED = datetime.date(2026, 10, 20)
 UPDATED = datetime.date(2026, 10, 23)
 UPDATES = [(datetime.date(2026, 10, 23), 'Added a side-by-side comparison table of the five scooters.')]

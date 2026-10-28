@@ -15,8 +15,8 @@ import json
 SLUG = 'weight-limit-finder'
 NAME = 'Weight Limit Finder'
 TITLE = 'Weight Limit Finder: Which Mobility Products Hold Your Weight?'
-SEO_TITLE = 'Weight Limit Finder: Walkers, Shower Seats, Commodes and More'
-DESCRIPTION = 'Enter your weight and what you carry to see which rollators, shower chairs, commodes, scooters, transport chairs, canes, ramps and raised seats in our guides list a high enough limit.'
+SEO_TITLE = 'Weight Limit Finder: Walkers, Shower Seats, Commodes'
+DESCRIPTION = 'Enter your weight and what you carry to see which rollators, shower chairs, commodes, scooters, wheelchairs, canes and ramps list a high enough limit.'
 UPDATED = datetime.date(2026, 10, 21)
 UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked table of weights needed against the limits in our guides.')]
 RELATED = ['best-rollators', 'best-shower-chairs', 'best-bedside-commodes', 'best-mobility-scooters', 'best-transport-wheelchairs']

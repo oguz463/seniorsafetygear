@@ -15,7 +15,7 @@ import json
 SLUG = 'raised-toilet-seat-height-calculator'
 NAME = 'Raised Toilet Seat Height Calculator'
 TITLE = 'Raised Toilet Seat Height Calculator: How Many Inches Do You Need?'
-SEO_TITLE = 'Raised Toilet Seat Height Calculator: Find Your Rise in Inches'
+SEO_TITLE = 'Raised Toilet Seat Height Calculator: Rise in Inches'
 DESCRIPTION = 'Enter your toilet height and your ideal seated height to see how many inches a raised toilet seat should add, and which seats in our guide come closest.'
 UPDATED = datetime.date(2026, 10, 21)
 UPDATES = [(datetime.date(2026, 10, 21), 'Added a worked example table based on the Joint Replacement Resource Centre measuring method.')]

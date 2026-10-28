@@ -13,7 +13,7 @@ UPDATED = datetime.date(2026, 10, 20)
 
 NAV = [('Guides', '/guides/'), ('Articles', '/articles/'), ('Tools', '/tools/'), ('How we research', '/how-we-research/'), ('About', '/about/')]
 
-HOME_TITLE = 'SeniorSafetyGear: Mobility and Bathroom Safety Buying Guides Built on Maker Specs and Safety Guidance'
+HOME_TITLE = 'SeniorSafetyGear: Mobility and Bathroom Safety Guides'
 HOME_DESCRIPTION = 'Research-based buying guides for rollators, shower chairs, bedside commodes, canes and more, compared on weight limits, dimensions and public safety guidance.'
 HOME_EYEBROW = 'Mobility and bathroom safety, researched'
 HOME_H1 = 'Equipment that keeps you safe and moving, chosen on the facts'
@@ -27,7 +27,7 @@ HOME_STEPS = [
 PAGES = {
     'about': (
         'About SeniorSafetyGear | SeniorSafetyGear',
-        'Who writes SeniorSafetyGear and how the site is funded.',
+        'Who writes SeniorSafetyGear, how the mobility and bathroom safety guides are researched from maker specs and public guidance, and how the site is funded.',
         '''<p>SeniorSafetyGear is written by Oğuz Tokatlı. The guides are research-based: we read the makers' manuals and spec pages, the guidance that the CDC, FDA and U.S. Consumer Product Safety Commission publish for each kind of equipment, then compare the products on those facts. We don't claim to have tested products in a lab, and we are not a medical practice.</p>
 <h2>What makes these guides different</h2>
 <p>Most buying guides tell you which product won. We try to show you why, and where the evidence is thin. Each guide opens with what the official guidance says about that kind of equipment. The cards then give the maker's own numbers, and a short "best for, skip if" line says who each pick suits. When a retailer listing and the maker disagree, we say which one we trust and why.</p>
@@ -81,7 +81,7 @@ PAGES = {
     ),
     'privacy': (
         'Privacy Policy | SeniorSafetyGear',
-        'SeniorSafetyGear privacy policy.',
+        'SeniorSafetyGear privacy policy: a static site with no accounts, comments or forms, no cookies of its own and no advertising or tracking scripts.',
         '''<p>SeniorSafetyGear is a static website. It has no accounts, no comments and no forms, and it sets no cookies of its own. We do not run advertising or tracking scripts.</p>
 <h2>What we collect</h2>
 <p>We do not ask you for any personal information to read the site. If you email <a href="mailto:hello@seniorsafetygear.com">hello@seniorsafetygear.com</a>, we receive your email address and whatever you write, and we use it only to reply. We do not add it to a mailing list or share it.</p>
@@ -96,7 +96,7 @@ PAGES = {
     ),
     'disclosure': (
         'Affiliate Disclosure | SeniorSafetyGear',
-        'How SeniorSafetyGear earns money.',
+        'How SeniorSafetyGear earns money from Amazon affiliate links, and why the price you pay is the same when you use them.',
         f'<p>{DISCLOSURE} Links to Amazon on this site are affiliate links. The price you pay is the same.</p>',
     ),
 }
