@@ -28,11 +28,11 @@ SEO_TITLE = 'How to Use a Tub Transfer Bench: Setup and Steps'
 DESCRIPTION = 'The steps for getting on and off a tub transfer bench from a hospital rehab handout, the Red Cross and Health New Zealand, and how to set the legs level.'
 PUBLISHED = datetime.date(2026, 11, 8)
 UPDATED = datetime.date(2026, 11, 8)
-UPDATES = []
+UPDATES = [(datetime.date(2026, 11, 8), 'Linked our tub transfer bench guide.')]
 PHOTO = 'tub-transfer-bench-use'
 PHOTO_ALT = 'bathroom with a built-in white oval tub under a window, next to a glass-enclosed tile shower'
 PHOTO_CREDIT = 'Curtis Adams (Pexels)'
-RELATED = ['best-shower-chairs']
+RELATED = ['best-tub-transfer-benches', 'best-shower-chairs']
 
 TAKEAWAYS = [
     'Set the two inside legs to one height and the two outside legs to one height, so the bench is <strong>approximately level</strong> (Canadian Red Cross).',
@@ -108,7 +108,7 @@ BODY = '''<p>A tub transfer bench lets you sit down outside the tub and slide in
 <p>It depends on the plan. See <a href="/articles/does-medicare-pay-for-mobility-equipment/">our page on what Medicare pays for</a>.</p>
 
 <h2>Choosing a Bench</h2>
-<p>Our <a href="/best-shower-chairs/">shower chair and transfer bench guide</a> compares a Drive Medical tub transfer bench with four shower chairs and stools, with the weight limits and seat sizes from the makers' pages.</p>'''
+<p>Our <a href="/best-tub-transfer-benches/">tub transfer bench guide</a> compares five benches from Drive, Carex, Vive and Medline on weight limit, seat size and height range. Our <a href="/best-shower-chairs/">shower chair guide</a> covers chairs and stools.</p>'''
 
 SOURCES = [
     ('Greater Baltimore Center for Rehabilitation Medicine: How to use a tub transfer bench (handout)', 'https://www.gbmc.org/sites/default/files/pdf/Rehab/tub-transfer-bench.pdf'),

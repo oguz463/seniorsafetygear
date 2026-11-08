@@ -40,8 +40,8 @@ TITLE = 'Best Shower Chairs and Transfer Benches: Five Seats Compared'
 SEO_TITLE = 'Best Shower Chairs 2026: Seats, Stools and Transfer Benches'
 DESCRIPTION = 'Five shower chairs, stools and a tub transfer bench from Medline, Drive Medical and HOMLAND compared on weight limit and seat size, with what MedlinePlus says.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
-UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Linked our tub transfer bench guide.'), (datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'shower-chairs'
 PHOTO_ALT = 'older white bathtub with a metal faucet against a tiled wall and a blue shower curtain'
 PHOTO_CREDIT = 'Charlotte May (Pexels)'
@@ -180,7 +180,7 @@ BODY = '''<h2>What MedlinePlus and the CDC Say</h2>
 <h3>What else should I do in the bathroom?</h3>
 <p>MedlinePlus suggests a non-slip mat in the tub, a non-skid mat outside it, and setting the water heater to no more than 120 degrees Fahrenheit to prevent burns. It also says raising the toilet seat height can help prevent falls. See our <a href="/best-raised-toilet-seats/">raised toilet seat guide</a>.</p>
 <h3>Which is better, a chair or a transfer bench?</h3>
-<p>It depends on whether you can step over the tub wall. If you can, a chair is smaller and cheaper. If you cannot, the transfer bench lets you sit down outside the tub. An occupational therapist can watch you and say which fits.</p>
+<p>It depends on whether you can step over the tub wall. If you can, a chair is smaller and cheaper. If you cannot, the transfer bench lets you sit down outside the tub, and our <a href="/best-tub-transfer-benches/">tub transfer bench guide</a> compares five. An occupational therapist can watch you and say which fits.</p>
 <h3>How tall should a shower chair be?</h3>
 <p>The listed ranges are 14 to 19 inches for the HOMLAND stool, 16 to 21 for the Medline backless chair and 17.5 to 22.5 for the Drive transfer bench, and the Medline and Drive chairs adjust in 1-inch steps. Set the height so your feet rest flat on the tub floor when you sit and your knees are about level with your hips. Set it before you get wet, and check that the legs are locked.</p>
 <h3>What does the weight limit really mean?</h3>

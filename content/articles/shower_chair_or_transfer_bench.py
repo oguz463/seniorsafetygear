@@ -22,7 +22,7 @@ UPDATES = [(datetime.date(2026, 11, 8), 'Added a section and table comparing sho
 PHOTO = 'shower-chair-or-bench'
 PHOTO_ALT = 'white marble walk-in shower with a glass door, a built-in bench and a rolled towel'
 PHOTO_CREDIT = 'Curtis Adams (Pexels)'
-RELATED = ['best-shower-chairs']
+RELATED = ['best-shower-chairs', 'best-tub-transfer-benches']
 
 TAKEAWAYS = [
     'A <strong>shower chair</strong> sits inside the tub or shower, so you have to step in to use it.',
