@@ -223,9 +223,27 @@ def foot_guides():
     return ''.join(f'<li><a href="/guides/#{cat_slug(c)}">{e(c)}</a></li>' for c, _ in guides_by_category())
 
 
+HERO_SIZES = '(max-width: 860px) 100vw, 828px'
+
+
 def hero(name, alt):
-    return (f'<figure class="hero-photo"><img src="/img/hero/{name}.jpg" srcset="/img/hero/{name}-800.jpg 800w, /img/hero/{name}.jpg 1600w" '
-            f'sizes="(max-width: 860px) 100vw, 828px" alt="{e(alt)}" width="1600" height="1067" fetchpriority="high"></figure>')
+    """Hero photo: WebP first, JPEG fallback, both with 800 and 1600 px versions (scripts/optimize_images.py makes them)."""
+    return (f'<figure class="hero-photo"><picture><source type="image/webp" srcset="/img/hero/{name}-800.webp 800w, /img/hero/{name}.webp 1600w" sizes="{HERO_SIZES}">'
+            f'<img src="/img/hero/{name}.jpg" srcset="/img/hero/{name}-800.jpg 800w, /img/hero/{name}.jpg 1600w" '
+            f'sizes="{HERO_SIZES}" alt="{e(alt)}" width="1600" height="1067" fetchpriority="high"></picture></figure>')
+
+
+def tile_picture(name, alt):
+    """Photo for the row cards on the home, guides and articles pages: a 190 px column on desktop, full width on phones."""
+    return (f'<picture><source type="image/webp" srcset="/img/hero/{name}-400.webp 400w, /img/hero/{name}-800.webp 800w" sizes="(max-width: 680px) 100vw, 190px">'
+            f'<img src="/img/hero/{name}-800.jpg" alt="{e(alt)}" width="800" height="533" loading="lazy"></picture>')
+
+
+def product_picture(img, alt, sizes, attrs=''):
+    """Square product image with 200 and 400 px WebP versions and the JPEG as the fallback."""
+    base = img.rsplit('.', 1)[0]
+    return (f'<picture><source type="image/webp" srcset="/img/{base}-200.webp 200w, /img/{base}.webp 400w" sizes="{sizes}">'
+            f'<img src="/img/{img}" alt="{e(alt)}" width="400" height="400"{attrs}></picture>')
 
 
 def related_articles(slug):
@@ -281,7 +299,7 @@ def guide_body(g):
             text += (f'<p class="fit"><strong>Best for:</strong> {p.get("best_for", "")}<br>'
                      f'<strong>Skip it if:</strong> {p.get("skip_if", "")}</p>')
         cards.append(f'''<section class="card" id="{p["id"]}">
-<div class="card-media"><span class="badge">#{i}</span><img src="/img/{p["img"]}" alt="{e(p["alt"])}" width="400" height="400" loading="lazy"><a class="btn" href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(p["name"]))} (opens in a new tab)">Check price on Amazon</a></div>
+<div class="card-media"><span class="badge">#{i}</span>{product_picture(p["img"], p["alt"], "(max-width: 900px) 297px, 194px", ' loading="lazy"')}<a class="btn" href="{e(amazon(p["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(p["name"]))} (opens in a new tab)">Check price on Amazon</a></div>
 <div class="card-main">
 <p class="rank">{e(p["rank"])}</p>
 <h3>{e(title_case(p["name"]))}</h3>
@@ -291,7 +309,7 @@ def guide_body(g):
 </div>
 </section>''')
     top = g.PRODUCTS[0]
-    verdict = (f'<aside class="verdict"><img src="/img/{top["img"]}" alt="{e(top["alt"])}" width="400" height="400">'
+    verdict = (f'<aside class="verdict">{product_picture(top["img"], top["alt"], "(max-width: 900px) 120px, 150px")}'
                f'<div><p class="verdict-label">Our top pick</p><p class="verdict-name"><a href="#{top["id"]}">{e(title_case(top["name"]))}</a></p>'
                f'<p>{top.get("best_for", "")}</p><p class="verdict-actions"><a class="btn" href="{e(amazon(top["q"]))}" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for {e(title_case(top["name"]))} (opens in a new tab)">Check price on Amazon</a> '
                f'<a class="link" href="#{top["id"]}" aria-label="Read why {e(title_case(top["name"]))} is our top pick">Read why</a></p></div></aside>')
@@ -400,7 +418,8 @@ def with_ids(body):
 
 PICKS_JS = """function renderPicks(keys, head) {
   var cards = keys.map(function (k) { return PICKS[k]; }).filter(Boolean).map(function (p) {
-    return '<div class="pick"><img src="/img/' + p.img + '" alt="' + p.alt + '" width="400" height="400" loading="lazy"><em>' + p.rank + '</em><strong>' + p.name + '</strong>'
+    var b = p.img.replace(/\\.jpg$/, '');
+    return '<div class="pick"><picture><source type="image/webp" srcset="/img/' + b + '-200.webp 200w, /img/' + b + '.webp 400w" sizes="(max-width: 700px) 45vw, 220px"><img src="/img/' + p.img + '" alt="' + p.alt + '" width="400" height="400" loading="lazy"></picture><em>' + p.rank + '</em><strong>' + p.name + '</strong>'
       + '<a class="btn" href="' + p.url + '" rel="nofollow sponsored noopener" target="_blank" aria-label="Check price on Amazon for ' + p.name.replace(/"/g, '&quot;') + ' (opens in a new tab)">Check price on Amazon</a><a class="rev" href="/' + p.guide + '/#' + p.id + '" aria-label="Read our notes on ' + p.name.replace(/"/g, '&quot;') + '">Read our notes</a></div>';
   });
   return cards.length ? '<span class="picks-head">' + head + '</span><div class="picks-grid">' + cards.join('') + '</div><p class="small">""" + html.escape(site.DISCLOSURE) + """</p>' : '';
@@ -458,12 +477,12 @@ def guides_page_body():
 
 
 def guide_tile(g):
-    return (f'<a class="row-card" href="/{g.SLUG}/"><img src="/img/hero/{g.PHOTO}-800.jpg" alt="{e(g.PHOTO_ALT)}" width="800" height="533" loading="lazy">'
+    return (f'<a class="row-card" href="/{g.SLUG}/">{tile_picture(g.PHOTO, g.PHOTO_ALT)}'
             f'<span class="row-text"><em>{e(g.CATEGORY)}</em><strong>{e(title_case(g.TITLE))}</strong><span>{e(g.DESCRIPTION)}</span></span></a>')
 
 
 def article_tile(a):
-    return (f'<a class="row-card" href="/articles/{a.SLUG}/"><img src="/img/hero/{a.PHOTO}-800.jpg" alt="{e(a.PHOTO_ALT)}" width="800" height="533" loading="lazy">'
+    return (f'<a class="row-card" href="/articles/{a.SLUG}/">{tile_picture(a.PHOTO, a.PHOTO_ALT)}'
             f'<span class="row-text"><em>{e(a.TOPIC)}</em><strong>{e(title_case(a.TITLE))}</strong><span>{e(a.DESCRIPTION)}</span></span></a>')
 
 
