@@ -28,11 +28,11 @@ SEO_TITLE = 'How to Choose a Pill Organizer: Hands, Doses, Safety'
 DESCRIPTION = 'What the NIA says about tracking medicines, how to match a weekly organizer to your hands and dose times, and what the Arthritis Foundation and Reviewed found.'
 PUBLISHED = datetime.date(2026, 11, 8)
 UPDATED = datetime.date(2026, 11, 8)
-UPDATES = []
+UPDATES = [(datetime.date(2026, 11, 8), 'Linked our pill organizer guide.')]
 PHOTO = 'pill-organizer-choose'
 PHOTO_ALT = 'older hands filling a two-row weekly pill organizer from loose pills and blister packs on a white tablecloth'
 PHOTO_CREDIT = 'Yaroslav Shuraev (Pexels)'
-RELATED = []
+RELATED = ['best-pill-organizers']
 
 TAKEAWAYS = [
     'The NIA says to <strong>write down every medicine</strong>, with the name, the amount and the times, including OTC drugs, vitamins and supplements.',
@@ -75,7 +75,7 @@ BODY = '''<p>A pill organizer only helps if you can open it, read it and trust t
 <h3>Can the organizer replace my medicine list?</h3>
 <p>No. The NIA's advice is to keep the written list and share it with your pharmacist. The organizer only holds the pills for the week.</p>
 <h3>Where can I read more?</h3>
-<p>The NIA's "Taking Medicines Safely as You Age" page covers writing a medicine list, the questions to ask your pharmacist and ways to remember doses.</p>'''
+<p>The NIA's "Taking Medicines Safely as You Age" page covers writing a medicine list, the questions to ask your pharmacist and ways to remember doses. Our <a href="/best-pill-organizers/">pill organizer guide</a> compares five organizers by doses a day and how easily the lids open.</p>'''
 
 SOURCES = [
     ('National Institute on Aging: Taking Medicines Safely as You Age (reviewed 2022-09-22)', 'https://www.nia.nih.gov/health/medicines-and-medication-management/taking-medicines-safely-you-age'),
