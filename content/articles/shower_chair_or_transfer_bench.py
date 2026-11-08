@@ -17,7 +17,8 @@ TITLE = 'Shower Chair or Tub Transfer Bench: Which One Do You Need?'
 SEO_TITLE = 'Shower Chair vs Tub Transfer Bench: How to Choose'
 DESCRIPTION = 'A shower chair sits inside the tub and a transfer bench spans the tub wall. How each works, the numbers on two Drive Medical models and when to ask a therapist.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Added a section and table comparing shower chairs with a shower stool.')]
 PHOTO = 'shower-chair-or-bench'
 PHOTO_ALT = 'white marble walk-in shower with a glass door, a built-in bench and a rolled towel'
 PHOTO_CREDIT = 'Curtis Adams (Pexels)'
@@ -39,6 +40,11 @@ BODY = '''<p>Both a shower chair and a tub transfer bench give you somewhere to 
 <div class="art-tile"><strong>Tub transfer bench</strong><span>Spans the tub wall with two legs outside and two inside. You sit on the outside end and slide across.</span></div>
 </div>
 <p>With a chair, the hardest part is the step over the tub wall while balancing on wet feet. With a bench, you sit down first and bring your legs over one at a time, so there is no standing step. A bench needs a tub with a wall to span, so it does not suit a walk-in shower.</p>
+
+<h2>Shower Chair or Shower Stool?</h2>
+<p>The difference is what the seat gives you to lean on or push from. The four seats in our <a href="/best-shower-chairs/">shower chair guide</a> line up like this, with the figures from their listings and the Drive page.</p>
+<table class="art-table"><thead><tr><th>Seat</th><th>Back</th><th>Arms</th><th>Seat size</th><th>Limit</th></tr></thead><tbody><tr><td>Medline chair with arms and back</td><td>Yes</td><td>Padded</td><td>16.3 in wide</td><td>350 lb</td></tr><tr><td>Drive chair with back</td><td>Yes</td><td>No</td><td>19.25 in wide</td><td>300 lb</td></tr><tr><td>Medline backless chair with arms</td><td>No</td><td>Yes</td><td>16 in wide</td><td>350 lb</td></tr><tr><td>HOMLAND stool</td><td>No</td><td>No</td><td>16.3 by 10.5 in</td><td>400 lb max, 300 lb recommended</td></tr></tbody></table>
+<p>The stool is the lightest at 3.6 pounds and the smallest, and it gives you nothing to lean back on or push from. MedlinePlus advises sitting on a bath chair or bench when you shower and does not rank one type over another. If you tire quickly or push yourself up from the seat, a back and arms are what the chairs add, and an occupational therapist can say which you need.</p>
 
 <h2>The Numbers From Two Drive Medical Models</h2>
 <p>Drive Medical's page for its transfer tub bench (12011KD-1) lists a seat 26 inches wide and 18.5 to 19.5 inches deep, legs that adjust from 17.5 to 22.5 inches, a weight of 13.6 pounds and a limit of 400 pounds. Its page for a bath bench with a back (RTL12202KDR) lists a seat 19.25 inches wide and 11.5 inches deep, legs that adjust in 1-inch steps, 7 pounds and a limit of 300 pounds.</p>

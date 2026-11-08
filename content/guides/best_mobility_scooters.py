@@ -5,8 +5,12 @@ gasoline-fueled or battery-powered device intended for medical purposes", used f
 persons", and is classified Class II (performance standards); the page did not state a premarket notification exemption.
 CDC "Facts About Older Adult Falls" (reviewed 2026-09-08: more than 1 in 4 older adults falls each year, fewer than half
 tell their doctor, a single fall doubles the chance of falling again, about 37% of people who fall report an injury
-needing medical treatment or restricted activity). The FDA and FAA pages on scooters and flying with batteries could not
-be fetched (404 and 403), so no agency battery or airline rule is stated here. Bing US search volume (keywords:check
+needing medical treatment or restricted activity). The FDA page on scooters could not be fetched (404). FAA PackSafe "Wheelchairs and Mobility
+Devices" (opened in a browser 2026-11-08, last updated 2024-05-01: lithium-ion battery limited to 300 Wh; a battery protected by the
+device's design may stay installed; an unprotected battery comes out, goes in carry-on only and the airline is told where it is;
+one spare up to 300 Wh or two spares up to 160 Wh each, carried and not checked; lithium metal batteries forbidden with these
+devices; separate rules for non-spillable and spillable batteries; airlines may be stricter; 49 CFR 175.10(a)(17)). The listings
+give battery size in amp-hours, not watt-hours. Bing US search volume (keywords:check
 2026-10-20): mobility scooter 891/month (3,458 broad), power wheelchair 483, transport wheelchair 910.
 Amazon US (ZIP 10001 confirmed on the page), all in stock: SuperHandy Passport Mobility Scooter B096LD9PC1 $567.99 4.2
 (1,452), sold by Woot, "Only 20 left in stock", listing: two removable 44.4V 2Ah lithium-ion batteries, up to 13 miles, top
@@ -37,8 +41,8 @@ TITLE = 'Best Mobility Scooters: Five Folding and Portable 3-Wheel Scooters Comp
 SEO_TITLE = 'Best Mobility Scooters 2026: Portable 3-Wheel Compared'
 DESCRIPTION = 'Five portable three-wheel scooters from SuperHandy, Vive, Rascal, Hoverfly and Iris compared on range, weight limit and heaviest piece, plus the FDA rule.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 23)
-UPDATES = [(datetime.date(2026, 10, 23), 'Added a side-by-side comparison table of the five scooters.')]
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Added the FAA rules for flying with a mobility scooter battery.'), (datetime.date(2026, 10, 23), 'Added a side-by-side comparison table of the five scooters.')]
 PHOTO = 'mobility-scooters'
 PHOTO_ALT = 'person riding a four-wheel mobility scooter away along a gravel path with a flag on the back and tail lights on'
 PHOTO_CREDIT = 'Momo (Pexels)'
@@ -179,13 +183,26 @@ BODY = '''<h2>What the Federal Rule and the CDC Say</h2>
 <h3>Seat and getting on and off</h3>
 <p>The Vive and Rascal list a swivel seat, and the Vive has armrests that flip up. The SuperHandy has no armrests, per its listing.</p>
 <h3>Batteries and travel</h3>
-<p>The Passport and Iris 3 use removable lithium batteries. Airlines have rules for lithium batteries, and we could not read the FAA's page, so ask your airline before you fly.</p>
+<p>The Passport and Iris 3 use removable lithium batteries. The FAA limits a lithium-ion mobility battery to 300 watt-hours and lets you carry one spare of that size or two of 160 watt-hours each, so check the watt-hours on the label. The rules are in the section on flying below.</p>
+
+<h2>Flying With a Scooter: What the FAA Says</h2>
+<p>The FAA's PackSafe page on wheelchairs and mobility devices (last updated May 1, 2024) covers battery-powered scooters. Its rules for a lithium-ion battery depend on how the scooter protects it.</p>
+<ul>
+<li><strong>Size limit.</strong> A lithium-ion battery is limited to 300 watt-hours (Wh).</li>
+<li><strong>Battery protected by the scooter's design.</strong> It can stay installed if it is securely attached, protected from damage and has its terminals protected from a short circuit. The FAA says that if the scooter does not protect the battery adequately, it must be removed.</li>
+<li><strong>Battery not adequately protected.</strong> Remove it, protect the terminals, put it in a protective pouch, and carry it in your carry-on only. Tell the airline where the battery is. The scooter, with the battery out, may travel as checked baggage, and the FAA notes that airlines may not be able to carry a folded device in the cabin.</li>
+<li><strong>Spare batteries.</strong> A maximum of one spare up to 300 Wh, or two spares up to 160 Wh each. Spares go in the cabin, not in checked bags.</li>
+<li><strong>Lithium metal batteries.</strong> Non-rechargeable lithium batteries are forbidden with these devices.</li>
+<li><strong>Other battery types.</strong> The FAA gives separate rules for non-spillable (gel cell) and spillable batteries. A non-spillable battery can stay installed if it is secure and protected, and a spillable one if the scooter is kept upright.</li>
+</ul>
+<p>The FAA adds that individual airlines may have more restrictive rules for lithium batteries that power mobility aids, that you should contact your airline or the maker, and that advance arrangements and extra check-in time may be necessary. Its regulation reference for lithium-ion batteries is 49 CFR 175.10(a)(17).</p>
+<p class="note"><strong>Check the watt-hours.</strong> The scooter listings in this guide give battery size in amp-hours (for example 8Ah and 12Ah), and the FAA limit is in watt-hours. The battery label or the maker's page should state the watt-hours, so find it before you book.</p>
 
 <h2>Mobility Scooter Questions</h2>
 <h3>Do I need a prescription for a mobility scooter?</h3>
 <p>Not to buy one from Amazon, as far as the listings show. If you want a plan or Medicare to pay, ask your doctor and the plan first. Medicare.gov's page on durable medical equipment says that suppliers must be enrolled and that a provider must order the equipment.</p>
 <h3>Can I take a scooter on a plane?</h3>
-<p>The Passport and Iris 3 listings describe airline-friendly batteries, but those are seller claims, and we could not read the FAA's page on mobility devices. Airlines have their own rules for lithium batteries and for how a scooter is checked in, so call the airline before you book and ask what they need, such as the battery watt-hours and whether it must come out of the scooter.</p>
+<p>Often yes, with conditions. The FAA allows a lithium-ion battery of up to 300 watt-hours, and says one that the scooter does not protect adequately must come out and ride in your carry-on. The Passport and Iris 3 listings describe airline-friendly batteries, which is a seller claim, so compare the battery's watt-hours with the FAA limit yourself. Airlines may be stricter than the FAA, and the FAA advises contacting the airline or the maker and allowing extra check-in time.</p>
 <h3>Is a scooter safer than walking?</h3>
 <p>It depends. A scooter lets you travel without a long walk, but the CDC's fall figures apply to getting on and off, and you can tip over on slopes. Ask a doctor or occupational therapist.</p>
 <h3>How far will it go?</h3>
@@ -206,5 +223,6 @@ BODY = '''<h2>What the Federal Rule and the CDC Say</h2>
 SOURCES = [
     ('21 CFR 890.3800: Motorized three-wheeled vehicle (Legal Information Institute)', 'https://www.law.cornell.edu/cfr/text/21/890.3800'),
     ('CDC: Facts About Older Adult Falls', 'https://www.cdc.gov/falls/data-research/facts-stats/index.html'),
+    ('FAA PackSafe: Wheelchairs and Mobility Devices (updated 2024-05-01)', 'https://www.faa.gov/hazmat/packsafe/wheelchairs-mobility-devices'),
     ('Medicare.gov: Durable medical equipment (DME) coverage', 'https://www.medicare.gov/coverage/durable-medical-equipment-dme-coverage'),
 ]

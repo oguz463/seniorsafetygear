@@ -23,7 +23,8 @@ lb, raised side baffles, reflective strips, transition plates; VNN 6FT Portable 
 (2,231), sold by VNNAUTO, listing: step heights 6 to 18 in, 800 lb, center hinge with no gap, 72 x 29.2 x 2 in, 35.5 lb;
 WHALEMOTOR 8FT Portable Wheelchair Ramp B0C2YPZXTK $349.99 4.4 (910), sold by WHALEMOTOR, listing: step heights 8 to 24
 in, 800 lb in the title but 606 lb in the bullets, 49 lb, transition plates above and below, anti-slip mat under the plate.
-Hero photo: Pexels 37043590 by Eugene Lee (a brick archway with a ramp and railings at a building entrance).
+ADA section 303 Changes in Level (read 2026-11-08: vertical up to 1/4 in; beveled at 1:2 or less between 1/4 and 1/2 in;
+more than 1/2 in must be ramped under 405 or 406). Hero photo: Pexels 37043590 by Eugene Lee (a brick archway with a ramp and railings at a building entrance).
 Not reached: any maker page (VNN, FACHNUO, VEVOR and WHALEMOTOR sell through Amazon; none was read) and any ASTM or
 fire-code test report for these ramps; every figure is from the Amazon listing.
 """
@@ -35,7 +36,8 @@ TITLE = 'Best Portable Wheelchair Ramps: Five Folding Aluminum Ramps Compared'
 SEO_TITLE = 'Best Wheelchair Ramps 2026: Portable Ramps by Step Height'
 DESCRIPTION = 'Five portable aluminum wheelchair ramps from 2 to 8 feet compared on step height, length and weight, with the ADA\'s 1:12 slope rule and how to pick the length.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Added a section on thresholds, single steps, walkers and short-term use, with the ADA rules for small level changes.')]
 PHOTO = 'wheelchair-ramps'
 PHOTO_ALT = 'red brick archway at a building entrance with a gray ramp, black metal railings and a wheelchair symbol on the ground'
 PHOTO_CREDIT = 'Eugene Lee (Pexels)'
@@ -167,6 +169,16 @@ BODY = '''<h2>The 1:12 Rule from the ADA Standards</h2>
 <p>The ramps weigh from 10.9 to 49 pounds. A ramp you move daily should be light. One that stays in place can be heavier.</p>
 <h3>Edges and handrails</h3>
 <p>The ADA asks for handrails on ramps with a rise over 6 inches. The listings describe side baffles and reflective strips, not handrails. For a high step, add a rail or choose a different solution.</p>
+
+<h2>Thresholds, Single Steps and Walkers</h2>
+<h3>A door threshold</h3>
+<p>The ADA Standards (section 303) treat small level changes in three tiers. A change of up to 1/4 inch may be vertical. A change between 1/4 and 1/2 inch must be beveled with a slope not steeper than 1:2. Anything over 1/2 inch has to be ramped under section 405 or 406. At 1:12, a 1-inch threshold needs 12 inches of ramp, which is shorter than every ramp in this guide. The shortest here is the 24-inch FACHNUO, listed for step heights of 2 to 6 inches, so a low threshold ramp is a different product from these five.</p>
+<h3>A single step</h3>
+<p>Measure the rise, multiply by 12 and pick a ramp at least that long, as above. If you have more than one step, our <a href="/tools/wheelchair-ramp-length-calculator/">ramp length calculator</a> has a table of the length for 1 to 6 steps.</p>
+<h3>Walkers and rollators</h3>
+<p>The ADA's ramp numbers do not give a different slope for a walker, and none of the sources we read does, so the 1:12 slope and the handrail rule for rises over 6 inches apply to a walker or rollator user the same way. The ramps here are about 29 inches wide with side baffles and no handrails, according to their listings. If you push a walker or rollator up a ramp, a physical therapist or occupational therapist can tell you whether you need a handrail or a helper. Our <a href="/best-rollators/">rollator guide</a> lists the handle heights and weights.</p>
+<h3>Using a ramp for a short time</h3>
+<p>The picks are folding ramps. The FACHNUO folds to 24 by 13.2 inches and weighs 10.9 pounds, the lightest of the five, and the VNN and VEVOR 3-foot ramps weigh 18.3 and 18.1 pounds, all per their listings. The VNN 3-foot listing includes screws to fix the ramp to a wooden platform. If you do not fix a ramp down, check that it does not slide when you push or pull a chair on it.</p>
 
 <h2>Wheelchair Ramp Questions</h2>
 <h3>How long a ramp do I need?</h3>
