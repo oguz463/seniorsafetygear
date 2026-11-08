@@ -17,7 +17,8 @@ TITLE = 'Cane, Walker or Rollator: Which Walking Aid Fits?'
 SEO_TITLE = 'Cane vs Walker vs Rollator: How to Choose a Walking Aid'
 DESCRIPTION = 'What a cane, a standard walker and a rollator each do, how OrthoInfo says to fit them, and the stairs and standing rules that apply to all three.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Linked our walker tray, bag or basket article.')]
 PHOTO = 'cane-walker-rollator'
 PHOTO_ALT = 'person walking down a bright hallway with a rollator toward an open door'
 PHOTO_CREDIT = 'Wheeleo Walker (Pexels)'
@@ -62,7 +63,7 @@ BODY = '''<p>A cane, a standard walker and a rollator all give you something to 
 <p>If you are not sure, ask a physical therapist to watch you walk. They can fit the aid to your height and show you how to use it on stairs and curbs.</p>
 
 <h2>Where to Look Next</h2>
-<p>Our <a href="/best-canes/">cane guide</a> compares five canes, with a folding model backed by a maker's tested weight. Our <a href="/best-rollators/">rollator guide</a> compares five rollators by weight limit, wheels and handle height.</p>'''
+<p>Our <a href="/best-canes/">cane guide</a> compares five canes, with a folding model backed by a maker's tested weight. Our <a href="/best-rollators/">rollator guide</a> compares five rollators by weight limit, wheels and handle height. If you want to carry things, read <a href="/articles/walker-tray-bag-or-basket/">walker tray, bag or basket</a>.</p>'''
 
 SOURCES = [
     ('OrthoInfo (AAOS): How To Use Crutches, Canes, and Walkers', 'https://www.orthoinfo.org/recovery/how-to-use-crutches-canes-and-walkers'),
