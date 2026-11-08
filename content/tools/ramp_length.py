@@ -4,7 +4,7 @@ Sources read that day: U.S. Access Board, 2010 ADA Standards for Accessible Desi
 steeper than 1:12; Table 405.2 allows steeper slopes up to 1:8 in existing sites where space is limited, with a rise limit of
 6 in for slopes steeper than 1:12 up to 1:10 and 3 in for steeper than 1:10 up to 1:8, and prohibits slopes steeper than 1:8;
 405.6 rise 30 in maximum per run; 405.7 landings 60 in long; 405.8 handrails on runs with a rise over 6 in; 405.5 clear width
-36 in minimum). The ADA Standards govern public and commercial buildings, not private homes. Ramp lengths and listed step
+36 in minimum). The ADA Standards govern public and commercial buildings, not private homes. Section 504.2 Treads and Risers (read 2026-11-08: risers 4 in minimum and 7 in maximum, treads 11 in minimum). Ramp lengths and listed step
 heights are from the Amazon listings used in the wheelchair ramp guide, checked 2026-10-20.
 """
 import datetime
@@ -14,9 +14,9 @@ SLUG = 'wheelchair-ramp-length-calculator'
 NAME = 'Wheelchair Ramp Length Calculator'
 TITLE = 'Wheelchair Ramp Length Calculator: How Long a Ramp for Your Step?'
 SEO_TITLE = 'Wheelchair Ramp Length Calculator: 1:12 Slope by Step Height'
-DESCRIPTION = 'Enter the height of your step in inches to see the ramp length the ADA 1:12 slope needs, and which portable ramps in our guide are long enough.'
-UPDATED = datetime.date(2026, 10, 23)
-UPDATES = [(datetime.date(2026, 10, 23), 'Added the number of runs and landings for rises over 30 inches, and answers on a 12-foot height and cost per foot.'), (datetime.date(2026, 10, 21), 'Added a worked table of step heights against the portable ramps in our guide.')]
+DESCRIPTION = 'Enter your step height, or see the table by number of steps, for the ramp length the ADA 1:12 slope needs and which portable ramps in our guide are long enough.'
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Added a table of ramp length by number of steps and answers for 2, 3, 4 and 5 steps and a 4-foot height.'), (datetime.date(2026, 10, 23), 'Added the number of runs and landings for rises over 30 inches, and answers on a 12-foot height and cost per foot.'), (datetime.date(2026, 10, 21), 'Added a worked table of step heights against the portable ramps in our guide.')]
 RELATED = ['best-wheelchair-ramps', 'best-transport-wheelchairs', 'best-mobility-scooters']
 PICK_GUIDES = ['best-wheelchair-ramps']
 
@@ -77,10 +77,25 @@ BODY = '''<h2>How the Calculation Works</h2>
 <h3>Do I need a handrail?</h3>
 <p>The ADA asks for handrails on ramp runs with a rise over 6 inches. The portable ramps in our guide have side baffles, not handrails.</p>
 
+<h2>Ramp Length by Number of Steps</h2>
+<p>If you only know how many steps there are, multiply the steps by the height of one riser to get the rise, then by 12. The ADA Standards (section 504.2) set stair risers at 4 inches minimum and 7 inches maximum, so a flight of ADA stairs rises at most 7 inches a step. The table uses 6 and 7 inches as two examples, with the ramp length at 1:12 (1 foot of ramp per inch of rise). Measure your own risers, since yours may fall outside that range.</p>
+<table class="art-table"><thead><tr><th>Steps</th><th>Ramp with 6 in risers</th><th>Ramp with 7 in risers</th><th>Runs at 7 in</th></tr></thead><tbody><tr><td>1</td><td>6 ft (6 in rise)</td><td>7 ft (7 in rise)</td><td>1</td></tr><tr><td>2</td><td>12 ft (12 in rise)</td><td>14 ft (14 in rise)</td><td>1</td></tr><tr><td>3</td><td>18 ft (18 in rise)</td><td>21 ft (21 in rise)</td><td>1</td></tr><tr><td>4</td><td>24 ft (24 in rise)</td><td>28 ft (28 in rise)</td><td>1</td></tr><tr><td>5</td><td>30 ft (30 in rise)</td><td>35 ft (35 in rise)</td><td>2</td></tr><tr><td>6</td><td>36 ft (36 in rise)</td><td>42 ft (42 in rise)</td><td>2</td></tr></tbody></table>
+<p>A rise of more than 30 inches needs more than one run, with a 60-inch landing between runs (ADA sections 405.6 and 405.7). The landings add to the lengths above. Measuring the total height from the ground to the door threshold is more accurate than counting steps, so enter that in the calculator.</p>
+
 <h2>Worked Examples</h2>
 <table class="art-table"><thead><tr><th>Step height</th><th>Length at 1:12</th><th>Portable ramps in our guide that are long enough</th></tr></thead><tbody><tr><td>2 in</td><td>24 in (2 ft)</td><td>FACHNUO 2FT, VNN 3FT, VEVOR 3FT, VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>3 in</td><td>36 in (3 ft)</td><td>VNN 3FT, VEVOR 3FT, VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>4 in</td><td>48 in (4 ft)</td><td>VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>6 in</td><td>72 in (6 ft)</td><td>VNN 6FT, WHALEMOTOR 8FT</td></tr><tr><td>8 in</td><td>96 in (8 ft)</td><td>WHALEMOTOR 8FT</td></tr></tbody></table>
 <p>The 12-inches-per-inch rule is the ADA's, and portable ramp listings often claim steeper slopes. Our article on <a href="/articles/how-steep-is-too-steep-for-a-home-ramp/">ramp slope</a> explains the ADA numbers and how longer rises need landings.</p>
 <h2>More Ramp Questions</h2>
+<h3>How long should a ramp be for 2 steps?</h3>
+<p>With 7-inch risers, 2 steps rise 14 inches, which needs 168 inches, or 14 feet, of ramp at 1:12. With 6-inch risers it is 12 inches of rise and 12 feet of ramp.</p>
+<h3>How long should a ramp be for 3 steps?</h3>
+<p>3 steps of 7 inches rise 21 inches and need 252 inches, or 21 feet. With 6-inch risers it is 18 feet.</p>
+<h3>How long should a ramp be for 4 steps?</h3>
+<p>4 steps of 7 inches rise 28 inches and need 336 inches, or 28 feet, in one run. With 6-inch risers it is 24 feet.</p>
+<h3>How long should a ramp be for 5 steps?</h3>
+<p>5 steps of 7 inches rise 35 inches, which is over the 30-inch limit for one run, so it needs two runs with a landing between them. The ramp is 420 inches, or 35 feet, plus the landing. With 6-inch risers the rise is exactly 30 inches, so 30 feet in one run.</p>
+<h3>How long a ramp for a 4-foot height?</h3>
+<p>4 feet is 48 inches of rise, which at 1:12 needs 576 inches, or 48 feet, of ramp, in two runs with a landing between them. If you mean a 4-inch rise, it needs 48 inches, or 4 feet.</p>
 <h3>What ramp length do I need for a 12-foot height?</h3>
 <p>A rise of 12 feet is 144 inches, which at 1:12 needs 1,728 inches, or 144 feet, of ramp, in five runs with landings between them. If you mean a 12-inch rise, it needs 144 inches, or 12 feet. Enter the height in inches above to see either.</p>
 <h3>How much does a portable ramp cost per foot?</h3>
@@ -89,5 +104,5 @@ BODY = '''<h2>How the Calculation Works</h2>
 <p>No, the ADA Standards govern public and commercial buildings, but they are a clear target for a home.</p>'''
 
 SOURCES = [
-    ('U.S. Access Board: 2010 ADA Standards for Accessible Design, section 405 Ramps', 'https://www.access-board.gov/ada/'),
+    ('U.S. Access Board: 2010 ADA Standards for Accessible Design, sections 405 Ramps and 504 Stairways', 'https://www.access-board.gov/ada/'),
 ]
