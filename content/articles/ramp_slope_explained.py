@@ -5,7 +5,7 @@ steeper than 1:12; Table 405.2 allows slopes up to 1:8 in existing sites where s
 slopes steeper than 1:12 up to 1:10 and 3 in for steeper than 1:10 up to 1:8, and prohibits slopes steeper than 1:8; 405.3 cross
 slope not steeper than 1:48; 405.5 clear width 36 in; 405.6 rise 30 in maximum per run; 405.7 landings 60 in long, 60 by 60 in
 where the ramp turns; 405.8 handrails on runs with a rise over 6 in; 405.9 edge protection on each side; the ADA Standards govern
-public and commercial buildings, not private homes). Listed step heights and prices (checked 2026-10-20) are from the Amazon listings in the ramp guide; the Access Board page was re-read 2026-10-23. Hero photo: Pexels 35831406 by DΛVΞ GΛRCIΛ.
+public and commercial buildings, not private homes). Listed step heights and prices (checked 2026-10-20) are from the Amazon listings in the ramp guide; the Access Board page was re-read 2026-10-23. Hero photo: Pexels 9808741 by Plato Terentev (stainless steel handrails along a sloped concrete ramp beside a granite wall); it replaced a wheelchair-lift van photo on 2026-11-08.
 Pexels 37043590 by Eugene Lee.
 """
 import datetime
@@ -16,11 +16,11 @@ TITLE = 'How Steep Is Too Steep for a Home Ramp? The ADA 1:12 Rule Explained'
 SEO_TITLE = 'Wheelchair Ramp Slope Chart and the ADA 1:12 Rule'
 DESCRIPTION = 'A ramp slope chart in ratio, percent and degrees, what 1:12 means in inches, the ADA\'s steeper limits for small rises, the 30-inch run limit and landing rules.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 23)
-UPDATES = [(datetime.date(2026, 10, 23), 'Added a slope chart in ratio, percent and degrees, the ramp length for a 12-inch or 12-foot rise, and portable ramp price per foot.'), (datetime.date(2026, 10, 21), 'Added a worked table from step height to ramp length and answers on slope, landings and home use.')]
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Replaced the hero photo with one of a ramp and handrails.'), (datetime.date(2026, 10, 23), 'Added a slope chart in ratio, percent and degrees, the ramp length for a 12-inch or 12-foot rise, and portable ramp price per foot.'), (datetime.date(2026, 10, 21), 'Added a worked table from step height to ramp length and answers on slope, landings and home use.')]
 PHOTO = 'ramp-slope'
-PHOTO_ALT = 'wheelchair-accessible white van with its side doors open, traffic cones on the road and a driver standing nearby'
-PHOTO_CREDIT = 'DΛVΞ GΛRCIΛ (Pexels)'
+PHOTO_ALT = 'stainless steel handrails running along a sloped concrete ramp beside a granite wall'
+PHOTO_CREDIT = 'Plato Terentev (Pexels)'
 RELATED = ['best-wheelchair-ramps']
 
 TAKEAWAYS = [

@@ -40,8 +40,8 @@ TITLE = 'Best Rollator Walkers with Seats: Five Compared on Weight, Wheels and F
 SEO_TITLE = 'Best Rollator Walkers 2026: Seat, Wheels and Weight Compared'
 DESCRIPTION = 'Five rollator walkers from Drive Medical, Medline, VOCIC and HOMLAND compared on weight limit, wheels, seat and handle height, plus how to fit one.'
 PUBLISHED = datetime.date(2026, 10, 20)
-UPDATED = datetime.date(2026, 10, 20)
-UPDATES = [(datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
+UPDATED = datetime.date(2026, 11, 8)
+UPDATES = [(datetime.date(2026, 11, 8), 'Reworded the CDC falls statistic and added the share of falls that cause an injury.'), (datetime.date(2026, 10, 20), 'Added a research section summarizing two Cochrane reviews on exercise and home safety changes.')]
 PHOTO = 'rollators'
 PHOTO_ALT = 'two older adults walking away along a gravel path in a park with autumn trees and a bench'
 PHOTO_CREDIT = 'Usame Dzinovic (Pexels)'
@@ -157,7 +157,7 @@ COMPARE = {
 BODY = '''<h2>What OrthoInfo and the CDC Say</h2>
 <p>The American Academy of Orthopaedic Surgeons runs OrthoInfo, and its page on crutches, canes and walkers gives a simple fitting rule. When you stand up straight, the top of the walker should reach the crease in your wrist, and your elbows should be slightly bent when you hold the handgrips. That page covers walkers in general and does not name rollators, but the same check works for a rollator's handles.</p>
 <p>It also gives rules that apply to anything with handles. Never climb stairs or use an escalator with a walker. Do not pull on or tilt the walker to help you stand up. To sit, back up until your legs touch the chair, feel for the seat and lower yourself slowly, and to stand, push up with your arms. Check the rubber tips regularly and replace them if they become uneven or worn.</p>
-<p>The CDC says more than 1 in 4 older adults falls each year, that fewer than half tell their doctor, and that a single fall doubles the chance of another.</p>
+<p>CDC figures show how common falls are: more than 1 in 4 older adults falls each year, and about 37% of people who fall report an injury that needs medical treatment or limits their activity. One fall also doubles the chance of another.</p>
 <p class="note"><strong>Lock the brakes before you sit.</strong> Drive says its brake is pushed down to lock the rollator in place. Do that before you sit or stand, and check that all four wheels are on even ground, as OrthoInfo advises for a walker.</p>
 
 <h2>How to Choose a Rollator</h2>
