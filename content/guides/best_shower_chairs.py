@@ -79,7 +79,7 @@ PRODUCTS = [
         ],
         'sections': [
             ('Why we picked it', "<p>It is the only pick for a person who cannot step into the tub safely, because you never have to. It also has the most reviews after the Medline chair, 32,704 at 4.6 stars, and a seat that is much wider than a chair's. Drive says it has a limited lifetime warranty.</p>"),
-            ('What to know before you buy', "<p>The sources disagree here. Drive's page lists 400 pounds and 13.6 pounds, while the Amazon listing says 350 pounds and 10 pounds, and the listing says it has suction cup feet where Drive's page says suction cup kits are sold separately. Use the lower weight limit until you have read the label on the one you receive. It needs a tub with a wall to sit across, so it is not for a walk-in shower, and an occupational therapist can tell you whether it suits you.</p>"),
+            ('What to know before you buy', "<p>The sources disagree here. Drive's page lists 400 pounds and 13.6 pounds, while the Amazon listing says 350 pounds and 10 pounds, and the listing says it has suction cup feet where Drive's page says suction cup kits are sold separately. Use the lower weight limit until you have read the label on the one you receive. It needs a tub with a wall to sit across, so it is not for a walk-in shower, and an occupational therapist can tell you whether it suits you. Our <a href=\"/best-tub-transfer-benches/\">tub transfer bench guide</a> compares it with four other benches.</p>"),
         ],
         'best_for': 'Someone who cannot safely lift their legs over the tub wall.',
         'skip_if': 'You have a walk-in shower or a very narrow tub.',
@@ -155,7 +155,7 @@ COMPARE = {
 }
 
 BODY = '''<h2>What MedlinePlus and the CDC Say</h2>
-<p>MedlinePlus, in its "Bathroom safety for adults" page (reviewed April 2026), advises you to sit on a bath chair or bench when taking a shower. It also recommends two grab bars, one for getting in and out of the tub and one for standing from a seated position, fixed to the wall vertically or horizontally and not diagonally, and it warns that towel racks are not grab bars because they can't support your weight.</p>
+<p>The "Bathroom safety for adults" page on MedlinePlus, reviewed in April 2026, tells you to sit on a bath chair or bench for a shower. It also recommends two grab bars, one for getting in and out of the tub and one for standing from a seated position, fixed to the wall vertically or horizontally and not diagonally, and it warns that towel racks are not grab bars because they can't support your weight.</p>
 <p>For the tub floor, MedlinePlus suggests non-slip suction mats or rubber silicone decals in the tub, and a non-skid bath mat outside it. The CDC's "Check for Safety" checklist says the same about a slippery tub, suggesting a non-slip rubber mat or self-stick strips, and adds grab bars next to and inside the tub.</p>
 <p>The CDC also says more than 1 in 4 older adults falls each year, that fewer than half tell their doctor, and that a single fall doubles the chance of another.</p>
 <p class="note"><strong>A shower chair changes how you wash, not how you get in.</strong> You still have to step into the tub, which is why the transfer bench is the right pick for someone who cannot. If you are unsure which type you need, ask a doctor or an occupational therapist to watch you get in and out.</p>
