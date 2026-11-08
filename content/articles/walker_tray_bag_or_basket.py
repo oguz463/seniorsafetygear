@@ -16,7 +16,7 @@ holder, no dimensions, material, weight capacity or warranty listed). Our rollat
 a pouch under the seat per Drive's page; the Medline Steel Rollator has a bag under the seat per its Amazon listing). Bing US search
 volume (keywords:check 2026-11-08): walker tray 456/month (523 broad), walker basket 153, walker accessories 115, tray for walker 20.
 No standard or agency guidance on tray load limits was found, and the other brands' tray pages (Performance Health blocks us) were not
-read, so the article says so. Hero photo: Pexels 33061507 by Wheeleo Walker (an older person's hand on the handle of a wheeled walking aid in a kitchen, the other hand holding a cloth against a shelf), cropped to 3:2. Note: it shows one-handed use, unlike the both-hands tip in the text.
+read, so the article says so. Hero photo: Pexels 18698355 by Alex Dachard van Enschut (an older man pushing a four-wheel rollator with a bag in its basket along a brick wall, both hands on the grips), cropped to 3:2.
 """
 import datetime
 
@@ -29,8 +29,8 @@ PUBLISHED = datetime.date(2026, 11, 8)
 UPDATED = datetime.date(2026, 11, 8)
 UPDATES = []
 PHOTO = 'walker-tray-bag-basket'
-PHOTO_ALT = 'older person\'s hand on the handle of a wheeled walking aid in a kitchen, the other hand holding a cloth against a shelf'
-PHOTO_CREDIT = 'Wheeleo Walker (Pexels)'
+PHOTO_ALT = 'older man pushing a four-wheel rollator with a bag in its basket along a brick wall, both hands on the grips'
+PHOTO_CREDIT = 'Alex Dachard van Enschut (Pexels)'
 RELATED = ['best-rollators']
 
 TAKEAWAYS = [
