@@ -15,8 +15,8 @@ NAME = 'Wheelchair Ramp Length Calculator'
 TITLE = 'Wheelchair Ramp Length Calculator: How Long a Ramp for Your Step?'
 SEO_TITLE = 'Wheelchair Ramp Length Calculator: 1:12 Slope by Step Height'
 DESCRIPTION = 'Enter your step height, or see the table by number of steps, for the ramp length the ADA 1:12 slope needs and which portable ramps in our guide are long enough.'
-UPDATED = datetime.date(2026, 11, 8)
-UPDATES = [(datetime.date(2026, 11, 8), 'Added a table of ramp length by number of steps and answers for 2, 3, 4 and 5 steps and a 4-foot height.'), (datetime.date(2026, 10, 23), 'Added the number of runs and landings for rises over 30 inches, and answers on a 12-foot height and cost per foot.'), (datetime.date(2026, 10, 21), 'Added a worked table of step heights against the portable ramps in our guide.')]
+UPDATED = datetime.date(2026, 11, 15)
+UPDATES = [(datetime.date(2026, 11, 15), 'Added a ramp length table for rises from 3 to 30 inches with the formula, and answers on how to work out ramp length at 1:12, what 1:12 means and the longest single run.'), (datetime.date(2026, 11, 8), 'Added a table of ramp length by number of steps and answers for 2, 3, 4 and 5 steps and a 4-foot height.'), (datetime.date(2026, 10, 23), 'Added the number of runs and landings for rises over 30 inches, and answers on a 12-foot height and cost per foot.'), (datetime.date(2026, 10, 21), 'Added a worked table of step heights against the portable ramps in our guide.')]
 RELATED = ['best-wheelchair-ramps', 'best-transport-wheelchairs', 'best-mobility-scooters']
 PICK_GUIDES = ['best-wheelchair-ramps']
 
@@ -60,6 +60,10 @@ SCRIPT = 'var RAMPS = ' + json.dumps(RAMPS) + ''';
 BODY = '''<h2>How the Calculation Works</h2>
 <p>The ADA Standards say a ramp run should have a running slope not steeper than 1:12. That means the ramp length in inches is the rise in inches times 12. A 2-inch step needs 24 inches, a 3-inch step 36 inches, a 6-inch step 72 inches and an 8-inch step 96 inches.</p>
 <p>In an existing site where space is limited, the ADA allows steeper slopes, up to 1:8, but only for small rises. A slope steeper than 1:12 up to 1:10 is allowed for a rise of 6 inches or less, and a slope steeper than 1:10 up to 1:8 for a rise of 3 inches or less. Anything steeper than 1:8 is prohibited.</p>
+<h2>Ramp Length Table at 1:12</h2>
+<p>The formula is <strong>ramp length in inches = rise in inches &times; 12</strong>. The lengths below are our own arithmetic from the ADA slope of 1:12, not figures copied from a listing. The right-hand column shows the shorter lengths the ADA allows only in existing sites with limited space, for small rises (steeper than 1:12 up to 1:10 for a rise of 6 inches or less, and up to 1:8 for a rise of 3 inches or less).</p>
+<table class="art-table"><thead><tr><th>Rise</th><th>Length at 1:12</th><th>Shorter, existing sites only</th></tr></thead><tbody><tr><td>3 in</td><td>36 in (3 ft)</td><td>30 in at 1:10, 24 in at 1:8</td></tr><tr><td>6 in</td><td>72 in (6 ft)</td><td>60 in at 1:10</td></tr><tr><td>12 in</td><td>144 in (12 ft)</td><td>Not allowed</td></tr><tr><td>18 in</td><td>216 in (18 ft)</td><td>Not allowed</td></tr><tr><td>24 in</td><td>288 in (24 ft)</td><td>Not allowed</td></tr><tr><td>30 in</td><td>360 in (30 ft)</td><td>Not allowed</td></tr></tbody></table>
+<p>The table stops at 30 inches because that is the most rise the ADA allows in one run (section 405.6, see the <a href="https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/">U.S. Access Board guide to ramps</a>). For the slope chart in percent and degrees, see our article on <a href="/articles/how-steep-is-too-steep-for-a-home-ramp/">how steep a home ramp can be</a>, and for ramps that are long enough, the <a href="/best-wheelchair-ramps/">wheelchair ramp guide</a>.</p>
 <h2>Other ADA Ramp Numbers</h2>
 <ul>
 <li><strong>Rise:</strong> 30 inches at most for one run.</li>
@@ -100,9 +104,20 @@ BODY = '''<h2>How the Calculation Works</h2>
 <p>A rise of 12 feet is 144 inches, which at 1:12 needs 1,728 inches, or 144 feet, of ramp, in five runs with landings between them. If you mean a 12-inch rise, it needs 144 inches, or 12 feet. Enter the height in inches above to see either.</p>
 <h3>How much does a portable ramp cost per foot?</h3>
 <p>On the Amazon listings in our ramp guide, checked on 2026-10-20, between about $25 and $44 per foot of ramp. Multiply the length you need by that to estimate a portable ramp. The <a href="/articles/how-steep-is-too-steep-for-a-home-ramp/">ramp slope article</a> has the per-foot table.</p>
+<h3>How do I calculate ramp length at 1:12?</h3>
+<p>Measure the rise from the ground to the top of the step or threshold in inches, then multiply by 12. A 5-inch rise needs 60 inches, or 5 feet, of ramp. Divide by 12 to get feet.</p>
+<h3>What does 1:12 mean for a ramp?</h3>
+<p>It is the ratio of rise to length: 1 inch of height for every 12 inches of ramp. The ADA Standards set 1:12 as the steepest running slope for a ramp run (section 405.2, <a href="https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/">U.S. Access Board guide to ramps</a>). It works out to a grade of about 8.3 percent.</p>
+<h3>How long a ramp do I need for one step?</h3>
+<p>Multiply the height of that step by 12. A 7-inch step needs 84 inches, or 7 feet, and a 6-inch step needs 72 inches, or 6 feet. Measure your own step, since heights vary.</p>
+<h3>What is the longest single ramp run before a landing?</h3>
+<p>The ADA limits one run to 30 inches of rise (section 405.6), which at 1:12 is 360 inches, or 30 feet, of ramp. A landing at least 60 inches long follows, and it must be 60 by 60 inches where the ramp changes direction (section 405.7). The ADA Standards are written for public and commercial buildings, so for a private home they are a reference point, not a rule.</p>
+<h3>How long is a 3-foot ramp good for?</h3>
+<p>At 1:12, a 3-foot (36-inch) ramp suits a rise of 3 inches.</p>
 <h3>Does the ADA apply to a home ramp?</h3>
 <p>No, the ADA Standards govern public and commercial buildings, but they are a clear target for a home.</p>'''
 
 SOURCES = [
     ('U.S. Access Board: 2010 ADA Standards for Accessible Design, sections 405 Ramps and 504 Stairways', 'https://www.access-board.gov/ada/'),
+    ('U.S. Access Board: Guide to the ADA Standards, Chapter 4: Ramps and Curb Ramps (1:12 running slope, 30 in maximum rise per run, 60 in landings), read 2026-11-15', 'https://www.access-board.gov/ada/guides/chapter-4-ramps-and-curb-ramps/'),
 ]
